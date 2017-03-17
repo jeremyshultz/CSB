@@ -15,21 +15,21 @@
 }
 @font-face {
 	font-family: 'MrEaves';
-	src: url('https://github.com/jeremyshultz/CSB/blob/master/MrEavesSanOT-Regular.woff?raw=true') format('woff'), url('https://github.com/jeremyshultz/CSB/blob/master/MrEavesSanOT-Regular.woff2?raw=true') format('woff2');
+	src: url('https://github.com/jeremyshultz/CSB/blob/master/MrEavesSanOT-Regular.woff') format('woff'), url('https://github.com/jeremyshultz/CSB/blob/master/MrEavesSanOT-Regular.woff2') format('woff2');
 	font-weight: normal;
 	font-style: normal;
 	-webkit-margin-font: antialias;
 }
 @font-face {
 	font-family: 'MrEavesBold';
-	src: url('https://github.com/jeremyshultz/CSB/blob/master/MrEavesSanOT-Bold.woff?raw=true') format(woff), url('https://github.com/jeremyshultz/CSB/blob/master/MrEavesSanOT-Bold.woff2?raw=true') format(woff2);
+	src: url('https://github.com/jeremyshultz/CSB/blob/master/MrEavesSanOT-Bold.woff') format(woff), url('https://github.com/jeremyshultz/CSB/blob/master/MrEavesSanOT-Bold.woff2') format(woff2);
 	font-weight: normal;
 	font-style: normal;
 	-webkit-margin-font: antialias;
 }
 @font-face {
 	font-family: 'MrEavesHeavy';
-	src: url('https://github.com/jeremyshultz/CSB/blob/master/MrEavesSanOT-Heavy.woff?raw=true') format('woff2'), url('https://github.com/jeremyshultz/CSB/blob/master/MrEavesSanOT-Heavy.woff2?raw=true') format('woff');
+	src: url('https://github.com/jeremyshultz/CSB/blob/master/MrEavesSanOT-Heavy.woff') format('woff2'), url('https://github.com/jeremyshultz/CSB/blob/master/MrEavesSanOT-Heavy.woff2') format('woff');
 }
 outershell {
 	font-family: "MrEaves"!important;
