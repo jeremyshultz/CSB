@@ -337,7 +337,7 @@ a:active {
     overflow: hidden;
     max-height: 450px;
     position: relative;
-    min-height: 300px
+    min-height: 300pxg
 }
 .hero .hero-img,
 .hero-campaign .hero-img,
@@ -415,6 +415,545 @@ a:active {
 .hero-home .white-textbox img,
 .hero-landing .white-textbox img {
     width: auto
+}
+.filter-container .select-style.zip .submenu .shell .hero .white-textbox li,
+.filter-container .select-style.zip .submenu .shell .hero-campaign .white-textbox li,
+.filter-container .select-style.zip .submenu .shell .hero-detail .white-textbox li,
+.filter-container .select-style.zip .submenu .shell .hero-home .white-textbox li,
+.filter-container .select-style.zip .submenu .shell .hero-landing .white-textbox li,
+.hero .white-textbox .cta,
+.hero .white-textbox .filter-container .select-style.zip .submenu .shell li,
+.hero .white-textbox .submenu .filter-container .select-style.zip .shell li,
+.hero .white-textbox .submenu ul li,
+.hero-campaign .white-textbox .cta,
+.hero-campaign .white-textbox .filter-container .select-style.zip .submenu .shell li,
+.hero-campaign .white-textbox .submenu .filter-container .select-style.zip .shell li,
+.hero-campaign .white-textbox .submenu ul li,
+.hero-detail .white-textbox .cta,
+.hero-detail .white-textbox .filter-container .select-style.zip .submenu .shell li,
+.hero-detail .white-textbox .submenu .filter-container .select-style.zip .shell li,
+.hero-detail .white-textbox .submenu ul li,
+.hero-home .white-textbox .cta,
+.hero-home .white-textbox .filter-container .select-style.zip .submenu .shell li,
+.hero-home .white-textbox .submenu .filter-container .select-style.zip .shell li,
+.hero-home .white-textbox .submenu ul li,
+.hero-landing .white-textbox .cta,
+.hero-landing .white-textbox .filter-container .select-style.zip .submenu .shell li,
+.hero-landing .white-textbox .submenu .filter-container .select-style.zip .shell li,
+.hero-landing .white-textbox .submenu ul li,
+.submenu .filter-container .select-style.zip .shell .hero .white-textbox li,
+.submenu .filter-container .select-style.zip .shell .hero-campaign .white-textbox li,
+.submenu .filter-container .select-style.zip .shell .hero-detail .white-textbox li,
+.submenu .filter-container .select-style.zip .shell .hero-home .white-textbox li,
+.submenu .filter-container .select-style.zip .shell .hero-landing .white-textbox li,
+.submenu ul .hero .white-textbox li,
+.submenu ul .hero-campaign .white-textbox li,
+.submenu ul .hero-detail .white-textbox li,
+.submenu ul .hero-home .white-textbox li,
+.submenu ul .hero-landing .white-textbox li {
+    font-size: 14px
+}
+.hero .white-textbox a,
+.hero-campaign .white-textbox a,
+.hero-detail .white-textbox a,
+.hero-home .white-textbox a,
+.hero-landing .white-textbox a {
+    font-weight: 700!important;
+    text-transform: uppercase;
+    font-size: 14px
+}
+@media (max-width: 767px) {
+    .hero .white-textbox,
+    .hero-campaign .white-textbox,
+    .hero-detail .white-textbox,
+    .hero-home .white-textbox,
+    .hero-landing .white-textbox {
+        border: 10px solid #d9e2db
+    }
+}
+@media (max-width: 767px) {
+    .hero,
+    .hero-campaign,
+    .hero-detail,
+    .hero-home,
+    .hero-landing {
+        max-height: none
+    }
+    .hero .content,
+    .hero-campaign .content,
+    .hero-detail .content,
+    .hero-home .content,
+    .hero-landing .content {
+        position: initial
+    }
+    .hero .container,
+    .hero-campaign .container,
+    .hero-detail .container,
+    .hero-home .container,
+    .hero-landing .container {
+        padding: 0
+    }
+    .hero .col-sm-3.col-md-offset-9,
+    .hero-campaign .col-sm-3.col-md-offset-9,
+    .hero-detail .col-sm-3.col-md-offset-9,
+    .hero-home .col-sm-3.col-md-offset-9,
+    .hero-landing .col-sm-3.col-md-offset-9 {
+        padding-top: 12%
+    }
+    .hero .text,
+    .hero-campaign .text,
+    .hero-detail .text,
+    .hero-home .text,
+    .hero-landing .text {
+        display: block;
+        position: initial;
+        padding: 0;
+        text-align: center
+    }
+}
+.page-node .hero .white-textbox h2,
+.page-node .hero-campaign .white-textbox h2,
+.page-node .hero-detail .white-textbox h2,
+.page-node .hero-home .white-textbox h2,
+.page-node .hero-landing .white-textbox h2 {
+    font-weight: 400;
+    margin-top: 0
+}
+.page-node .hero .white-textbox p,
+.page-node .hero-campaign .white-textbox p,
+.page-node .hero-detail .white-textbox p,
+.page-node .hero-home .white-textbox p,
+.page-node .hero-landing .white-textbox p {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    line-height: 1.3em
+}
+.hero-landing .hero-img {
+    position: absolute;
+    top: -15px;
+    left: -15px;
+    right: -15px;
+    bottom: -15px;
+    padding: 0;
+    z-index: -1;
+    background-position-y: 85%
+}
+.hero-landing .hero-img.service-landing {
+    bottom: 0;
+    left: -850px;
+    right: 0;
+    top: -474px;
+    background-position: 0 0
+}
+@media (max-width: 1199px) {
+    .hero-landing .hero-img.service-landing {
+        top: -200px;
+        left: -300px
+    }
+}
+@media (max-width: 767px) {
+    .hero-landing .hero-img.service-landing {
+        top: 0
+    }
+}
+.hero-landing .hero-img.findadoctor-fpn {
+    left: 0;
+    top: 0;
+    bottom: 0;
+    background-position: 0 0
+}
+.hero-landing .hero-img.findadoctor {
+    background-position: 0 35%
+}
+.hero-landing .hero-img.diseases-landing {
+    background-position: 0 15%;
+    bottom: 0;
+    left: -150px;
+    right: 0;
+    top: 0
+}
+@media (max-width: 1199px) {
+    .hero-landing .hero-img.diseases-landing {
+        background-position: 0 10%
+    }
+}
+@media (max-width: 767px) {
+    .hero-landing .hero-img.diseases-landing {
+        background-position: 0 100%;
+        left: -260px
+    }
+}
+@media (max-width: 469px) {
+    .hero-landing .hero-img.diseases-landing {
+        left: -290px
+    }
+}
+.hero-landing .hero-img.contact-landing {
+    background-position: 0 44%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0
+}
+@media (max-width: 1199px) {
+    .hero-landing .hero-img.contact-landing {
+        top: -110px
+    }
+}
+.hero-landing .content {
+    padding-bottom: 6%
+}
+.hero-landing .main-text {
+    text-align: center;
+    padding-top: 8%
+}
+.hero-landing .main-text h1 {
+    font-weight: 400!important
+}
+.hero-landing .main-text p {
+    font-family: "PT Serif", serif;
+    font-size: 16px;
+    line-height: 1.5em;
+    text-shadow: 0 0 5px #fff
+}
+@media (max-width: 767px) {
+    .hero-landing .main-text p {
+        padding: 0 14px
+    }
+}
+.hero-landing .white-textbox {
+    margin-top: 15%
+}
+.hero-landing .white-textbox p {
+    font-size: 24px!important
+}
+.hero-landing .white-textbox p.hours-collapsible {
+    font-size: 14px!important;
+    line-height: 1.3em!important
+}
+.filter-container .select-style.zip .submenu .shell .hero-landing .white-textbox a li,
+.hero-landing .white-textbox a .cta,
+.hero-landing .white-textbox a .filter-container .select-style.zip .submenu .shell li,
+.hero-landing .white-textbox a .submenu .filter-container .select-style.zip .shell li,
+.hero-landing .white-textbox a .submenu ul li,
+.submenu .filter-container .select-style.zip .shell .hero-landing .white-textbox a li,
+.submenu ul .hero-landing .white-textbox a li {
+    font-size: 14px!important
+}
+@media (max-width: 1199px) and (min-width: 768px) {
+    .hero-landing .white-textbox p {
+        font-size: 20px!important
+    }
+}
+@media (max-width: 991px) and (min-width: 480px) {
+    .hero-landing .white-textbox {
+        padding: 10px 5px 10px 12px!important
+    }
+    .hero-landing .white-textbox p {
+        font-size: 18px!important
+    }
+}
+@media (max-width: 767px) {
+    .hero-landing {
+        max-height: none
+    }
+    .hero-landing .content {
+        position: initial;
+        padding-bottom: 0
+    }
+    .hero-landing .container {
+        padding: 0
+    }
+    .hero-landing .col-sm-3.col-md-offset-9 {
+        padding-top: 12%
+    }
+    .hero-landing .text {
+        display: block;
+        position: initial;
+        padding: 0;
+        text-align: center
+    }
+}
+.hero-home .hero-img {
+    padding-bottom: 40%
+}
+.hero-home .content {
+    position: absolute;
+    width: 100%;
+    bottom: 0
+}
+.hero-home .container {
+    position: relative
+}
+.hero-home .text {
+    display: table;
+    position: absolute;
+    bottom: 30px;
+    left: 0;
+    width: 100%;
+    padding: 0 15px
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .hero-home .text {
+        font-size: 1vw
+    }
+}
+.hero-home .text h1 {
+    margin: 0;
+    font-family: theorem;
+    font-size: 3.25em;
+    font-weight: 100;
+    letter-spacing: .02em;
+    line-height: 1em
+}
+.hero-home .text p {
+    font-size: 1.7em;
+    line-height: 1em
+}
+.hero-home .text .copy-small p {
+    font-size: 14px
+}
+@media (max-width: 991px) {
+    .hero-home .text .copy-small img {
+        width: 100%!important;
+        height: auto;
+        max-width: 410px
+    }
+}
+.hero-home .left {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 1rem 2rem;
+    width: 40%;
+    background: #78a22f;
+    color: #fff
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .hero-home .left {
+        width: 50%
+    }
+}
+@media (max-width: 991px) {
+    .hero-home .left {
+        padding: 2rem
+    }
+}
+.hero-home .right {
+    display: table-cell;
+    vertical-align: middle;
+    width: 60%
+}
+.hero-home .hero-quick-links {
+    width: 100%;
+    border: 8px solid #d9e2db;
+    background: #fff;
+    display: flex
+}
+@media (max-width: 767px) {
+    .hero-home .hero-quick-links {
+        display: table
+    }
+}
+.hero-home .hero-quick-links div.box {
+    border-right: 2px solid #d9e2db;
+    width: 25%;
+    text-align: center;
+    padding: 5rem .5rem;
+    flex: 1
+}
+.hero-home .hero-quick-links div.box:last-child {
+    border-right: none
+}
+@media (max-width: 767px) {
+    .hero-home .hero-quick-links div.box {
+        display: inline-block;
+        float: left
+    }
+}
+@media (max-width: 480px) {
+    .hero-home .hero-quick-links div.box {
+        width: 50%;
+        height: auto;
+        border: 1px solid #d9e2db;
+        min-height: 0
+    }
+    .hero-home .hero-quick-links div.box:nth-child(3),
+    .hero-home .hero-quick-links div.box:nth-child(4) {
+        border-bottom: none
+    }
+    .hero-home .hero-quick-links div.box:nth-child(4) {
+        border-right: 1px solid #d9e2db
+    }
+}
+.hero-home .hero-quick-links div.box a {
+    display: block;
+    text-transform: uppercase;
+    font-family: MrEavesHeavy
+}
+.hero-home .hero-quick-links div.box a:hover {
+    text-decoration: none
+}
+.hero-home .hero-quick-links div.box a i {
+    display: block;
+    font-size: 190%;
+    margin-bottom: 8px
+}
+@media (max-width: 767px) {
+    .hero-home {
+        max-height: none
+    }
+    .hero-home .content {
+        position: initial
+    }
+    .hero-home .container {
+        padding: 0
+    }
+    .hero-home .text {
+        display: block;
+        position: initial;
+        padding: 0;
+        text-align: center
+    }
+    .hero-home .left {
+        display: block;
+        width: 100%
+    }
+    .hero-home .right {
+        display: block;
+        width: 100%
+    }
+}
+.hero-detail {
+    padding: 2em 0;
+    background-color: #000
+}
+.hero-detail.region {
+    padding: 3em 0
+}
+@media (max-width: 767px) {
+    .hero-detail {
+        max-height: none;
+        padding-bottom: 0
+    }
+}
+.hero-detail .hero-img {
+    position: absolute;
+    top: -15px;
+    left: -15px;
+    right: -15px;
+    bottom: -15px;
+    padding: 0;
+    opacity: .65;
+    filter: url(../../../all/themes/franciscan/assets/img/blur.svg?1464730087#blur);
+    -webkit-filter: blur(10px);
+    filter: blur(10px)
+}
+.hero-detail .hero-img.no-blur {
+    filter: none;
+    opacity: 1;
+    -webkit-filter: blur(0);
+    filter: blur(0)
+}
+.hero-detail .hero-img.region {
+    top: -225px;
+    background-position: 0 0
+}
+.hero-detail .img-circle {
+    width: 73%;
+    padding-bottom: 73%;
+    background-size: cover;
+    background-position: 50%;
+    border-radius: 100%;
+    float: right
+}
+@media (max-width: 767px) {
+    .hero-detail .img-circle {
+        width: 50%;
+        padding-bottom: 50%;
+        margin: 0 auto;
+        float: none
+    }
+}
+.hero-detail .main-text {
+    color: #fff;
+    font-family: "PT Serif", serif;
+    font-size: 16px;
+    line-height: 1.5em;
+    width: 90%;
+    text-shadow: 0 0 1em #000;
+    text-shadow: 0 0 1em 0 #000
+}
+.hero-detail .main-text h1,
+.hero-detail .main-text h2 {
+    font-size: 36px;
+    font-weight: 400;
+    font-family: MrEaves!important;
+    margin-bottom: 15px
+}
+@media (max-width: 767px) {
+    .hero-detail .main-text {
+        margin: 10px auto 0
+    }
+}
+@media (max-width: 767px) {
+    .hero-detail .text {
+        text-align: center;
+        margin-bottom: 0
+    }
+}
+.hero-detail .white-textbox p {
+    font-size: 24px!important
+}
+.hero-detail .white-textbox p.hours-collapsible {
+    font-size: 14px!important;
+    line-height: 1.3em!important
+}
+.hero-detail .white-textbox a {
+    font-size: 14px!important
+}
+@media (max-width: 1199px) and (min-width: 992px) {
+    .hero-detail .white-textbox p {
+        font-size: 20px!important
+    }
+}
+@media (max-width: 991px) and (min-width: 768px) {
+    .hero-detail .white-textbox {
+        padding: 10px 5px 10px 12px!important
+    }
+    .hero-detail .white-textbox p {
+        font-size: 18px!important
+    }
+}
+@media (max-width: 767px) {
+    .hero-detail .white-textbox {
+        margin: 2em -15px 0
+    }
+}
+.hero-detail.facility .white-textbox p {
+    font-size: 24px
+}
+.hero-detail.facility .white-textbox p.hours-collapsible {
+    font-size: 14px;
+    line-height: 1.3em
+}
+.hero-campaign .hero-img {
+    position: absolute;
+    top: -15px;
+    left: -15px;
+    right: -15px;
+    bottom: -15px;
+    padding: 0;
+    z-index: -1;
+    background-position-y: 85%
+}
+.hero-campaign .content {
+    text-align: center;
+    padding-bottom: 15%
+}
+.hero-campaign .content h1,
+.hero-campaign .content h2 {
+    font-weight: 400!important
 }
 
 .h1,
