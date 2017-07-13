@@ -34,7 +34,7 @@
 .outershell {
 	font-family: 'Lato', sans-serif !important;
 	
-#content,.inner,#content,#category-header,.inner,.jobDisplay,.content,.jobDisplay,.content,.jobColumnOne,.jobDisplay,.content,.jobColumnTwo {
+.inner,#content,#category-header,.inner,.jobDisplay,.content,.jobDisplay,.content,.jobColumnOne,.jobDisplay,.content,.jobColumnTwo {
 	margin-bottom:0;
 	max-width=100%!important;
 	margin:0px!important;
