@@ -32,6 +32,27 @@
 	src: url('https://www.franciscanhealth.org/sites/all/themes/franciscan/assets/fonts/MrEavesSanOT-Heavy.woff') format('woff2'), url('https://www.franciscanhealth.org/sites/all/themes/franciscan/assets/fonts/MrEavesSanOT-Heavy.woff2') format('woff');
 }
 
+<!-- MAKES LOGO MORE RESPONSIVE DEPENDING ON SCREEN SIZE -->
+
+@media screen and (max-width: 487px) {
+  .logo {
+    background-image: url("//rmkcdn.successfactors.com/00b6600f/2eeb8bf0-84d1-47b2-a379-5.png alt="Jobs at Franciscan Health") !important; 
+  }
+}
+
+@media screen and (min-width: 487px) and (max-width: 1079px) {
+  .logo {
+    background-image: url("../images/logo_med.png") !important;
+  }
+}
+
+@media screen and (min-width: 1080px) {
+  .logo {
+    background-image: url("../images/logo_big.png") !important;
+  }
+}
+<!-- END OF LOGO -->
+
 h1 {
 	font-family: 'Lato', sans-serif !important;
 	font-size: 36px ;
