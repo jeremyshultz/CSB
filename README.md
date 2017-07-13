@@ -1,2 +1,2 @@
 # CSB
-This is a repository used to used files for a non-profit career site.
+This is a repository used to host files for a non-profit site.
