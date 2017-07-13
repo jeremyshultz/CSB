@@ -35,8 +35,13 @@
 	font-family: 'Lato', sans-serif !important;
 	
 .inner,.limitwidth,.breadcrumbtrail,#category-name,#category-header .headertext,.category-groups-wrapper,#noresults,#actions,#job-table,.back-to-search-wrapper,.jobDisplayShell,#similar-jobs,#ssoStack,.pagination-top,.pagination-bottom,.searchResultsShell,.keyword-title,.container {
-max-width:100%!important;
-margin:0 auto;
+	max-width:100%!important;
+	margin:0 auto;
+}
+	
+.inner,.limitwidth,.breadcrumbtrail,#category-name,#category-header .headertext,.category-groups-wrapper,#noresults,#actions,#job-table,.back-to-search-wrapper,.jobDisplayShell,#similar-jobs,#ssoStack,.pagination-top,.pagination-bottom,.searchResultsShell,.keyword-title,.container {
+	max-width:100%!important;
+	margin:0 auto;
 }
 	
 .menu.mobile .nav > .dropdown {
