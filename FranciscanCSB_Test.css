@@ -35,19 +35,19 @@
 <!-- MAKES LOGO MORE RESPONSIVE DEPENDING ON SCREEN SIZE -->
 
 @media screen and (max-width: 487px) {
-  .logo {
+  .logo .img {
     background-image: url("//rmkcdn.successfactors.com/00b6600f/2eeb8bf0-84d1-47b2-a379-5.png alt="Jobs at Franciscan Health") !important; 
   }
 }
 
 @media screen and (min-width: 487px) and (max-width: 1079px) {
-  .logo {
+  .logo .img {
     background-image: url("../images/logo_med.png") !important;
   }
 }
 
 @media screen and (min-width: 1080px) {
-  .logo {
+  .logo .img{
     background-image: url("../images/logo_big.png") !important;
   }
 }
