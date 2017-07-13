@@ -33,10 +33,7 @@
 }
 outershell {
 	font-family: 'Lato', sans-serif !important;
-}
-.h1 {
-    font-family: MrEaves!important;
-}
+
 
 .menu.mobile .nav > .dropdown {
 	padding-top:7px !important;
@@ -1687,4 +1684,16 @@ footer .mobile-footer-links a {
     ::-ms-backdrop {
         opacity: .6
     }
+}
+@media (min-width: 768px) {
+    .container {
+        width: 750px}
+}
+@media (min-width: 992px) {
+    .container {
+        width: 970px}
+}
+@media (min-width: 1200px) {
+    .container {
+        max-width: (1200px - @grid-gutter-width);
 }
