@@ -923,7 +923,7 @@ footer .button-links .button-link i.fa-custom {
     display: block;
     margin: 2px auto 0;
     height: 23px;
-    background-image: url(../../../all/themes/franciscan/assets/img/footer-icons-s6576959bff.png);
+    background-image: url(https://www.franciscanhealth.org/sites/all/themes/franciscan/assets/img/footer-icons-s6576959bff.png);
     background-repeat: no-repeat;
     background-color: #e6efe8
 }
@@ -1559,7 +1559,7 @@ footer .mobile-footer-links a {
     bottom: -15px;
     padding: 0;
     opacity: .65;
-    filter: url(../../../all/themes/franciscan/assets/img/blur.svg?1464730087#blur);
+    filter: url(https://www.franciscanhealth.org/sites/all/themes/franciscan/assets/img/blur.svg?146473008);
     -webkit-filter: blur(10px);
     filter: blur(10px)
 }
