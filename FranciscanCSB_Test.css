@@ -33,6 +33,7 @@
 }
 
 <!-- MAKES LOGO MORE RESPONSIVE DEPENDING ON SCREEN SIZE -->
+<!-- **** DOES NOT CURRENTLY WORK **** -->
 
 @media screen and (max-width: 487px) {
   .logo .img {
