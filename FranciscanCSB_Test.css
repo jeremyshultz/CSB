@@ -38,11 +38,11 @@
 	max-width:100%!important;
 	margin:0 auto;
 }
-	
-.inner,.limitwidth,.breadcrumbtrail,#category-name,#category-header .headertext,.category-groups-wrapper,#noresults,#actions,#job-table,.back-to-search-wrapper,.jobDisplayShell,#similar-jobs,#ssoStack,.pagination-top,.pagination-bottom,.searchResultsShell,.keyword-title,.container {
+.topjobs-page #content>.inner>p,.viewall-page #content>.inner>p,.topjobs-page #content>.inner>h2,.viewall-page #content>.inner>h2,.topjobs-page #content>.inner>div,.viewall-page #content>.inner>div {
 	max-width:100%!important;
-	margin:0 auto;
+	margin:20px auto;
 }
+
 	
 .menu.mobile .nav > .dropdown {
 	padding-top:7px !important;
