@@ -36,8 +36,8 @@
 	
 #content > .inner > div,#content > #category-header > .inner > div,.jobDisplay > .content > div,.jobDisplay > .content > .jobColumnOne > div,.jobDisplay > .content > .jobColumnTwo > div {
 	margin-bottom:0;
-	max-width=100%;
-	margin:0px;
+	max-width=100%!important;
+	margin:0px!important;
 	
 }
 
