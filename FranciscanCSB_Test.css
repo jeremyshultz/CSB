@@ -34,26 +34,12 @@
 .outershell {
 	font-family: 'Lato', sans-serif !important;
 	
-.content, .inner, #content,#category-header,.inner, .jobDisplay, .content, .jobDisplay,.content,.jobColumnOne,.jobDisplay,.content,.jobColumnTwo {
+#content > .inner > div,#content > #category-header > .inner > div,.jobDisplay > .content > div,.jobDisplay > .content > .jobColumnOne > div,.jobDisplay > .content > .jobColumnTwo > div {
+	margin-bottom:0;
+	max-width=100%;
 	margin:0px;
-	max-width:100%!important;
-	}
 	
-#content,.customPlugin.customPlugin-d77ec915329cf57a.displayDTM {
-	margin:0px;
-	max-width:100%!important;
-	}
-	
-.customPlugin.customPlugin-d77ec915329cf57a.displayDTM {
-	margin:0px;
-	max-width:100%!important;
-	}
-	
-	
-.inner, .limitwidth, .breadcrumbtrail, #category-name, #category-header .headertext, .category-groups-wrapper, #noresults, #actions, #job-table, .back-to-search-wrapper, .jobDisplayShell, #similar-jobs, #ssoStack, .pagination-top, .pagination-bottom, .searchResultsShell, .keyword-title, .container {
-	margin:0px;
-	max-width:100%!important;
-	}
+}
 
 .menu.mobile .nav > .dropdown {
 	padding-top:7px !important;
