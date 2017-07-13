@@ -32,12 +32,6 @@
 	src: url('https://www.franciscanhealth.org/sites/all/themes/franciscan/assets/fonts/MrEavesSanOT-Heavy.woff') format('woff2'), url('https://www.franciscanhealth.org/sites/all/themes/franciscan/assets/fonts/MrEavesSanOT-Heavy.woff2') format('woff');
 }
 
-h1	{
-	font-family: 'MrEaves', sans-serif !important;
-	font-size: 36px ;
-}
-
-
 .outershell {
 	font-family: 'Lato', sans-serif !important;
 	
@@ -1627,7 +1621,7 @@ footer .mobile-footer-links a {
     font-size: 36px;
     font-weight: 400;
 	color:#FFFFFF;
-    font-family: MrEaves!important;
+    font-family: 'MrEaves'!important;
     margin-bottom: 15px;
 	
 }
