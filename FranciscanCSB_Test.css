@@ -34,12 +34,13 @@
 .outershell {
 	font-family: 'Lato', sans-serif !important;
 	
-#content > .inner > div,#content > #category-header > .inner > div,.jobDisplay > .content > div,.jobDisplay > .content > .jobColumnOne > div,.jobDisplay > .content > .jobColumnTwo > div {
+#content,.inner,#content,#category-header,.inner,.jobDisplay,.content,.jobDisplay,.content,.jobColumnOne,.jobDisplay,.content,.jobColumnTwo {
 	margin-bottom:0;
 	max-width=100%!important;
 	margin:0px!important;
 	
 }
+
 
 .menu.mobile .nav > .dropdown {
 	padding-top:7px !important;
