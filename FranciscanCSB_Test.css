@@ -31,8 +31,13 @@
 	font-family: 'MrEavesHeavy';
 	src: url('https://www.franciscanhealth.org/sites/all/themes/franciscan/assets/fonts/MrEavesSanOT-Heavy.woff') format('woff2'), url('https://www.franciscanhealth.org/sites/all/themes/franciscan/assets/fonts/MrEavesSanOT-Heavy.woff2') format('woff');
 }
-outershell {
+.outershell {
 	font-family: 'Lato', sans-serif !important;
+	
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+}
 
 
 .menu.mobile .nav > .dropdown {
