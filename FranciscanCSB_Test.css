@@ -1062,7 +1062,8 @@ footer .mobile-footer-links a {
     background-size: cover;
     background-position: 0 50%;
     padding-bottom: 40%;
-    background-repeat: no-repeat
+    background-repeat: no-repeat;
+    margin:0px
 }
 .hero .main-text h1,
 .hero .main-text h2,
