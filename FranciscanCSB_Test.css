@@ -36,12 +36,12 @@
 	
 .content, .inner, #content,#category-header,.inner, .jobDisplay, .content, .jobDisplay,.content,.jobColumnOne,.jobDisplay,.content,.jobColumnTwo {
 	margin:0px;
-	max-width:100%;
+	max-width:100%!important;
 	}
 	
 .inner, .limitwidth, .breadcrumbtrail, #category-name, #category-header .headertext, .category-groups-wrapper, #noresults, #actions, #job-table, .back-to-search-wrapper, .jobDisplayShell, #similar-jobs, #ssoStack, .pagination-top, .pagination-bottom, .searchResultsShell, .keyword-title, .container {
 	margin:0px;
-	max-width:100%;
+	max-width:100%!important;
 	}
 
 .menu.mobile .nav > .dropdown {
