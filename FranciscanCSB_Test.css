@@ -34,7 +34,9 @@
 outershell {
 	font-family: 'Lato', sans-serif !important;
 }
-
+.h1 {
+    font-family: MrEaves!important;
+}
 
 .menu.mobile .nav > .dropdown {
 	padding-top:7px !important;
