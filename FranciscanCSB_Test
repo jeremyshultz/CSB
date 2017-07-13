@@ -328,3 +328,91 @@ a:active {
 	margin-left:2%;
 	margin-right:2%;
 }
+
+.hero,
+.hero-campaign,
+.hero-detail,
+.hero-home,
+.hero-landing {
+    overflow: hidden;
+    max-height: 450px;
+    position: relative;
+    min-height: 300px
+}
+.hero .hero-img,
+.hero-campaign .hero-img,
+.hero-detail .hero-img,
+.hero-home .hero-img,
+.hero-landing .hero-img {
+    background-size: 100% auto;
+    background-size: cover;
+    background-position: 0 50%;
+    padding-bottom: 40%;
+    background-repeat: no-repeat
+}
+.hero .main-text h1,
+.hero .main-text h2,
+.hero .main-text h3,
+.hero .main-text h4,
+.hero .main-text h5,
+.hero .main-text h6,
+.hero-campaign .main-text h1,
+.hero-campaign .main-text h2,
+.hero-campaign .main-text h3,
+.hero-campaign .main-text h4,
+.hero-campaign .main-text h5,
+.hero-campaign .main-text h6,
+.hero-detail .main-text h1,
+.hero-detail .main-text h2,
+.hero-detail .main-text h3,
+.hero-detail .main-text h4,
+.hero-detail .main-text h5,
+.hero-detail .main-text h6,
+.hero-home .main-text h1,
+.hero-home .main-text h2,
+.hero-home .main-text h3,
+.hero-home .main-text h4,
+.hero-home .main-text h5,
+.hero-home .main-text h6,
+.hero-landing .main-text h1,
+.hero-landing .main-text h2,
+.hero-landing .main-text h3,
+.hero-landing .main-text h4,
+.hero-landing .main-text h5,
+.hero-landing .main-text h6 {
+    margin-top: 0
+}
+@media (min-width: 768px) {
+    .hero .col-md-offset-9,
+    .hero-campaign .col-md-offset-9,
+    .hero-detail .col-md-offset-9,
+    .hero-home .col-md-offset-9,
+    .hero-landing .col-md-offset-9 {
+        margin-left: 75%
+    }
+}
+.hero .white-textbox,
+.hero-campaign .white-textbox,
+.hero-detail .white-textbox,
+.hero-home .white-textbox,
+.hero-landing .white-textbox {
+    font-size: 24px;
+    padding: 20px;
+    padding-bottom: 10px;
+    background: #fff
+}
+.hero .white-textbox p,
+.hero-campaign .white-textbox p,
+.hero-detail .white-textbox p,
+.hero-home .white-textbox p,
+.hero-landing .white-textbox p {
+    font-size: 1.5em;
+    line-height: 1.1em
+}
+.hero .white-textbox img,
+.hero-campaign .white-textbox img,
+.hero-detail .white-textbox img,
+.hero-home .white-textbox img,
+.hero-landing .white-textbox img {
+    width: auto
+}
