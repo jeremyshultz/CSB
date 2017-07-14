@@ -35,13 +35,28 @@ outershell {
 	font-family: 'Lato', sans-serif !important;
 }
 
+.cta, .filter-container .select-style.zip .submenu .shell li, .submenu .filter-container .select-style.zip .shell li, .submenu ul li {
+       color:#fffff;
+       cursor:pointer;
+       text-transform:uppercase;
+       font-weight:900!important;
+}
+
 .promo .event .text-overlay, .promo .text-overlay {
-	color:'white';
-	background:'#78a22f;
+	color:#ffffff;
+	background-color:#78a22f;
 	line-height:'1.5em';
 	padding:.5em 1.1em .75em;
-	min-height:125px;
 	margin-bottom:20px;
+}
+
+.promo .event .text-overlay a, .promo .text-overlay a {
+       color:#ffffff;
+}
+
+.promo .promo-img {
+       position:relative;
+       background-color: #78a22f;
 }
 
 h1 {
