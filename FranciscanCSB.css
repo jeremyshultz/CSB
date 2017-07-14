@@ -35,6 +35,15 @@ outershell {
 	font-family: 'Lato', sans-serif !important;
 }
 
+.promo .event .text-overlay, .promo .text-overlay {
+	color:'white';
+	background:'#78a22f;
+	line-height:'1.5em';
+	padding:.5em 1.1em .75em;
+	min-height:125px;
+	margin-bottom:20px;
+}
+
 h1 {
 	font-family: 'Lato', sans-serif !important;
 	font-size: 32px ;
