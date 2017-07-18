@@ -1198,7 +1198,7 @@ footer .mobile-footer-links a {
 .hero-detail .white-textbox img,
 .hero-home .white-textbox img,
 .hero-landing .white-textbox img {
-    width: auto
+    width: 100%
 }
 .filter-container .select-style.zip .submenu .shell .hero .white-textbox li,
 .filter-container .select-style.zip .submenu .shell .hero-campaign .white-textbox li,
