@@ -562,18 +562,18 @@ header .main .geoloc .icon-location {
     cursor: pointer;
     z-index: 2
 }
-header .main .siteSearch {
+header .main {
     position: absolute;
     top: 2em;
     right: 15px;
     width: 100%
 }
 @media (max-width: 991px) {
-    header .main .siteSearch {
+    header .main {
         display: none
     }
 }
-header .main .siteSearch .fa-search {
+header .main  .fa-search {
     color: #5091cd;
     font-size: 1.125em;
     cursor: pointer;
@@ -582,7 +582,7 @@ header .main .siteSearch .fa-search {
     top: -2px;
     z-index: 2
 }
-header .main .siteSearch .expand-button {
+header .main  .expand-button {
     position: absolute;
     top: 0;
     margin: 0;
@@ -591,7 +591,7 @@ header .main .siteSearch .expand-button {
     cursor: pointer
 }
 @media (max-width: 991px) {
-    header .main .siteSearch .expand-button span.search-text {
+    header .main  .expand-button span.search-text {
         display: none
     }
 }
@@ -1120,7 +1120,7 @@ footer .mobile-footer-links a {
     overflow: hidden;
     max-height: 450px;
     position: relative;
-    min-height: 300pxg
+    min-height: 300px
 }
 .hero .hero-img,
 .hero-campaign .hero-img,
@@ -1198,7 +1198,7 @@ footer .mobile-footer-links a {
 .hero-detail .white-textbox img,
 .hero-home .white-textbox img,
 .hero-landing .white-textbox img {
-    width: 100%
+    width: auto
 }
 .filter-container .select-style.zip .submenu .shell .hero .white-textbox li,
 .filter-container .select-style.zip .submenu .shell .hero-campaign .white-textbox li,
@@ -1316,8 +1316,8 @@ footer .mobile-footer-links a {
 .hero-landing .hero-img {
     position: absolute;
     top: -15px;
-    left: -15px;
-    right: -15px;
+    left: -30px;
+    right: -30px;
     bottom: -15px;
     padding: 0;
     z-index: -1;
@@ -1713,7 +1713,7 @@ footer .mobile-footer-links a {
 }
 @media (max-width: 767px) {
     .hero-detail .white-textbox {
-        margin: 2em -30px 0 -30px
+        margin: 2em -30px 0px -30px;
     }
 }
 .hero-detail.facility .white-textbox p {
