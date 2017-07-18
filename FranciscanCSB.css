@@ -34,7 +34,7 @@
 outershell {
 	font-family: 'Lato', sans-serif !important;
 }
-a#options-search.search-option-link.btn-link {
+a#options-search {
 	text-transform:uppercase;
 	font-family:lato;
 	font-weight:bold;
