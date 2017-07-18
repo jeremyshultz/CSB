@@ -235,6 +235,29 @@ a:active {
 	font-size:14px;
 }
 
+a:hover {
+    color: rgb(241,93,34);
+	font-family:'Lato', sans-serif !important;
+	text-transform:uppercase !important;
+	font-weight:bold;
+	font-size:14px;
+}
+
+a:link {
+    color: rgb(241,93,34);
+	font-family:'Lato', sans-serif !important;
+	text-transform:uppercase !important;
+	font-weight:bold;
+	font-size:14px;
+}
+a:visited {
+    color: rgb(241,93,34);
+	font-family:'Lato', sans-serif !important;
+	text-transform:uppercase !important;
+	font-weight:bold;
+	font-size:14px;
+}
+
 /* SMALL BUTTON */
 
 .btn-small{
@@ -395,6 +418,8 @@ a:active {
 	margin-left:2%;
 	margin-right:2%;
 }
+
+
 
 /* COPIED FROM FRANCISCANHEALTH.ORG CSS TO MATCH */
 
@@ -566,7 +591,6 @@ header .main .search-input {
     position: absolute;
     top: -6px;
     right: 0;
-    margin: 0;
     overflow: hidden;
     font-size: .75em;
     font-family: Arial, sans-serif;
