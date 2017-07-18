@@ -527,41 +527,7 @@ header .main .right-links ul li {
     display: inline-block;
     line-height: 12px
 }
-header .main .geoloc {
-    position: absolute;
-    top: 2em;
-    right: 100px;
-    width: auto;
-    text-align: left;
-    padding-right: 27px
-}
-@media (max-width: 991px) {
-    header .main .geoloc {
-        display: none
-    }
-}
-header .main .geoloc #userZipMenu {
-    margin: 0;
-    text-align: right
-}
-header .main .geoloc #userZipMenu a {
-    cursor: pointer
-}
-@media (max-width: 991px) {
-    header .main .geoloc #userZipMenu {
-        display: none
-    }
-}
-header .main .geoloc .icon-location {
-    color: #5091cd;
-    position: absolute;
-    top: -11px;
-    right: 0;
-    font-size: 1.5em;
-    line-height: 1.7em;
-    cursor: pointer;
-    z-index: 2
-}
+
 header .main {
     position: absolute;
     top: 2em;
