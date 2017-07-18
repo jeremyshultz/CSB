@@ -1713,7 +1713,7 @@ footer .mobile-footer-links a {
 }
 @media (max-width: 767px) {
     .hero-detail .white-textbox {
-        margin: 2em -15px 0
+        margin: 2em -30px 0 -30px
     }
 }
 .hero-detail.facility .white-textbox p {
