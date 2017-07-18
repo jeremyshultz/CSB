@@ -34,6 +34,12 @@
 outershell {
 	font-family: 'Lato', sans-serif !important;
 }
+a.search-option-link {
+	text-transform:uppercase;
+	font-family:lato;
+	font-weight:bold;
+	font-size:medium;
+}
 
 .cta, .filter-container .select-style.zip .submenu .shell li, .submenu .filter-container .select-style.zip .shell li, .submenu ul li {
        color:#fffff;
