@@ -36,7 +36,7 @@ outershell {
 }
 a.search-option-link {
 	text-transform:uppercase;
-	font-family:lato;
+	font-family:'lato';
 	font-weight:bold;
 	font-size:medium;
 }
@@ -112,7 +112,7 @@ h6 {
 h7 {
 	font-size: 34px !important;
 	font-family: 'MrEaves', sans-serif !important;
-	font-style: 'italic' !important;
+	font-style: italic !important;
 	text-align: left;
 	margin-left: 350px !important;
 	margin-bottom: 5px;
