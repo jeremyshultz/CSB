@@ -109,7 +109,7 @@ h6 {
 	text-shadow: 0em 0em 0.75em #000000 !important;
 	line-height: 15px !important;
 }
-.herotext {
+h1.herotext {
 	font-size: 34px !important;
 	font-family: "MrEaves", sans-serif !important;
 	font-style: italic !important;
