@@ -1513,14 +1513,16 @@ footer .mobile-footer-links a {
 }
 .hero-home .text p {
     font-size: 1.7em;
-    line-height: 1em
+    line-height: 1em;
+    font-family: 'MrEaves' !important
 }
 .hero-home .text .copy-small p {
-    font-size: 14px
+    font-size: 14px;
+    font-family: 'MrEaves' !important;
 }
 @media (max-width: 991px) {
     .hero-home .text .copy-small img {
-        width: 100%!important;
+        width: 100% !important;
         height: auto;
         max-width: 410px
     }
@@ -1531,7 +1533,7 @@ footer .mobile-footer-links a {
     padding: 1rem 2rem;
     width: 40%;
     background: #78a22f;
-    color: #fff !Important
+    color: #fff !important
 }
 @media (min-width: 768px) and (max-width: 991px) {
     .hero-home .left {
@@ -1593,7 +1595,7 @@ footer .mobile-footer-links a {
 .hero-home .hero-quick-links div.box a {
     display: block;
     text-transform: uppercase;
-    font-family: MrEavesHeavy
+    font-family: 'MrEavesHeavy'
 }
 .hero-home .hero-quick-links div.box a:hover {
     text-decoration: none
