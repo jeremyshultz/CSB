@@ -1504,7 +1504,8 @@ footer .mobile-footer-links a {
 }
 .hero-home .text h1 {
     margin: 0;
-    font-family: 'MrEaves';
+    font-family: 'MrEaves' !important;
+    font-style: italic !important;
     font-size: 3.25em;
     font-weight: 100;
     letter-spacing: .02em;
@@ -1530,7 +1531,7 @@ footer .mobile-footer-links a {
     padding: 1rem 2rem;
     width: 40%;
     background: #78a22f;
-    color: #fff
+    color: #fff !Important
 }
 @media (min-width: 768px) and (max-width: 991px) {
     .hero-home .left {
