@@ -109,8 +109,20 @@ h6 {
 	text-shadow: 0em 0em 0.75em #000000 !important;
 	line-height: 15px !important;
 }
+h7 {
+	font-size: 34px !important;
+	font-family: 'MrEaves', sans-serif !important;
+	font-style: 'italic' !important;
+	text-align: left;
+	margin-left: 350px !important;
+	margin-bottom: 5px;
+	text-shadow: 0em 0em 0.75em #000000 !important;
+	line-height: 15px !important;
+}
+
 .menu.mobile .nav > .dropdown {
 	padding-top:7px !important;
+	padding-bottom:7px !important;
 	float:left !important;
 }
 
