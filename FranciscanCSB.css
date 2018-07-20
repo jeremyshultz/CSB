@@ -186,7 +186,7 @@ h6 {
 	box-sizing:border-box;
 	color:rgb(255,255,255);
 	display:inline-block;
-	font-family:MrEaves;
+	font-family:'MrEaves';
 	font-size:14px;
 	font-stretch:normal;
 	font-style:normal;
@@ -280,7 +280,7 @@ a:active {
 	box-sizing:border-box;
 	color:rgb(255,255,255);
 	display:inline-block;
-	font-family:MrEaves;
+	font-family:'MrEaves';
 	font-size:14px;
 	font-stretch:normal;
 	font-variant-ligatures:normal;
@@ -422,7 +422,7 @@ header a:hover,
 header a:link,
 header a:visited,
 header p {
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
     color: #000;
     font-weight: 400;
     font-size: 12px;
@@ -799,7 +799,7 @@ header .menu ul li.active:after {
 .filter-container .select-style.zip header .menu .shell li a,
 header .menu .filter-container .select-style.zip .shell li a,
 header .menu ul li a {
-    font-family: MrEaves;
+    font-family: 'MrEaves';
     font-size: 16px!important;
     font-weight: 700;
     color: #fff
@@ -960,7 +960,7 @@ footer #block-franciscan-footer-social-block .contextual-links-wrapper {
     }
 }
 footer h3 {
-    font-family: MrEaves
+    font-family: 'MrEaves'
 }
 footer .social-links {
     margin-top: 20px;
@@ -1504,7 +1504,7 @@ footer .mobile-footer-links a {
 }
 .hero-home .text h1 {
     margin: 0;
-    font-family: theorem;
+    font-family: 'MrEaves';
     font-size: 3.25em;
     font-weight: 100;
     letter-spacing: .02em;
