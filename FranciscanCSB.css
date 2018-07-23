@@ -1783,5 +1783,5 @@ footer .mobile-footer-links a {
 }
 
 .#header .header-bottom .container .menu-btn {
-	visibility: hidden;
+	visibility: hidden!important;
 	}
