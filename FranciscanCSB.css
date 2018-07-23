@@ -65,20 +65,6 @@ a.search-option-link {
        background-color: #78a22f;
 }
 
-img#logo.logo {
-	background:url('https://www.franciscanhealth.org/sites/all/themes/franciscan/assets/img/FH_MAIN_color_hor_logo.jpg') no-repeat center !important;
-	width:100% !important;
-	height:100% !important;
-	 background-size:contain !important;
-}
-
-.logo {
-	background:url('https://www.franciscanhealth.org/sites/all/themes/franciscan/assets/img/FH_MAIN_color_hor_logo.jpg') no-repeat center !important;
-	width:100% !important;
-	height:100% !important;
-	 background-size:contain !important;
-}
-
 h1 {
 	font-family: 'Lato', sans-serif !important;
 	font-size: 32px ;
@@ -493,8 +479,8 @@ header .main .menu-button:before {
     }
 }
 header .main .logo {
-    width: 33.33%;
-    min-width: 200px;
+    width: 25%%;
+    min-width: 150px;
     opacity: 1;
     -webkit-transition: all .25s ease;
     -o-transition: all .25s ease;
