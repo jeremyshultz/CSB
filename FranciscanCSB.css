@@ -6,6 +6,15 @@
 /* the provided CSS within */
 /* SuccessFactors' Career Site Builder */
 
+#logo {
+	width: 33% !important;
+    	min-width: 175px !important;
+}
+
+.dropdown mobile-search {
+	visibility:hidden !important;
+}
+
 
 @font-face {
 	font-family: 'notused';
