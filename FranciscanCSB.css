@@ -139,8 +139,8 @@ h6 {
 	margin-right:0px !important;
 }
 #header .header-bottom .container .menu-btn {
-	visibility: hidden!important;
-	margin-right:10px;
+	visibility: hidden !important;
+	margin-right:10px !important;
 }
 
 .headersubmenu {
