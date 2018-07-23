@@ -72,6 +72,13 @@ img#logo.logo {
 	 background-size:contain !important;
 }
 
+.logo {
+	background:url('https://www.franciscanhealth.org/sites/all/themes/franciscan/assets/img/FH_MAIN_color_hor_logo.jpg') no-repeat center !important;
+	width:100% !important;
+	height:100% !important;
+	 background-size:contain !important;
+}
+
 h1 {
 	font-family: 'Lato', sans-serif !important;
 	font-size: 32px ;
