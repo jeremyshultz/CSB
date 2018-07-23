@@ -140,6 +140,7 @@ h6 {
 }
 #header .header-bottom .container .menu-btn {
 	visibility: hidden!important;
+	margin-right:10px;
 }
 
 .headersubmenu {
