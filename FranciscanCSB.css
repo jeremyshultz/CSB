@@ -6,6 +6,11 @@
 /* the provided CSS within */
 /* SuccessFactors' Career Site Builder */
 
+#logo {
+	height:100% !important;
+	width:100% !important
+}
+
 @font-face {
 	font-family: 'notused';
 	src: url('notused.eot');
