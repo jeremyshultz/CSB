@@ -1781,3 +1781,7 @@ footer .mobile-footer-links a {
     .container {
         max-width: (1200px - @grid-gutter-width);
 }
+
+.mobilelink {
+	visibility: hidden;
+	}
