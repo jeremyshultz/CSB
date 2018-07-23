@@ -66,8 +66,10 @@ a.search-option-link {
 }
 
 img#logo.logo {
+	background:url('https://www.franciscanhealth.org/sites/all/themes/franciscan/assets/img/FH_MAIN_color_hor_logo.jpg') no-repeat center !important;
 	width:100% !important;
 	height:100% !important;
+	 background-size:contain !important;
 }
 
 h1 {
