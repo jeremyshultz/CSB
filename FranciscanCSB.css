@@ -138,6 +138,9 @@ h6 {
 #header .header-bottom .container .search-btn {
 	margin-right:0px !important;
 }
+#header .header-bottom .container .menu-btn {
+	visibility: hidden!important;
+}
 
 .headersubmenu {
 	font-family: 'Lato', sans-serif !important;
@@ -1782,6 +1785,3 @@ footer .mobile-footer-links a {
         max-width: (1200px - @grid-gutter-width);
 }
 
-.#header .header-bottom .container .menu-btn {
-	visibility: hidden!important;
-	}
