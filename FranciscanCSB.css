@@ -9,7 +9,7 @@
 #logo {
 	width: 33% !important;
     	min-width: 175px !important;
-	max-width: 376px !important;
+	max-width: 301px !important;
 }
 
 .dropdown mobile-search {
@@ -492,7 +492,7 @@ header .main .menu-button:before {
 header .main .logo {
     width: 33% !important;
     min-width: 175px !important;
-    max-width: 376px !important;
+    max-width: 301px !important;
     opacity: 1;
     -webkit-transition: all .25s ease;
     -o-transition: all .25s ease;
