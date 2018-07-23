@@ -1782,6 +1782,6 @@ footer .mobile-footer-links a {
         max-width: (1200px - @grid-gutter-width);
 }
 
-.dropdown mobile-search {
+.#header .header-bottom .container .menu-btn {
 	visibility: hidden;
 	}
