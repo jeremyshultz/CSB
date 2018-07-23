@@ -11,6 +11,10 @@
 	width:100% !important
 }
 
+.dropdown mobile-search {
+	visibility:hidden !important;
+}
+
 @font-face {
 	font-family: 'notused';
 	src: url('notused.eot');
