@@ -906,7 +906,7 @@ header.open .menu {
 @media (max-width: 991px) {
     header.header-search .logo {
         margin-right: 240px;
-        margin-left: 28px
+        margin-left: 0px
     }
 }
 @media (max-width: 500px) {
