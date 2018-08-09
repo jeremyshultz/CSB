@@ -1783,7 +1783,8 @@ footer .mobile-footer-links a {
     .container {
         max-width: (1200px - @grid-gutter-width);
 }
-#innershell {
-    padding-left: 0px!important; */
-    padding-right: 0px!important; */
+@media (max-width: 1204px)
+	#innershell {
+  	  padding-left: 0px!important; */
+  	  padding-right: 0px!important; */
 }
