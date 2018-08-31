@@ -56,8 +56,7 @@ a.search-option-link {
 	padding:.5em 1.1em .75em;
 	margin-bottom:20px;
 }
-
-div.joblayouttoken ul, div.joblayouttoken ol, span.jobdescription ul, span.jobdescription ol {
+.content ul, .content ol {
     list-style-position: outside;
 }
 
