@@ -1791,8 +1791,30 @@ footer .mobile-footer-links a {
 .ul {
     list-style-position: outside !important;
 }
-
+	
 .content ul {
     list-style-position: outside !important;
 }
+
+@media (min-width: 768px) {
+    .ul {
+    list-style-position: outside !important;
+    .content ul {
+    list-style-position: outside !important;
+}
+
+@media (max-width: 500px) {
+    .ul {
+    list-style-position: outside !important;
+    .content ul {
+    list-style-position: outside !important;
+}
+
+@media (max-width: 992px) {
+    .ul {
+    list-style-position: outside !important;
+    .content ul {
+    list-style-position: outside !important;
+}
+
 
