@@ -1817,6 +1817,6 @@ footer .mobile-footer-links a {
     list-style-position: outside !important;
 }
 
-p, #content span h3, #content span h4, #content span h5, #content span h6, #content span li, #content span ol, #content span ul {
+#content span li {
 	list-style-position: outside !important;
-	    }
+}
