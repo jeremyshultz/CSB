@@ -57,6 +57,10 @@ a.search-option-link {
 	margin-bottom:20px;
 }
 
+div.joblayouttoken ul, div.joblayouttoken ol, span.jobdescription ul, span.jobdescription ol {
+    list-style-position: outside;
+}
+
 .promo .event .text-overlay a, .promo .text-overlay a {
        color:#ffffff;
 }
