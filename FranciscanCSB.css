@@ -1829,3 +1829,25 @@ ul {
 p, #content span h3, #content span h4, #content span h5, #content span h6, #content span li, #content span ol, #content span ul {
 	list-style-position: outside !important;
 }
+
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 812px)
+and (-webkit-device-pixel-ratio : 3) {
+ul {list-style-position:outside}}
+
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) {
+	ul {list-style-position:outside}}
+
+@media only screen 
+and (min-device-width : 414px) 
+and (max-device-width : 736px) {
+	ul {list-style-position:outside}}
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px) {
+ul {list-style-position:outside}}
+
