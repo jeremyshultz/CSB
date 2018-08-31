@@ -134,12 +134,11 @@ h6 {
 }
 /* FONT AWESOME SIZE */
 .fa {
-	font-size:15px;
+	font-size:20px;
 }
 #header .header-bottom .container .search-btn {
 	margin-right:0px !important;
 }
-
 
 .headersubmenu {
 	font-family: 'Lato', sans-serif !important;
@@ -1789,7 +1788,7 @@ footer .mobile-footer-links a {
   	  padding-right: 0px!important; */
 }
 
-ul {
+.ul {
     list-style-position: outside !important;
 }
 
