@@ -57,7 +57,7 @@ a.search-option-link {
 	margin-bottom:20px;
 }
 .content ul, .content ol {
-    list-style-position: outside;
+    list-style-position: outside !important;
 }
 
 .promo .event .text-overlay a, .promo .text-overlay a {
