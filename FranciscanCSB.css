@@ -56,9 +56,6 @@ a.search-option-link {
 	padding:.5em 1.1em .75em;
 	margin-bottom:20px;
 }
-ul {
-    list-style-position: outside !important;
-}
 
 .promo .event .text-overlay a, .promo .text-overlay a {
        color:#ffffff;
@@ -1790,4 +1787,8 @@ footer .mobile-footer-links a {
 	#innershell {
   	  padding-left: 0px!important; */
   	  padding-right: 0px!important; */
+}
+
+ul {
+    list-style-position: outside !important;
 }
