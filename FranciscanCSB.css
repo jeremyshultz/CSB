@@ -1140,7 +1140,7 @@ footer .mobile-footer-links a {
     overflow: hidden;
     max-height: 450px;
     position: relative;
-    min-height: 300pxg
+    min-height: 300px
 }
 .hero .hero-img,
 .hero-campaign .hero-img,
@@ -1780,12 +1780,13 @@ footer .mobile-footer-links a {
 }
 @media (min-width: 1200px) {
     .container {
-        max-width: (1200px - @grid-gutter-width);
+        width: 1200px}
 }
-@media (max-width: 1204px)
+@media (max-width: 1204px) {
 	#innershell {
-  	  padding-left: 0px!important; */
-  	  padding-right: 0px!important; */
+  	  padding-left: 0 !important;
+  	  padding-right: 0 !important;
+	}
 }
 
 ul {
@@ -1797,25 +1798,32 @@ ul {
 }
 
 @media (min-width: 768px) {
-    ul {
+	ul {
     list-style-position: outside !important;
-    .content ul {
+	}}
+@media (min-width: 768px) {
+	.content ul {
     list-style-position: outside !important;
-}
+	}}
 
 @media (max-width: 500px) {
-    ul {
+	ul {
     list-style-position: outside !important;
-    .content ul {
+	}}
+@media (max-width: 500px) {
+	.content ul {
     list-style-position: outside !important;
-}
+	}}
 
 @media (max-width: 992px) {
-    ul {
+	ul {
+	list-style-position: outside !important;
+	}}
+    
+@media (max-width: 992px) {
+	.content ul {
     list-style-position: outside !important;
-    .content ul {
-    list-style-position: outside !important;
-}
+	}}
 
 p, #content span h3, #content span h4, #content span h5, #content span h6, #content span li, #content span ol, #content span ul {
 	list-style-position: outside !important;
