@@ -1788,7 +1788,7 @@ footer .mobile-footer-links a {
   	  padding-right: 0px!important; */
 }
 
-.ul {
+ul {
     list-style-position: outside !important;
 }
 	
@@ -1797,21 +1797,21 @@ footer .mobile-footer-links a {
 }
 
 @media (min-width: 768px) {
-    .ul {
+    ul {
     list-style-position: outside !important;
     .content ul {
     list-style-position: outside !important;
 }
 
 @media (max-width: 500px) {
-    .ul {
+    ul {
     list-style-position: outside !important;
     .content ul {
     list-style-position: outside !important;
 }
 
 @media (max-width: 992px) {
-    .ul {
+    ul {
     list-style-position: outside !important;
     .content ul {
     list-style-position: outside !important;
