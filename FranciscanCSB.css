@@ -1792,8 +1792,7 @@ footer .mobile-footer-links a {
     list-style-position: outside !important;
 }
 
-.content ul, .content ol {
+.content ul {
     list-style-position: outside !important;
-    padding-left: 20px;
 }
 
