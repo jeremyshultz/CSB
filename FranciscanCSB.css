@@ -56,7 +56,7 @@ a.search-option-link {
 	padding:.5em 1.1em .75em;
 	margin-bottom:20px;
 }
-.content ul, .content ol {
+ul {
     list-style-position: outside !important;
 }
 
@@ -137,7 +137,7 @@ h6 {
 }
 /* FONT AWESOME SIZE */
 .fa {
-	font-size:20px;
+	font-size:15px;
 }
 #header .header-bottom .container .search-btn {
 	margin-right:0px !important;
