@@ -1792,7 +1792,7 @@ ul {
     list-style-position: outside !important;
 }
 	
-.content ul {
+.content ul, .content ol {
     list-style-position: outside !important;
 }
 
