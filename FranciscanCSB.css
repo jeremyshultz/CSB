@@ -1880,6 +1880,6 @@ and (orientation : landscape) {
     .container {
         width: 568px}}
 
-.container {
+.main-text {
 	padding-bottom:15px !important
 }
