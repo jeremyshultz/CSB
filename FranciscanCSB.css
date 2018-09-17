@@ -1883,3 +1883,8 @@ and (orientation : landscape) {
 .main-text {
 	padding-bottom:15px !important
 }
+
+.col-md-9 col-sm-9 zero-padding {
+	padding-left:0px !important;
+	padding-right0px !important
+}
