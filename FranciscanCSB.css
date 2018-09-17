@@ -1880,4 +1880,6 @@ and (orientation : landscape) {
     .container {
         width: 568px}}
 
-
+.container {
+	padding-bottom:15px !important
+}
