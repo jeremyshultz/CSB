@@ -1615,7 +1615,7 @@ footer .mobile-footer-links a {
         position: initial
     }
     .hero-home .container {
-        padding: 0
+        padding: 15px !important
     }
     .hero-home .text {
         display: block;
@@ -1698,7 +1698,7 @@ footer .mobile-footer-links a {
     font-weight: 400;
 	color:#FFFFFF;
     font-family: "MrEaves";
-    margin-bottom: 15px;
+    margin-bottom: 12px;
 	
 }
 @media (max-width: 767px) {
@@ -1759,7 +1759,7 @@ footer .mobile-footer-links a {
 }
 .hero-campaign .content {
     text-align: center;
-    padding-bottom: 15%
+    padding-bottom: 10%
 }
 .hero-campaign .content h1,
 .hero-campaign .content h2 {
