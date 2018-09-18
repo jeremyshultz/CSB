@@ -1905,5 +1905,9 @@ div#rss-wrapper.well.well-small.span6.clearfix {
 #savesearch-wrapper {
 	display: none
 }
+	
+div#rss-wrapper {
+	display: none
+	}
 
 
