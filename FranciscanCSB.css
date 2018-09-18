@@ -1902,7 +1902,7 @@ div#rss-wrapper.well.well-small.span6.clearfix {
 	}}
 
 @media (max-width: 767px) {
-div#savesearch-wrapper {
+div#savesearch-wrapper.savesearch-wrapper {
 	display: none !important
 	}}
 	
@@ -1910,6 +1910,6 @@ div#rss-wrapper {
 	display: none !important
 	}
 
-.savesearch-wrapper {
+.savesearch-wrapper.savesearch-wrapper {
 	display: none !important
 	}
