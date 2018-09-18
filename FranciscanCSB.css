@@ -1892,7 +1892,7 @@ and (orientation : landscape) {
 	
 /* RSS SHARE THIS WIDGET */
 
-#rss-wrapper.well.well-small.span6.clearfix {
+div#rss-wrapper.well.well-small.span6.clearfix {
 	min-height: 20px;
 	padding: 19px;
 	margin-bottom: 20px;
