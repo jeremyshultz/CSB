@@ -1894,7 +1894,8 @@ and (orientation : landscape) {
 
 div#rss-wrapper.well.well-small.span6.clearfix {
 	min-height: 20px;
-	padding: 19px;
+	padding: 5px !important;
+	margin-right:1% !important;
 	margin-bottom: 20px;
 	background-color: #f5f5f5 !important;
 	border: 1px solid #e3e3e3 !important;
