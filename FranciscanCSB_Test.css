@@ -5,6 +5,8 @@
 /* This CSS is to override  */
 /* the provided CSS within */
 /* SuccessFactors' Career Site Builder */
+/* Updated August 31, 2018 @ 1:58pm */
+
 
 @font-face {
 	font-family: 'notused';
@@ -31,59 +33,99 @@
 	font-family: 'MrEavesHeavy';
 	src: url('https://www.franciscanhealth.org/sites/all/themes/franciscan/assets/fonts/MrEavesSanOT-Heavy.woff') format('woff2'), url('https://www.franciscanhealth.org/sites/all/themes/franciscan/assets/fonts/MrEavesSanOT-Heavy.woff2') format('woff');
 }
-
-<!-- MAKES LOGO MORE RESPONSIVE DEPENDING ON SCREEN SIZE -->
-<!-- **** DOES NOT CURRENTLY WORK **** -->
-
-@media screen and (max-width: 487px) {
-  .logo .img {
-    background-image: url("//rmkcdn.successfactors.com/00b6600f/2eeb8bf0-84d1-47b2-a379-5.png alt="Jobs at Franciscan Health") !important; 
-  }
+outershell {
+	font-family: 'Lato', sans-serif !important;
+}
+a.search-option-link {
+	text-transform:uppercase;
+	font-family:'lato';
+	font-weight:bold;
+	font-size:medium;
 }
 
-@media screen and (min-width: 487px) and (max-width: 1079px) {
-  .logo .img {
-    background-image: url("../images/logo_med.png") !important;
-  }
+.cta, .filter-container .select-style.zip .submenu .shell li, .submenu .filter-container .select-style.zip .shell li, .submenu ul li {
+       color:#fffff;
+       cursor:pointer;
+       text-transform:uppercase;
+       font-weight:900!important;
 }
 
-@media screen and (min-width: 1080px) {
-  .logo .img{
-    background-image: url("../images/logo_big.png") !important;
-  }
+.promo .event .text-overlay, .promo .text-overlay {
+	color:#ffffff;
+	background-color:#78a22f;
+	line-height:'1.5em';
+	padding:.5em 1.1em .75em;
+	margin-bottom:20px;
 }
-<!-- END OF LOGO -->
+
+.promo .event .text-overlay a, .promo .text-overlay a {
+       color:#ffffff;
+}
+
+.promo .promo-img {
+       position:relative;
+       background-color: #78a22f;
+}
 
 h1 {
 	font-family: 'Lato', sans-serif !important;
-	font-size: 36px ;
+	font-size: 32px ;
 }
-
-.hrule {
-    clear: both;
-    overflow: hidden;
-    text-align: center;
-    margin: 1.67em 0 20px;
-    text-transform: uppercase;
-    font-size: 18px;
-    font-weight: 900!important;
-}
-
-.outershell {
+h2 {
 	font-family: 'Lato', sans-serif !important;
-	
-.inner,.limitwidth,.breadcrumbtrail,#category-name,#category-header .headertext,.category-groups-wrapper,#noresults,#actions,#job-table,.back-to-search-wrapper,.jobDisplayShell,#similar-jobs,#ssoStack,.pagination-top,.pagination-bottom,.searchResultsShell,.keyword-title,.container {
-	max-width:100%!important;
-	margin:0 auto;
+	font-size: 21px !important;
+	font-weight: Bold !important;
 }
-.topjobs-page #content>.inner>p,.viewall-page #content>.inner>p,.topjobs-page #content>.inner>h2,.viewall-page #content>.inner>h2,.topjobs-page #content>.inner>div,.viewall-page #content>.inner>div {
-	max-width:100%!important;
-	margin:20px auto;
+h3 {
+	font-family: 'Lato', sans-serif !important;
+	font-size: 15px !important;
+	text-transform: Uppercase !important;
+	font-weight: Bold !important;
+}
+h4 {
+	font-family: 'PT Serif', serif !important;
+	font-style: normal !important;
+	color: #000000 !important;
+	font-size: 16px !important;
+	text-align: left !important;
+	margin-left: 350px !important;
+	text-shadow: 0em 0em 0.75em #000000 !important;
+	line-height: 1.5em !important;
+	margin-bottom: 20px !important;
+	-webkit-font-smoothing: antialiased !important;
+}
+h5 {
+	font-size: 34px !important;
+	font-family: 'Lato', sans-serif;
+	margin-bottom: 20px !important;
+	margin-top: 10px !important;
+	text-shadow: 0em 0em 0.75em #000000 !important;
+	line-height: 15px !important;
+}
+h6 {
+	font-size: 34px !important;
+	font-family: 'Lato', sans-serif !important;
+	text-align: left;
+	margin-left: 350px !important;
+	margin-bottom: 5px;
+	text-shadow: 0em 0em 0.75em #000000 !important;
+	line-height: 15px !important;
+}
+.hero-header {
+	font-size: 45px !important;
+	font-family: "MrEaves", sans-serif !important;
+	font-style: italic !important;
+	text-align: left;
+	margin-left: 350px !important;
+	margin-bottom: 5px;
+	text-shadow: 0em 0em 0.75em #000000 !important;
+	line-height: 15px !important;
+	color: #FFFFFF !important;
 }
 
-	
 .menu.mobile .nav > .dropdown {
 	padding-top:7px !important;
+	padding-bottom:7px !important;
 	float:left !important;
 }
 
@@ -146,7 +188,7 @@ h1 {
 	box-sizing:border-box;
 	color:rgb(255,255,255);
 	display:inline-block;
-	font-family:MrEaves;
+	font-family:'MrEaves';
 	font-size:14px;
 	font-stretch:normal;
 	font-style:normal;
@@ -240,7 +282,7 @@ a:active {
 	box-sizing:border-box;
 	color:rgb(255,255,255);
 	display:inline-block;
-	font-family:MrEaves;
+	font-family:'MrEaves';
 	font-size:14px;
 	font-stretch:normal;
 	font-variant-ligatures:normal;
@@ -313,14 +355,6 @@ a:active {
 /* INFORMATION BOXES */
 .well {
 	margin-bottom:10px !important;
-  	min-height: 20px;
-	padding: 19px;
-	margin-bottom: 20px;
-	background-color: #f5f5f5;
-	border: 1px solid #e3e3e3;
-	border-radius: 4px;
-	-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.05);
-	box-shadow: inset 0 1px 1px rgba(0,0,0,0.05);
 }
 	
 /* GENERAL INFORMATION BOX */
@@ -383,12 +417,6 @@ a:active {
 	margin-right:2%;
 }
 
-.customPlugin
-	width:100%!important;
-	margin-left:0px!important;
-	margin-right:0px!important;
-}
-
 /* COPIED FROM FRANCISCANHEALTH.ORG CSS TO MATCH */
 
 header a,
@@ -396,7 +424,7 @@ header a:hover,
 header a:link,
 header a:visited,
 header p {
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
     color: #000;
     font-weight: 400;
     font-size: 12px;
@@ -449,8 +477,8 @@ header .main .menu-button:before {
     }
 }
 header .main .logo {
-    width: 33.33%;
-    min-width: 200px;
+    width: 33% !important;
+    min-width: 200px !important;
     opacity: 1;
     -webkit-transition: all .25s ease;
     -o-transition: all .25s ease;
@@ -773,7 +801,7 @@ header .menu ul li.active:after {
 .filter-container .select-style.zip header .menu .shell li a,
 header .menu .filter-container .select-style.zip .shell li a,
 header .menu ul li a {
-    font-family: MrEaves;
+    font-family: 'MrEaves';
     font-size: 16px!important;
     font-weight: 700;
     color: #fff
@@ -876,7 +904,7 @@ header.open .menu {
 @media (max-width: 991px) {
     header.header-search .logo {
         margin-right: 240px;
-        margin-left: 28px
+        margin-left: 0px
     }
 }
 @media (max-width: 500px) {
@@ -934,7 +962,7 @@ footer #block-franciscan-footer-social-block .contextual-links-wrapper {
     }
 }
 footer h3 {
-    font-family: MrEaves
+    font-family: 'MrEaves'
 }
 footer .social-links {
     margin-top: 20px;
@@ -1113,7 +1141,7 @@ footer .mobile-footer-links a {
     overflow: hidden;
     max-height: 450px;
     position: relative;
-    min-height: 300pxg
+    min-height: 300px
 }
 .hero .hero-img,
 .hero-campaign .hero-img,
@@ -1191,7 +1219,7 @@ footer .mobile-footer-links a {
 .hero-detail .white-textbox img,
 .hero-home .white-textbox img,
 .hero-landing .white-textbox img {
-    width: auto
+    width: 100%
 }
 .filter-container .select-style.zip .submenu .shell .hero .white-textbox li,
 .filter-container .select-style.zip .submenu .shell .hero-campaign .white-textbox li,
@@ -1478,7 +1506,8 @@ footer .mobile-footer-links a {
 }
 .hero-home .text h1 {
     margin: 0;
-    font-family: theorem;
+    font-family: 'MrEaves' !important;
+    font-style: italic !important;
     font-size: 3.25em;
     font-weight: 100;
     letter-spacing: .02em;
@@ -1486,14 +1515,16 @@ footer .mobile-footer-links a {
 }
 .hero-home .text p {
     font-size: 1.7em;
-    line-height: 1em
+    line-height: 1em;
+    font-family: 'MrEaves' !important
 }
 .hero-home .text .copy-small p {
-    font-size: 14px
+    font-size: 14px;
+    font-family: 'MrEaves' !important;
 }
 @media (max-width: 991px) {
     .hero-home .text .copy-small img {
-        width: 100%!important;
+        width: 100% !important;
         height: auto;
         max-width: 410px
     }
@@ -1504,7 +1535,7 @@ footer .mobile-footer-links a {
     padding: 1rem 2rem;
     width: 40%;
     background: #78a22f;
-    color: #fff
+    color: #fff !important
 }
 @media (min-width: 768px) and (max-width: 991px) {
     .hero-home .left {
@@ -1566,7 +1597,7 @@ footer .mobile-footer-links a {
 .hero-home .hero-quick-links div.box a {
     display: block;
     text-transform: uppercase;
-    font-family: MrEavesHeavy
+    font-family: 'MrEavesHeavy'
 }
 .hero-home .hero-quick-links div.box a:hover {
     text-decoration: none
@@ -1584,7 +1615,7 @@ footer .mobile-footer-links a {
         position: initial
     }
     .hero-home .container {
-        padding: 0
+        padding: 15px !important
     }
     .hero-home .text {
         display: block;
@@ -1667,7 +1698,7 @@ footer .mobile-footer-links a {
     font-weight: 400;
 	color:#FFFFFF;
     font-family: "MrEaves";
-    margin-bottom: 15px;
+    margin-bottom: 12px;
 	
 }
 @media (max-width: 767px) {
@@ -1706,7 +1737,7 @@ footer .mobile-footer-links a {
 }
 @media (max-width: 767px) {
     .hero-detail .white-textbox {
-        margin: 2em -15px 0
+        margin: 2em -30px 0 -30px
     }
 }
 .hero-detail.facility .white-textbox p {
@@ -1728,7 +1759,7 @@ footer .mobile-footer-links a {
 }
 .hero-campaign .content {
     text-align: center;
-    padding-bottom: 15%
+    padding-bottom: 10%
 }
 .hero-campaign .content h1,
 .hero-campaign .content h2 {
@@ -1750,5 +1781,149 @@ footer .mobile-footer-links a {
 }
 @media (min-width: 1200px) {
     .container {
-        max-width: (1200px - @grid-gutter-width);
+        width: 1200px}
+}
+@media (max-width: 1204px) {
+	#innershell {
+  	  padding-left: 0 !important;
+  	  padding-right: 0 !important;
+	}
+}
+
+ul {
+    list-style-position: outside !important;
+}
+	
+.content ul, .content ol {
+    list-style-position: outside !important;
+}
+
+@media (min-width: 768px) {
+	ul {
+    list-style-position: outside !important;
+	}}
+@media (min-width: 768px) {
+	.content ul {
+    list-style-position: outside !important;
+	}}
+
+@media (max-width: 500px) {
+	ul {
+    list-style-position: outside !important;
+	}}
+@media (max-width: 500px) {
+	.content ul {
+    list-style-position: outside !important;
+	}}
+
+@media (max-width: 992px) {
+	ul {
+	list-style-position: outside !important;
+	}}
+    
+@media (max-width: 992px) {
+	.content ul {
+    list-style-position: outside !important;
+	}}
+
+p, #content span h3, #content span h4, #content span h5, #content span h6, #content span li, #content span ol, #content span ul {
+	list-style-position: outside !important;
+}
+
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 812px)
+and (-webkit-device-pixel-ratio : 3) {
+ul {list-style-position:outside}}
+
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 812px) 
+and (-webkit-device-pixel-ratio : 3)
+and (orientation : landscape) {
+    .container {
+        width: 812px}}
+
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) {
+	ul {list-style-position:outside}}
+
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) 
+and (orientation : landscape) {
+    .container {
+        width: 667px}}
+
+@media only screen 
+and (min-device-width : 414px) 
+and (max-device-width : 736px) {
+	ul {list-style-position:outside}}
+
+@media only screen 
+and (min-device-width : 414px) 
+and (max-device-width : 736px) 
+and (orientation : landscape) {
+    .container {
+        width: 736px}}
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px) {
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px) 
+and (orientation : landscape) {
+    .container {
+        width: 568px}
+    div#rss-wrapper.well.well-small.span6.clearfix {
+	display: none
+	}}
+	
+.main-text {
+	padding-bottom:15px !important;
+	
+}
+
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+	padding-left:0px !important;
+	padding-right:0px !important
+}
+
+/* START OF 09/18/2018 EDIT */
+	
+/* RSS SHARE THIS WIDGET */
+
+@media only screen and (max-device-width: 568px) and (min-device-width: 320px) {
+div#rss-wrapper.well.well-small.span6.clearfix {
+	display: none !important
+	}}
+
+@media (max-width: 767px) {
+div#savesearch-wrapper.savesearch-wrapper {
+	display: none !important
+	}}
+	
+div#rss-wrapper {
+	display: none !important
+	}
+
+.savesearch-wrapper.savesearch-wrapper {
+	display: none !important
+	}
+
+#rss-wrapper {
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.05) !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    margin-left: 0 !important;
+    background: #d3e4f3 !important;
+    padding-top: 5px !important;
+    padding-bottom: 0 !important;
+    margin-right: 1% !important;
+    border-radius: 4px !important;
+    border: 1px solid #a7c8e6 !important;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
 }
