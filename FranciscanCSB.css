@@ -1896,15 +1896,15 @@ and (orientation : landscape) {
 	
 /* RSS SHARE THIS WIDGET */
 
-@media only screen and (max-device-width: 568px) and (min-device-width: 320px)
+@media only screen and (max-device-width: 568px) and (min-device-width: 320px) {
 div#rss-wrapper.well.well-small.span6.clearfix {
 	display: none !important
-}
+	}}
 
-@media (max-width: 767px)
+@media (max-width: 767px) {
 #savesearch-wrapper {
 	display: none !important
-}
+	}}
 	
 div#rss-wrapper {
 	display: none !important
