@@ -33,6 +33,13 @@
 	font-family: 'MrEavesHeavy';
 	src: url('https://www.franciscanhealth.org/sites/all/themes/franciscan/assets/fonts/MrEavesSanOT-Heavy.woff') format('woff2'), url('https://www.franciscanhealth.org/sites/all/themes/franciscan/assets/fonts/MrEavesSanOT-Heavy.woff2') format('woff');
 }
+
+@font-face {
+	font-family: 'Roboto';
+	src: url('https://fonts.googleapis.com/css?family=Roboto') ;
+	-webkit-margin-font: antialias;
+}
+
 outershell {
 	font-family: 'Lato', sans-serif !important;
 }
@@ -83,7 +90,7 @@ h3 {
 	font-weight: Bold !important;
 }
 h4 {
-	font-family: 'PT Serif', serif !important;
+	font-family: 'Roboto', serif !important;
 	font-style: normal !important;
 	color: #000000 !important;
 	font-size: 16px !important;
@@ -1329,7 +1336,7 @@ footer .mobile-footer-links a {
 .page-node .hero-detail .white-textbox p,
 .page-node .hero-home .white-textbox p,
 .page-node .hero-landing .white-textbox p {
-    font-family: Arial, sans-serif;
+    font-family: "Roboto", sans-serif;
     font-size: 14px;
     color: #000;
     line-height: 1.3em
@@ -1417,7 +1424,7 @@ footer .mobile-footer-links a {
     font-weight: 400!important
 }
 .hero-landing .main-text p {
-    font-family: "PT Serif", serif;
+    font-family: "Roboto", serif;
     font-size: 16px;
     line-height: 1.5em;
     text-shadow: 0 0 5px #fff
