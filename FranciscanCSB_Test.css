@@ -1990,10 +1990,6 @@ div.geolocationinputgroup.col-md-10.col-sm-9.col-xs-8 {
 div.col-md-12.zero-padding {
 	padding-left:0 !important
 	}
-	
-.col-md-12.col-sm-12.col-xs-12.search-submit {
-	padding-left:0 !important
-	}
 
 .geobuttonswitcherwrapper.col-md-2 {
 	padding-left:0 !important
@@ -2008,3 +2004,6 @@ div.col-md-12.zero-padding {
 	padding-left:0 !important
 	}
 	
+div.row.optionsLink, div.searchswitcher {
+	margin-bottom:10px !important
+	}
