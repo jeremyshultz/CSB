@@ -1935,13 +1935,13 @@ div#rss-wrapper {
     -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
 }
 
-dropdown mobile-search {
+div#dropdown.mobile-search {
     display: none !important;
 }
 	
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-    .logo img {
+    img#logo.logo {
         max-width: 50%;
         max-height: 50%;
     }
@@ -1949,7 +1949,7 @@ dropdown mobile-search {
 
 /* Smartphones (landscape) ----------- */
 @media only screen and (min-width : 321px) {
-    .logo img {
+    img#logo.logo {
         max-width: 50%;
         max-height: 50%;
     }
@@ -1957,7 +1957,7 @@ dropdown mobile-search {
 
 /* Smartphones (portrait) ----------- */
 @media only screen and (max-width : 320px) {
-    .logo img {
+    img#logo.logo {
         max-width: 50%;
         max-height: 50%;
     }
