@@ -1936,7 +1936,7 @@ div#rss-wrapper {
 }
 
 /* -----REMOVE SEARCH ICON FROM HEADER----- */
-div.dropdown.mobile-search {
+.dropdown.mobile-search {
     display: none !important;
 }
 
