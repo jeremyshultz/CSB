@@ -1935,30 +1935,42 @@ div#rss-wrapper {
     -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
 }
 
+/* -----REMOVE SEARCH ICON FROM HEADER----- */
 div#dropdown.mobile-search {
     display: none !important;
 }
+
+/* -----ADJUSTS LOGO AND MENU ICON ON MOBILE DEVICES----- */
 	
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-    img#logo.logo {
-        max-width: 50%;
-        max-height: 50%;
-    }
+	img#logo.logo {
+ 		max-width: 75%;
+   		max-height: 75%;
+	}
+	#header .header-bottom .container {
+		padding-bottom:0 !important
+	}
 }
 
 /* Smartphones (landscape) ----------- */
 @media only screen and (min-width : 321px) {
-    img#logo.logo {
-        max-width: 50%;
-        max-height: 50%;
-    }
+	img#logo.logo {
+ 		max-width: 75%;
+   		max-height: 75%;
+	}
+	#header .header-bottom .container {
+		padding-bottom:0 !important
+	}
 }
 
 /* Smartphones (portrait) ----------- */
 @media only screen and (max-width : 320px) {
-    img#logo.logo {
-        max-width: 50%;
-        max-height: 50%;
-    }
+	img#logo.logo {
+ 		max-width: 75%;
+   		max-height: 75%;
+	}
+	#header .header-bottom .container {
+		padding-bottom:0 !important
+	}
 }
