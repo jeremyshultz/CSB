@@ -1991,15 +1991,15 @@ div.col-md-12.zero-padding {
 	padding-left:0 !important
 	}
 
-.geobuttonswitcherwrapper.col-md-2 {
+div.geobuttonswitcherwrapper.col-md-2 {
 	padding-left:0 !important
 	}
 
-.row.optionsLink.optionsLink-padding {
+div.row.optionsLink.optionsLink-padding {
 	margin-bottom:10px !important
 	}
 	
-.col-md-9.col-sm-9.zero-padding {
+div.col-md-9.col-sm-9.zero-padding {
 	margin-bottom:10px !important;
 	padding-left:0 !important
 	}
