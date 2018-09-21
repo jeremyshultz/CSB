@@ -1891,6 +1891,7 @@ and (orientation : landscape) {
 	
 .main-text {
 	padding-bottom:15px !important;
+	font-family:'Roboto', sans-serif !important;
 	
 }
 
@@ -1979,6 +1980,10 @@ div#rss-wrapper {
 	margin-bottom:0 !important
 	}
 	
+.geolocationinputgroup.col-md-10.col-sm-9.col-xs-8 {
+	padding-left:0 !important
+	}
+	
 div.geolocationinputgroup.col-md-10.col-sm-9.col-xs-8 {
 	padding-left:0 !important
 	}
@@ -1999,11 +2004,25 @@ div.row.optionsLink.optionsLink-padding {
 	margin-bottom:10px !important
 	}
 	
+.col-md-9 col-sm-9 zero-padding {
+	margin-bottom:10px !important;
+	padding-left:0 !important
+	}
+	
 div.col-md-9.col-sm-9.zero-padding {
 	margin-bottom:10px !important;
 	padding-left:0 !important
 	}
 	
 div.row.optionsLink, div.searchswitcher {
+	margin-bottom:10px !important
+	}
+
+input#geolocation.geolocationinput.tt-input {
+	text-indent:15px !important;
+	margin-bottom:0 !important
+	}
+	
+.searchswitcher {
 	margin-bottom:10px !important
 	}
