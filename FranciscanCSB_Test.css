@@ -1974,3 +1974,27 @@ div#rss-wrapper {
 		padding-bottom:0 !important
 	}
 }
+	
+#search .row>div>span {
+	margin-bottom:0 !important
+	}
+	
+div.geolocationinputgroup.col-md-10.col-sm-9.col-xs-8 {
+	padding-left:0 !important
+	}
+	
+#search input {
+	text-indent:0 !important
+	}
+
+div.col-md-12.zero-padding {
+	padding-left:0 !important
+	}
+	
+div.ol-md-12.col-sm-12.col-xs-12.search-submit {
+	padding-left:0 !important
+	}
+
+.search-submit, .zero-padding {
+	padding-left:0 !important
+	}
