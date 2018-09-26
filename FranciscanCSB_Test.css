@@ -1951,9 +1951,9 @@ div#rss-wrapper {
 	
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-	img#logo.logo {
- 	width: 33.33% !important;
-	min-width: 200px !important;
+	.logo.logo {
+ 	width: 75% !important;
+	min-width: 75% !important;
 	transition: all 0.25s ease !important;
 	}
 	#header .header-bottom .container {
@@ -1963,9 +1963,9 @@ div#rss-wrapper {
 
 /* Smartphones (landscape) ----------- */
 @media only screen and (min-width : 321px) {
-	img#logo.logo {
- 		width: 33.33% !important;
-	min-width: 200px !important;
+	.logo.logo {
+ 	width: 75% !important;
+	min-width: 75% !important;
 	transition: all 0.25s ease !important;
 	}
 	#header .header-bottom .container {
@@ -1975,9 +1975,9 @@ div#rss-wrapper {
 
 /* Smartphones (portrait) ----------- */
 @media only screen and (max-width : 320px) {
-	img#logo.logo {
- 		width: 33.33% !important;
-	min-width: 200px !important;
+	.logo.logo {
+ 		width: 75% !important;
+	min-width: 75% !important;
 	transition: all 0.25s ease !important;
 	}
 	#header .header-bottom .container {
