@@ -1942,6 +1942,11 @@ div#rss-wrapper {
 }
 
 /* -----ADJUSTS LOGO AND MENU ICON ON MOBILE DEVICES----- */
+img#logo.logo {
+	width: 33.33% !important;
+	min-width: 200px !important;
+	transition: all 0.25s ease !important;
+	}
 	
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
