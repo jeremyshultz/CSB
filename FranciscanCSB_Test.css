@@ -483,7 +483,7 @@ header .main .menu-button:before {
         display: block
     }
 }
-header .main .logo {
+img#logo.logo {
     width: 33% !important;
     min-width: 200px !important;
     opacity: 1;
@@ -1942,7 +1942,7 @@ div#rss-wrapper {
 }
 
 /* -----ADJUSTS LOGO AND MENU ICON ON MOBILE DEVICES----- */
-.logo {
+img#logo.logo {
 	width: 33.33% !important;
 	min-width: 200px !important;
 	transition: all 0.25s ease !important;
@@ -1951,8 +1951,9 @@ div#rss-wrapper {
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
 	img#logo.logo {
- 		max-width: 75%;
-   		max-height: 75%;
+ 	width: 33.33% !important;
+	min-width: 200px !important;
+	transition: all 0.25s ease !important;
 	}
 	#header .header-bottom .container {
 		padding-bottom:0 !important
@@ -1962,8 +1963,9 @@ div#rss-wrapper {
 /* Smartphones (landscape) ----------- */
 @media only screen and (min-width : 321px) {
 	img#logo.logo {
- 		max-width: 75%;
-   		max-height: 75%;
+ 		width: 33.33% !important;
+	min-width: 200px !important;
+	transition: all 0.25s ease !important;
 	}
 	#header .header-bottom .container {
 		padding-bottom:0 !important
@@ -1973,8 +1975,9 @@ div#rss-wrapper {
 /* Smartphones (portrait) ----------- */
 @media only screen and (max-width : 320px) {
 	img#logo.logo {
- 		max-width: 75%;
-   		max-height: 75%;
+ 		width: 33.33% !important;
+	min-width: 200px !important;
+	transition: all 0.25s ease !important;
 	}
 	#header .header-bottom .container {
 		padding-bottom:0 !important
