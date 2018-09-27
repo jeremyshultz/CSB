@@ -2043,7 +2043,15 @@ input#geolocation.geolocationinput.tt-input {
     min-height: 300px;
 }
 	
-.hero-landing .hero-img.diseases-landing {
+.hero-landing.hero-img.diseases-landing {
+    background-position: 0 15%;
+    bottom: 0;
+    left: -150px;
+    right: 0;
+    top: 0;
+}
+
+.diseases-landing {
     background-position: 0 15%;
     bottom: 0;
     left: -150px;
