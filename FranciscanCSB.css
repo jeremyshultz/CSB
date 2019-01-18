@@ -2025,7 +2025,10 @@ a.dropdown-toggle.search-btn {
 	top: 53px  !important;
 	right: -22 !important;
 	padding-left:0 !important;
-	background-color: #fff !important
+	background-color: rgba(217,226,219,0.61) !important;
+	border-width: 0 !important;
+	border-radius: 0 !important;
+	width: 300px !important
 	}
 
 div#profileWidget.profileWidget {
@@ -2056,5 +2059,7 @@ div#profileWidget.profileWidget {
 a.dropdown-toggle {
 	padding-top: 15px !important;
 	padding-bottom: 15px !important
-	
+	}
+
+
 
