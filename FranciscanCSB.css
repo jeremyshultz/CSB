@@ -1939,9 +1939,15 @@ div#rss-wrapper {
 	margin: 0
 	}
 	
+input.geolocation.geolocation.geolocationinput.tt-input {
+	margin: 0
+	}
+
 #geolocation.geolocation.geolocationinput.tt-input {
 	margin: 0
 	}
+	
+
 	
 .zero-padding {
 	padding:0 !important
