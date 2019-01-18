@@ -2001,7 +2001,7 @@ div.dropdown.mobile-search {
 	}
 	
 .dropdown-toggle.search-btn {
-	text-align: center !important
+	width: 10px !important
 	}
 
 .dropdown.mobile-nav {
@@ -2012,10 +2012,6 @@ div.dropdown.mobile-search {
 .a.dropdown-toggle.search-btn.collapsed {
 	width: 10px !important
 	}
-	
-a.dropdown-toggle.search-btn {
-	width: 10px !important
-
 
 #header .header-right .dropdown-menu {
 	text-align: left !important;
