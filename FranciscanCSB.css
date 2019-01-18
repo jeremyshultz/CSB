@@ -2014,8 +2014,15 @@ ul.dropdown-menu.nav-collapse.collapse.in {
 	}
 
 div#profileWidget.profileWidget {
-	padding-top: 0 !important
+	padding-top: 0 !important;
+	width: 100%;
+	border-radius:0;
+	margin-bottom: 10px;
+	text-align:center;
 	}
+	
+#profilewidget a {
+	padding-top: 7px
 
 ul.dropdown-menu.company-dropdown.headerdropdown {
 	left: auto;
