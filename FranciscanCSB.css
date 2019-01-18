@@ -1939,11 +1939,11 @@ div#rss-wrapper {
 	margin: 0
 	}
 	
-.geolocation, .geolocation, .geolocationinput, .tt-input {
+.geolocation {
 	margin: 0
 	}
 
-#geolocation, .geolocation.geolocationinput.tt-input {
+.geolocationinput.tt-input {
 	margin: 0
 	}
 	
