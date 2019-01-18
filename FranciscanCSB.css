@@ -1938,6 +1938,11 @@ div#rss-wrapper {
 .twitter-typeahead {
 	margin: 0
 	}
+	
+.geolocation geolocationinput tt-input {
+	margin: 0
+	}
+	
 .zero-padding {
 	padding:0 !important
 	}
