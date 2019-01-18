@@ -1946,13 +1946,7 @@ div#rss-wrapper {
 .geolocationinput.tt-input {
 	margin: 0
 	}
-#geolocation.geolocation.geolocationinput.tt-input {
-	margin-bottom: 5px !important
-	}
 
-div.searchswitcher {
-	margin-top: -5px !important
-	}
 	
 a#search-switcher-location
 	margin-top:30px !important
