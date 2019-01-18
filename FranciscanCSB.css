@@ -1939,11 +1939,11 @@ div#rss-wrapper {
 	margin: 0
 	}
 	
-input.geolocation.geolocation.geolocationinput.tt-input {
+.geolocation, .geolocation, .geolocationinput, .tt-input {
 	margin: 0
 	}
 
-#geolocation.geolocation.geolocationinput.tt-input {
+#geolocation, .geolocation.geolocationinput.tt-input {
 	margin: 0
 	}
 	
@@ -1967,10 +1967,5 @@ div.col-md-12 {
 
 .col-md-12 {
 	padding:0 !important
-	}
-	
-.col-md-10, .col-sm-10 {
-	padding-left:15px !important;
-	padding-right:15px !important
 	}
 	
