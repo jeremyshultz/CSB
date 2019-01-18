@@ -1954,8 +1954,16 @@ div.searchswitcher {
 	margin-top: -5px !important
 	}
 	
-#search-switcher-location
+a#search-switcher-location
 	margin-top:30px !important
+
+#search-switcher-link.search-switcher-location {
+	margin-top:-30px !important
+	}
+
+a#search-switcher-location.search-switcher-link.search-switcher-location {
+	margin-top:15px !important
+	}
 	
 .zero-padding {
 	padding:0 !important
