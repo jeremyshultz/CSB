@@ -2010,21 +2010,21 @@ div.dropdown.mobile-search {
 	}
 
 ul.dropdown-menu.nav-collapse.collapse.in {
-	text-align: center !important
-	}
-
-div#profileWidget.profileWidget {
-	padding-top: 0 !important;
-	width: 300px !important;
-	border-radius:0;
-	margin-bottom: 10px;
-	text-align:center;
+	text-align: left !important;
 	display:block !important;
 	position: absolute;
 	z-index:99;
 	top: 53px;
 	right: -22 !important;
 	padding-left:0 !important
+	}
+
+div#profileWidget.profileWidget {
+	padding-top: 0 !important;
+	width: 100% !important;
+	border-radius:0;
+	margin-bottom: 10px;
+	text-align:center;
 	}
 	
 #profilewidget a {
