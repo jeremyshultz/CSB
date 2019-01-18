@@ -1992,19 +1992,23 @@ div.col-md-12 {
 	margin-left: 0 !important
 	}
 
-.fa fa-search {
+i.mobilelink.fa.fa-search {
 	display:none
 	}
 	
-.mobile-search {
+div.dropdown.mobile-search {
 	display:none
 	}
 	
-.dropdown-toggle, .search-btn {
+.dropdown-toggle.search-btn {
 	text-align: right
 	}
 
-.dropdown,. mobile-nav {
+.dropdown.mobile-nav {
 	width: 10px;
 	padding-top: 9px !important
+	}
+
+ul.dropdown-menu.nav-collapse.collapse.in {
+	text-align: center !important
 	}
