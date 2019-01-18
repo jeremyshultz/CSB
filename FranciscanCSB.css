@@ -2031,6 +2031,10 @@ div.dropdown.mobile-search {
 	text-align: inherit !important;
 	background-color: #6495ed !important;
 	}
+	
+.dropdown-menu {
+	-webkit-box-shadow: none !important
+	}
 
 
 /* MOBILE MENU - LOGIN LINK STYLES */
@@ -2065,5 +2069,6 @@ a.dropdown-toggle {
 	padding-bottom: 15px !important
 	}
 
+	
 
 
