@@ -2016,7 +2016,8 @@ ul.dropdown-menu.nav-collapse.collapse.in {
 	z-index:99  !important;
 	top: 53px  !important;
 	right: -22 !important;
-	padding-left:0 !important
+	padding-left:0 !important;
+	background-color: #fff !important
 	}
 
 div#profileWidget.profileWidget {
