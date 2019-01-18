@@ -2016,3 +2016,20 @@ ul.dropdown-menu.nav-collapse.collapse.in {
 div#profileWidget.profileWidget {
 	paddinig-top: 0 !important
 	}
+
+ul.dropdown-menu.company-dropdown.headerdropdown {
+	left: auto;
+	right: auto;
+	width: 100%;
+	text-align: inherit;
+	background-color: cornflowerblue
+	}
+	
+.menu.mobile .nav .dropdown.mobile-nav .dropdown-menu li a {
+	padding-top: 10px;
+	padding-bottom: 10px
+	}
+	
+	
+	
+
