@@ -1988,8 +1988,6 @@ div.col-md-12 {
 	}
 	
 .container, .limitwidth, .innerheaderbottom {
-	margin-top: 20px !important;
-	margin-bottom: 20px !important;
 	margin-right: 0 !important;
 	margin-left: 0 !important
 	}
