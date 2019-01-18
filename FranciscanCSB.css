@@ -2025,7 +2025,7 @@ a.dropdown-toggle.search-btn {
 	top: 53px  !important;
 	right: -22 !important;
 	padding-left:0 !important;
-	background-color: #d9e2db !important;
+	background-color: #fff !important;
 	border-width: 0 !important;
 	border-radius: 0 !important;
 	width: 300px !important
@@ -2035,12 +2035,14 @@ div#profileWidget.profileWidget {
 	padding-top: 0 !important;
 	width: 100% !important;
 	border-radius:0 !important;
-	margin-bottom: 10px  !important;
-	text-align:center  !important;
+	margin-bottom: 10px !important;
+	text-align:center !important;
+	color: #d9e2db !important
 	}
 	
 #profilewidget a {
-	padding-top: 7px !important
+	padding-top: 7px !important;
+	color: #d9e2db !important
 
 .dropdown-menu.company-dropdown.headerdropdown {
 	left: auto !important;
