@@ -2012,3 +2012,7 @@ div.dropdown.mobile-search {
 ul.dropdown-menu.nav-collapse.collapse.in {
 	text-align: center !important
 	}
+
+div#profileWidget.profileWidget {
+	paddinig-top: 0 !important
+	}
