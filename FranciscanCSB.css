@@ -2016,6 +2016,8 @@ div.dropdown.mobile-search {
 
 	
 /* MOBILE MENU STYLES */
+
+	/* FIRST LEVEL DROP DOWN MENU */
 	
 #header .header-right .dropdown-menu {
 	text-align: left !important;
@@ -2024,23 +2026,27 @@ div.dropdown.mobile-search {
 	border-radius: 0 !important;
 	width: 300px !important
 	}
+	
+	/*SECOND LEVEL DROP DOWN MENU */
 #header .menu.mobile .dropdown-menu .dropdown-menu {
 	left: auto !important;
 	right: auto !important;
 	width: 100% !important;
 	text-align: inherit !important;
-	background-color: #6495ed !important;
+	background-color: #d9e2db !important;
 	}
 	
 .dropdown-menu {
 	-webkit-box-shadow: none !important
 	}
 
+/* END OF DROP DOWN MENU STYLES */
 
 /* MOBILE MENU - LOGIN LINK STYLES */
 	
 div#profileWidget.profileWidget {
 	padding-top: 0 !important;
+	padding-bottom: 40px !important
 	width: 100% !important;
 	border-radius:0 !important;
 	margin-bottom: 10px !important;
