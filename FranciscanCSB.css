@@ -2022,19 +2022,19 @@ div#profileWidget.profileWidget {
 	}
 	
 #profilewidget a {
-	padding-top: 7px
+	padding-top: 7px !important
 
 ul.dropdown-menu.company-dropdown.headerdropdown {
 	left: auto !important;
 	right: auto !important;
 	width: 100% !important;
-	text-align: inherit;
+	text-align: inherit !important;
 	background-color: cornflowerblue
 	}
 	
 .menu.mobile .nav .dropdown.mobile-nav .dropdown-menu li a {
-	padding-top: 10px;
-	padding-bottom: 10px
+	padding-top: 15px; !important
+	padding-bottom: 15px !important
 	}
 	
 	
