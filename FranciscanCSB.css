@@ -2015,10 +2015,16 @@ ul.dropdown-menu.nav-collapse.collapse.in {
 
 div#profileWidget.profileWidget {
 	padding-top: 0 !important;
-	width: 100%;
+	width: 300px !important;
 	border-radius:0;
 	margin-bottom: 10px;
 	text-align:center;
+	display:block !important;
+	position: absolute;
+	z-index:99;
+	top: 53px;
+	right: -22 !important;
+	padding-left:0 !important
 	}
 	
 #profilewidget a {
@@ -2026,15 +2032,11 @@ div#profileWidget.profileWidget {
 
 ul.dropdown-menu.company-dropdown.headerdropdown {
 	left: auto !important;
+	right: auto !important;
 	width: 300px !important;
 	text-align: inherit !important;
 	background-color: #6495ed !important;
-	display:block !important;
-	position: absolute;
-	z-index:99;
-	top: 53px;
-	right: -22 !important;
-	padding-left:0 !important
+
 	}
 	
 .menu.mobile.nav.dropdown.mobile-nav.dropdown-menu li a {
