@@ -2018,7 +2018,7 @@ div.dropdown.mobile-search {
 /* MOBILE MENU STYLES */
 
 	
-@media (min-width: 768px) {
+@media (max-width: 768px) {
 	
 	/* FIRST LEVEL DROP DOWN MENU */
 	#header .header-right .dropdown-menu {
@@ -2028,7 +2028,7 @@ div.dropdown.mobile-search {
 		border-radius: 0 !important;
 		width: 100% !important
 	}}
-@media (min-width: 768px) {
+@media (max-width: 768px) {
 #header .menu.mobile .dropdown-menu .dropdown-menu {
 	/*SECOND LEVEL DROP DOWN MENU */
 	left: auto !important;
@@ -2037,32 +2037,48 @@ div.dropdown.mobile-search {
 	text-align: inherit !important;
 	background-color: #d9e2db !important;
 	}}
-@media (min-width: 768px) {
+@media (max-width: 768px) {
 .dropdown-menu {
 	-webkit-box-shadow: none !important
 	}}
-@media (min-width: 768px) {
+@media (max-width: 768px) {
 .fa.fa-search {
 	display:none  !important
 	}}
-@media (min-width: 768px) {
+@media (max-width: 768px) {
 div.dropdown.mobile-search {
 	display:none !important
 	}}
-@media (min-width: 768px) {
+@media (max-width: 768px) {
 .dropdown-toggle.search-btn {
 	width: 10px !important;
 	padding-top: 2px !important
 	}}
-@media (min-width: 768px) {
+@media (max-width: 768px) {
 .dropdown.mobile-nav {
 	width: 10px !important;
 	padding-top: 9px !important
 	}}
-@media (min-width: 768px) {
+@media (max-width: 768px) {
 .a.dropdown-toggle.search-btn.collapsed {
 	width: 10px !important
 	}}
+
+@media (max-width: 768px) {
+div#profileWidget.profileWidget {
+	padding-top: 0 !important;
+	padding-bottom: 40px !important
+	width: 100% !important;
+	border-radius:0 !important;
+	margin-bottom: 10px !important;
+	text-align:center !important;
+	background-color: #d9e2db !important
+	}}
+@media (max-width: 768px) {
+#profilewidget a {
+	padding-top: 7px !important;
+	}
+}
 	
 @media (min-width: 992px) {
 /* FIRST LEVEL DROP DOWN MENU */
@@ -2108,6 +2124,21 @@ div.dropdown.mobile-search {
 .a.dropdown-toggle.search-btn.collapsed {
 	width: 10px !important
 	}}
+@media (min-width: 992px) {
+div#profileWidget.profileWidget {
+	padding-top: 0 !important;
+	padding-bottom: 40px !important
+	width: 100% !important;
+	border-radius:0 !important;
+	margin-bottom: 10px !important;
+	text-align:center !important;
+	background-color: #d9e2db !important
+	}}
+@media (min-width: 992px) {
+#profilewidget a {
+	padding-top: 7px !important;
+	}
+}
 
 @media (min-width: 1200px) {	
 	/* FIRST LEVEL DROP DOWN MENU */
@@ -2154,56 +2185,7 @@ div.dropdown.mobile-search {
 .a.dropdown-toggle.search-btn.collapsed {
 	width: 10px !important
 	}}
-	
-@media (max-width: 1204px) {	
-
-#header .header-right .dropdown-menu {
-		text-align: left !important;
-		background-color: #fff !important;
-		border-width: 0 !important;
-		border-radius: 0 !important;
-		width: 300px !important
-	}}
-@media (max-width: 1204px) {
-#header .menu.mobile .dropdown-menu .dropdown-menu {
-	left: auto !important;
-	right: auto !important;
-	width: 300px !important;
-	text-align: inherit !important;
-	background-color: #d9e2db !important;
-	}}
-@media (max-width: 1204px) {	
-.dropdown-menu {
-	-webkit-box-shadow: none !important
-	}}
-@media (max-width: 1204px) {
-.fa.fa-search {
-	display:none  !important
-	}}
-@media (max-width: 1204px) {
-div.dropdown.mobile-search {
-	display:none !important
-	}}
-@media (max-width: 1204px) {
-.dropdown-toggle.search-btn {
-	width: 10px !important;
-	padding-top: 2px !important
-	}}
-@media (max-width: 1204px) {
-.dropdown.mobile-nav {
-	width: 10px !important;
-	padding-top: 9px !important
-	}}
-@media (max-width: 1204px) {
-.a.dropdown-toggle.search-btn.collapsed {
-	width: 10px !important
-	}}
-
-
-/* END OF DROP DOWN MENU STYLES */
-
-/* MOBILE MENU - LOGIN LINK STYLES */
-	
+@media (max-width: 1200px) {
 div#profileWidget.profileWidget {
 	padding-top: 0 !important;
 	padding-bottom: 40px !important
@@ -2212,11 +2194,15 @@ div#profileWidget.profileWidget {
 	margin-bottom: 10px !important;
 	text-align:center !important;
 	background-color: #d9e2db !important
-	}
-	
+	}}
+@media (max-width: 1200px) {
 #profilewidget a {
 	padding-top: 7px !important;
 	}
+}
+
+/* END OF DROP DOWN MENU STYLES */
+
 
 
 	
