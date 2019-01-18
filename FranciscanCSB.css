@@ -1993,28 +1993,28 @@ div.col-md-12 {
 	}
 
 i.mobilelink.fa.fa-search {
-	display:none
+	display:none  !important
 	}
 	
 div.dropdown.mobile-search {
-	display:none
+	display:none !important
 	}
 	
 .dropdown-toggle.search-btn {
-	text-align: right
+	text-align: right !important
 	}
 
 .dropdown.mobile-nav {
-	width: 10px;
+	width: 10px  !important;
 	padding-top: 9px !important
 	}
 
 ul.dropdown-menu.nav-collapse.collapse.in {
 	text-align: left !important;
 	display:block !important;
-	position: absolute;
-	z-index:99;
-	top: 53px;
+	position: absolute  !important;
+	z-index:99  !important;
+	top: 53px  !important;
 	right: -22 !important;
 	padding-left:0 !important
 	}
@@ -2022,18 +2022,18 @@ ul.dropdown-menu.nav-collapse.collapse.in {
 div#profileWidget.profileWidget {
 	padding-top: 0 !important;
 	width: 100% !important;
-	border-radius:0;
-	margin-bottom: 10px;
-	text-align:center;
+	border-radius:0 !important;
+	margin-bottom: 10px  !important;
+	text-align:center  !important;
 	}
 	
 #profilewidget a {
 	padding-top: 7px !important
 
-ul.dropdown-menu.company-dropdown.headerdropdown {
+.dropdown-menu.company-dropdown.headerdropdown {
 	left: auto !important;
 	right: auto !important;
-	width: 300px !important;
+	width: 100% !important;
 	text-align: inherit !important;
 	background-color: #6495ed !important;
 
