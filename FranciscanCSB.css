@@ -1969,5 +1969,8 @@ div.col-md-12 {
 	padding:0 !important
 	}
 	
-	
+.col-md-10, .col-sm-10 {
+	padding-left:15px !important;
+	padding-right:15px !important
+	}
 	
