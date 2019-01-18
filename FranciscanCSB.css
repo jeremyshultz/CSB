@@ -2026,17 +2026,24 @@ div#profileWidget.profileWidget {
 
 ul.dropdown-menu.company-dropdown.headerdropdown {
 	left: auto !important;
-	right: auto !important;
-	width: 100% !important;
+	width: 300px !important;
 	text-align: inherit !important;
-	background-color: cornflowerblue !important
+	background-color: #6495ed !important;
+	display:block !important;
+	position: absolute;
+	z-index:99;
+	top: 53px;
+	right: -22 !important;
+	padding-left:0 !important
 	}
 	
-.menu.mobile .nav .dropdown.mobile-nav .dropdown-menu li a {
+.menu.mobile.nav.dropdown.mobile-nav.dropdown-menu li a {
 	padding-top: 15px; !important
 	padding-bottom: 15px !important
 	}
 	
-	
+a.dropdown-toggle {
+	padding-top: 15px !important;
+	padding-bottom: 15px !important
 	
 
