@@ -1992,11 +1992,11 @@ div.col-md-12 {
 	margin-left: 0 !important
 	}
 
-.mobilelink, .fa fa-search {
+.fa fa-search {
 	display:none
 	}
 	
-.dropdown, .mobile-search {
+.mobile-search {
 	display:none
 	}
 	
