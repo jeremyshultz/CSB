@@ -2016,7 +2016,7 @@ div.dropdown.mobile-search {
 
 	
 /* MOBILE MENU STYLES */
-@media (min-width: 576px) {	
+@media (max-width: 767.98px) {	
 	/* FIRST LEVEL DROP DOWN MENU */
 	#header .header-right .dropdown-menu {
 		text-align: left !important;
@@ -2025,7 +2025,7 @@ div.dropdown.mobile-search {
 		border-radius: 0 !important;
 		width: 100% !important
 	}}
-@media (min-width: 576px) {
+@media (max-width: 767.98px) {
 #header .menu.mobile .dropdown-menu .dropdown-menu {
 	/*SECOND LEVEL DROP DOWN MENU */
 	left: auto !important;
@@ -2034,34 +2034,34 @@ div.dropdown.mobile-search {
 	text-align: inherit !important;
 	background-color: #d9e2db !important;
 	}}
-@media (min-width: 576px) {
+@media (max-width: 767.98px) {
 .dropdown-menu {
 	-webkit-box-shadow: none !important
 	}}
-@media (min-width: 576px) {
+@media (max-width: 767.98px) {
 .fa.fa-search {
 	display:none  !important
 	}}
-@media (min-width: 576px) {
+@media (max-width: 767.98px) {
 div.dropdown.mobile-search {
 	display:none !important
 	}}
-@media (min-width: 576px) {
+@media (max-width: 767.98px) {
 .dropdown-toggle.search-btn {
 	width: 10px !important;
 	padding-top: 2px !important
 	}}
-@media (min-width: 576px) {
+@media (max-width: 767.98px) {
 .dropdown.mobile-nav {
 	width: 10px !important;
 	padding-top: 9px !important
 	}}
-@media (min-width: 576px) {
+@media (max-width: 767.98px) {
 .a.dropdown-toggle.search-btn.collapsed {
 	width: 10px !important
 	}}
 
-@media (min-width: 576px) {
+@media (max-width: 767.98px) {
 div#profileWidget.profileWidget {
 	padding-top: 0 !important;
 	padding-bottom: 40px !important
@@ -2071,13 +2071,13 @@ div#profileWidget.profileWidget {
 	text-align:center !important;
 	background-color: #d9e2db !important
 	}}
-@media (min-width: 576px) {
+@media (max-width: 767.98px) {
 #profilewidget a {
 	padding-top: 7px !important;
 	}
 }
 	
-@media (min-width: 768px) {	
+@media (min-width: 768px) and (max-width: 991.98px) {	
 	/* FIRST LEVEL DROP DOWN MENU */
 	#header .header-right .dropdown-menu {
 		text-align: left !important;
@@ -2086,7 +2086,7 @@ div#profileWidget.profileWidget {
 		border-radius: 0 !important;
 		width: 100% !important
 	}}
-@media (min-width: 768px) {
+@media (min-width: 768px) and (max-width: 991.98px) {
 #header .menu.mobile .dropdown-menu .dropdown-menu {
 	/*SECOND LEVEL DROP DOWN MENU */
 	left: auto !important;
@@ -2095,34 +2095,34 @@ div#profileWidget.profileWidget {
 	text-align: inherit !important;
 	background-color: #d9e2db !important;
 	}}
-@media (min-width: 768px) {
+@media (min-width: 768px) and (max-width: 991.98px) {
 .dropdown-menu {
 	-webkit-box-shadow: none !important
 	}}
-@media (min-width: 768px) {
+@media (min-width: 768px) and (max-width: 991.98px) {
 .fa.fa-search {
 	display:none  !important
 	}}
-@media (min-width: 768px) {
+@media (min-width: 768px) and (max-width: 991.98px) {
 div.dropdown.mobile-search {
 	display:none !important
 	}}
-@media (min-width: 768px) {
+@media (min-width: 768px) and (max-width: 991.98px) {
 .dropdown-toggle.search-btn {
 	width: 10px !important;
 	padding-top: 2px !important
 	}}
-@media (min-width: 768px) {
+@media (min-width: 768px) and (max-width: 991.98px) {
 .dropdown.mobile-nav {
 	width: 10px !important;
 	padding-top: 9px !important
 	}}
-@media (min-width: 768px) {
+@media (min-width: 768px) and (max-width: 991.98px) {
 .a.dropdown-toggle.search-btn.collapsed {
 	width: 10px !important
 	}}
 
-@media (min-width: 768px) {
+@media (min-width: 768px) and (max-width: 991.98px) {
 div#profileWidget.profileWidget {
 	padding-top: 0 !important;
 	padding-bottom: 40px !important
@@ -2132,13 +2132,13 @@ div#profileWidget.profileWidget {
 	text-align:center !important;
 	background-color: #d9e2db !important
 	}}
-@media (min-width: 768px) {
+@media (min-width: 768px) and (max-width: 991.98px) {
 #profilewidget a {
 	padding-top: 7px !important;
 	}
 }
 	
-@media (min-width: 992px) {
+@media (min-width: 992px) and (max-width: 1199.98px) { 
 /* FIRST LEVEL DROP DOWN MENU */
 #header .header-right .dropdown-menu {
 		text-align: left !important;
@@ -2147,7 +2147,7 @@ div#profileWidget.profileWidget {
 		border-radius: 0 !important;
 		width: 300px !important
 	}}
-@media (min-width: 992px) {
+@media (min-width: 992px) and (max-width: 1199.98px) { 
 #header .menu.mobile .dropdown-menu .dropdown-menu {
 	/*SECOND LEVEL DROP DOWN MENU */
 	left: auto !important;
@@ -2156,33 +2156,33 @@ div#profileWidget.profileWidget {
 	text-align: inherit !important;
 	background-color: #d9e2db !important;
 	}}
-@media (min-width: 992px) {
+@media (min-width: 992px) and (max-width: 1199.98px) { 
 .dropdown-menu {
 	-webkit-box-shadow: none !important
 	}}
-@media (min-width: 992px) {
+@media (min-width: 992px) and (max-width: 1199.98px) { 
 .fa.fa-search {
 	display:none  !important
 	}}
-@media (min-width: 992px) {
+@media (min-width: 992px) and (max-width: 1199.98px) { 
 div.dropdown.mobile-search {
 	display:none !important
 	}}
-@media (min-width: 992px) {
+@media (min-width: 992px) and (max-width: 1199.98px) { 
 .dropdown-toggle.search-btn {
 	width: 10px !important;
 	padding-top: 2px !important
 	}}
-@media (min-width: 992px) {
+@media (min-width: 992px) and (max-width: 1199.98px) { 
 .dropdown.mobile-nav {
 	width: 10px !important;
 	padding-top: 9px !important
 	}}
-@media (min-width: 992px) {
+@media (min-width: 992px) and (max-width: 1199.98px) { 
 .a.dropdown-toggle.search-btn.collapsed {
 	width: 10px !important
 	}}
-@media (min-width: 992px) {
+@media (min-width: 992px) and (max-width: 1199.98px) { 
 div#profileWidget.profileWidget {
 	padding-top: 0 !important;
 	padding-bottom: 40px !important
@@ -2192,7 +2192,7 @@ div#profileWidget.profileWidget {
 	text-align:center !important;
 	background-color: #d9e2db !important
 	}}
-@media (min-width: 992px) {
+@media (min-width: 992px) and (max-width: 1199.98px) { 
 #profilewidget a {
 	padding-top: 7px !important;
 	}
