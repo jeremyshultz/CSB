@@ -2017,18 +2017,20 @@ div.dropdown.mobile-search {
 	
 /* MOBILE MENU STYLES */
 
+	
+@media (min-width: 768px) {
+	
 	/* FIRST LEVEL DROP DOWN MENU */
-	
-#header .header-right .dropdown-menu {
-	text-align: left !important;
-	background-color: #fff !important;
-	border-width: 0 !important;
-	border-radius: 0 !important;
-	width: 300px !important
+	#header .header-right .dropdown-menu {
+		text-align: left !important;
+		background-color: #fff !important;
+		border-width: 0 !important;
+		border-radius: 0 !important;
+		width: 100% !important
 	}
-	
-	/*SECOND LEVEL DROP DOWN MENU */
+
 #header .menu.mobile .dropdown-menu .dropdown-menu {
+	/*SECOND LEVEL DROP DOWN MENU */
 	left: auto !important;
 	right: auto !important;
 	width: 100% !important;
@@ -2039,6 +2041,169 @@ div.dropdown.mobile-search {
 .dropdown-menu {
 	-webkit-box-shadow: none !important
 	}
+.fa.fa-search {
+	display:none  !important
+	}
+	
+div.dropdown.mobile-search {
+	display:none !important
+	}
+	
+.dropdown-toggle.search-btn {
+	width: 10px !important;
+	padding-top: 2px !important
+	}
+
+.dropdown.mobile-nav {
+	width: 10px !important;
+	padding-top: 9px !important
+	}
+
+.a.dropdown-toggle.search-btn.collapsed {
+	width: 10px !important
+	}
+
+}
+@media (min-width: 992px) {
+	
+	/* FIRST LEVEL DROP DOWN MENU */
+	#header .header-right .dropdown-menu {
+		text-align: left !important;
+		background-color: #fff !important;
+		border-width: 0 !important;
+		border-radius: 0 !important;
+		width: 300px !important
+	}
+
+#header .menu.mobile .dropdown-menu .dropdown-menu {
+	/*SECOND LEVEL DROP DOWN MENU */
+	left: auto !important;
+	right: auto !important;
+	width: 300px !important;
+	text-align: inherit !important;
+	background-color: #d9e2db !important;
+	}
+	
+.dropdown-menu {
+	-webkit-box-shadow: none !important
+	}
+	
+.fa.fa-search {
+	display:none  !important
+	}
+	
+div.dropdown.mobile-search {
+	display:none !important
+	}
+	
+.dropdown-toggle.search-btn {
+	width: 10px !important;
+	padding-top: 2px !important
+	}
+
+.dropdown.mobile-nav {
+	width: 10px !important;
+	padding-top: 9px !important
+	}
+
+.a.dropdown-toggle.search-btn.collapsed {
+	width: 10px !important
+	}
+
+}
+@media (min-width: 1200px) {
+	
+	/* FIRST LEVEL DROP DOWN MENU */
+	#header .header-right .dropdown-menu {
+		text-align: left !important;
+		background-color: #fff !important;
+		border-width: 0 !important;
+		border-radius: 0 !important;
+		width: 300px !important
+	}
+	
+	/*SECOND LEVEL DROP DOWN MENU */	
+#header .menu.mobile .dropdown-menu .dropdown-menu {
+	left: auto !important;
+	right: auto !important;
+	width: 300px !important;
+	text-align: inherit !important;
+	background-color: #d9e2db !important;
+	}
+	
+.dropdown-menu {
+	-webkit-box-shadow: none !important
+	}
+.fa.fa-search {
+	display:none  !important
+	}
+	
+div.dropdown.mobile-search {
+	display:none !important
+	}
+	
+.dropdown-toggle.search-btn {
+	width: 10px !important;
+	padding-top: 2px !important
+	}
+
+.dropdown.mobile-nav {
+	width: 10px !important;
+	padding-top: 9px !important
+	}
+
+.a.dropdown-toggle.search-btn.collapsed {
+	width: 10px !important
+	}
+}
+@media (max-width: 1204px) {	
+
+	/* FIRST LEVEL DROP DOWN MENU */	
+#header .header-right .dropdown-menu {
+		text-align: left !important;
+		background-color: #fff !important;
+		border-width: 0 !important;
+		border-radius: 0 !important;
+		width: 300px !important
+	}
+
+	/*SECOND LEVEL DROP DOWN MENU */	
+#header .menu.mobile .dropdown-menu .dropdown-menu {
+	left: auto !important;
+	right: auto !important;
+	width: 300px !important;
+	text-align: inherit !important;
+	background-color: #d9e2db !important;
+	}
+	
+.dropdown-menu {
+	-webkit-box-shadow: none !important
+	}
+	
+.fa.fa-search {
+	display:none  !important
+	}
+	
+div.dropdown.mobile-search {
+	display:none !important
+	}
+	
+.dropdown-toggle.search-btn {
+	width: 10px !important;
+	padding-top: 2px !important
+	}
+
+.dropdown.mobile-nav {
+	width: 10px !important;
+	padding-top: 9px !important
+	}
+
+.a.dropdown-toggle.search-btn.collapsed {
+	width: 10px !important
+	}
+
+}
+
 
 /* END OF DROP DOWN MENU STYLES */
 
