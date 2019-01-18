@@ -2025,9 +2025,9 @@ div#profileWidget.profileWidget {
 	padding-top: 7px
 
 ul.dropdown-menu.company-dropdown.headerdropdown {
-	left: auto;
-	right: auto;
-	width: 100%;
+	left: auto !important;
+	right: auto !important;
+	width: 100% !important;
 	text-align: inherit;
 	background-color: cornflowerblue
 	}
