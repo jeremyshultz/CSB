@@ -2001,7 +2001,7 @@ div.dropdown.mobile-search {
 	}
 	
 .dropdown-toggle.search-btn {
-	text-align: right !important
+	text-align: center !important
 	}
 
 .dropdown.mobile-nav {
@@ -2038,7 +2038,7 @@ div#profileWidget.profileWidget {
 	padding-top: 7px !important;
 	}
 
-.dropdown-menu.company-dropdown.headerdropdown {
+.dropdown-menu .company-dropdown .headerdropdown {
 	left: auto !important;
 	right: auto !important;
 	width: 100% !important;
