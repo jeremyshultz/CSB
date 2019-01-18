@@ -1937,9 +1937,9 @@ div#rss-wrapper {
 }
 	
 .zero-padding {
-	padding:0px !important
+	padding:0 !important
 	}
 	
 div.col-md-9.col-sm-9.zero-padding {
-	padding:0px !important
+	padding:0 !important
 	}
