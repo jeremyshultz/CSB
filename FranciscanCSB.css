@@ -2001,7 +2001,8 @@ div.dropdown.mobile-search {
 	}
 	
 .dropdown-toggle.search-btn {
-	width: 10px !important
+	width: 10px !important;
+	padding-top: 2px !important
 	}
 
 .dropdown.mobile-nav {
@@ -2013,6 +2014,9 @@ div.dropdown.mobile-search {
 	width: 10px !important
 	}
 
+	
+/* MOBILE MENU STYLES */
+	
 #header .header-right .dropdown-menu {
 	text-align: left !important;
 	background-color: #fff !important;
@@ -2020,7 +2024,17 @@ div.dropdown.mobile-search {
 	border-radius: 0 !important;
 	width: 300px !important
 	}
+#header .menu.mobile .dropdown-menu .dropdown-menu {
+	left: auto !important;
+	right: auto !important;
+	width: 100% !important;
+	text-align: inherit !important;
+	background-color: #6495ed !important;
+	}
 
+
+/* MOBILE MENU - LOGIN LINK STYLES */
+	
 div#profileWidget.profileWidget {
 	padding-top: 0 !important;
 	width: 100% !important;
@@ -2034,17 +2048,15 @@ div#profileWidget.profileWidget {
 	padding-top: 7px !important;
 	}
 
-.dropdown-menu .company-dropdown .headerdropdown {
-	left: auto !important;
-	right: auto !important;
-	width: 100% !important;
-	text-align: inherit !important;
-	background-color: #6495ed !important;
 
-	}
 	
 .menu.mobile.nav.dropdown.mobile-nav.dropdown-menu li a {
-	padding-top: 15px; !important
+	padding-top: 15px !important;
+	padding-bottom: 15px !important
+	}
+	
+.menu.mobile .nav .dropdown.mobile-nav .dropdown-menu li a {
+	padding-top: 15px !important;
 	padding-bottom: 15px !important
 	}
 	
