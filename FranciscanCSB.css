@@ -1950,6 +1950,9 @@ div#rss-wrapper {
 	margin-bottom: 5px !important
 	}
 
+div.searchswitcher {
+	margin-top: -5px !important
+	}
 	
 .zero-padding {
 	padding:0 !important
@@ -1971,3 +1974,6 @@ div.col-md-12 {
 	padding:0 !important
 	}
 	
+.keyword-title {
+	margin-left: 15px !important
+	}
