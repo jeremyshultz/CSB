@@ -216,7 +216,6 @@ h6 {
 	padding-bottom:0px;
 	padding-left:14px;
 	padding-right:14px;
-	padding-top:7px;
 	position:relative;
 	text-align:justify;
 	text-decoration:none;
@@ -2066,7 +2065,7 @@ div.dropdown.mobile-search {
 @media (max-width: 767.98px) {
 div#profileWidget.profileWidget {
 	padding-top: 0 !important;
-	padding-bottom: 40px !important
+	padding-bottom: 40px !important;
 	width: 100% !important;
 	border-radius:0 !important;
 	margin-bottom: 10px !important;
@@ -2129,7 +2128,7 @@ div.dropdown.mobile-search {
 @media (min-width: 768px) and (max-width: 991.98px) {
 div#profileWidget.profileWidget {
 	padding-top: 0 !important;
-	padding-bottom: 40px !important
+	padding-bottom: 40px !important;
 	width: 100% !important;
 	border-radius:0 !important;
 	margin-bottom: 10px !important;
@@ -2191,7 +2190,7 @@ div.dropdown.mobile-search {
 @media (min-width: 992px) and (max-width: 1199.98px) { 
 div#profileWidget.profileWidget {
 	padding-top: 0 !important;
-	padding-bottom: 40px !important
+	padding-bottom: 40px !important;
 	width: 100% !important;
 	border-radius:0 !important;
 	margin-bottom: 10px !important;
@@ -2254,7 +2253,7 @@ div.dropdown.mobile-search {
 @media (max-width: 1200px) {
 div#profileWidget.profileWidget {
 	padding-top: 0 !important;
-	padding-bottom: 40px !important
+	padding-bottom: 40px !important;
 	width: 100% !important;
 	border-radius:0 !important;
 	margin-bottom: 10px !important;
