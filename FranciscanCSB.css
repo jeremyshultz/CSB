@@ -2342,6 +2342,10 @@ div#profileWidget.profileWidget {
 	padding-bottom:7px !important;
 	float:left !important;
 }
+	
+ul.dropdown-menu.nav-collapse.collapse.in {
+	background-color:#fff
+	}
 
 a.dropdown-toggle {
 	margin-left:0px !important;
