@@ -566,10 +566,7 @@ header .main .geoloc .icon-location {
     z-index: 2
 }
 header .main .siteSearch {
-    position: absolute;
-    top: 2em;
-    right: 15px;
-    width: 100%
+	display: none
 }
 @media (max-width: 991px) {
     header .main .siteSearch {
