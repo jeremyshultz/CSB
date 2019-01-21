@@ -1989,7 +1989,7 @@ a.dropdown-toggle.search-btn.collapsed {
 	
 /* MOBILE MENU STYLES */
 
-ul.dropdown-menu.nav-collapse.collapse.in {
+.dropdown-menu.nav-collapse.collapse.in {
 	-webkit-transition: all 100ms ease-in-out;
 	-moz-transition: all 100ms ease-in-out;
 	-ms-transition: all 100ms ease-in-out;
@@ -2349,8 +2349,11 @@ a.dropdown-toggle {
 }
 /* FONT AWESOME SIZE */
 .mobile-search.fa {
-	font-size: 20px !important
+	font-size: 25px !important
 }
+.fa {
+	font-size: 25px !important
+	}
 	
 /* ACTUALLY THE MOBILE MENU ICON */
 #header .header-bottom .container .search-btn {
