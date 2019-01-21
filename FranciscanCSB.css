@@ -2329,7 +2329,6 @@ div#profileWidget.profileWidget {
 
 /* END OF DROP DOWN MENU STYLES */
 
-
 .menu.mobile .nav > .dropdown {
 	padding-top:7px !important;
 	padding-bottom:7px !important;
@@ -2348,17 +2347,6 @@ a.dropdown-toggle {
 	font-size: 25px !important
 	}
 	
-/* ACTUALLY THE MOBILE MENU ICON */
-#header .header-bottom .container .search-btn {
-
-	margin-right:0px !important
-}
-
-/* ACTUALLY THE MOBILE SEARCH ICON */
-#header .header-bottom .container .menu-btn {
-	display: none !important
-	}
-	
 .menu.mobile.nav.dropdown.mobile-nav.dropdown-menu li a {
 	padding-top: 15px !important;
 	padding-bottom: 15px !important
@@ -2374,12 +2362,17 @@ a.dropdown-toggle {
 	padding-bottom: 15px !important
 	}
 
-	
 /* ACTUALLY THE MOBILE MENU ICON */
 #header .header-bottom .container .search-btn {
 	margin-right: 0 !important;
 	font-size: inherit !important;
-	width: 20px !important
+	border: none;
+    	box-shadow: none;
+   	height: 20px !important;
+    	padding: 0;
+    	width: 20px !important;
+    	font-size: 25px !important;
+    	margin-right: 0px
 	}
 
 /*ACTUALLY THE MOBILE SEARCH ICON */
@@ -2387,17 +2380,6 @@ a.dropdown-toggle {
 	display: none !important
 	}
 	
-/* ACTUALLY THE MOBILE MENU ICON */
-header .header-bottom .container .search-btn {
-	margin-right: 0 !important;
-	font-size: inherit !important;
-	width: 20px !important
-	}
-
-/*ACTUALLY THE MOBILE SEARCH ICON */
-header .header-bottom .container .menu-btn {
-	display: none !important
-	}
 .fa-navicon:before, .fa-reorder:before, .fa-bars:before {
     font-size: 25px !important
 }
@@ -2406,12 +2388,3 @@ header .header-bottom .container .menu-btn {
 	display: none! important
 	}
 
-#header .header-bottom .container .search-btn {
-    border: none;
-    box-shadow: none;
-    height: 20px !important;
-    padding: 0;
-    width: 20px !important;
-    font-size: 25px !important;
-    margin-right: 0px;
-}
