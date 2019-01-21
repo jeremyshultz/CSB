@@ -2348,8 +2348,8 @@ div#profileWidget.profileWidget {
 	margin-right:0px !important;
 }
 /* FONT AWESOME SIZE */
-.fa {
-	font-size:20px;
+.mobile-search.fa {
+	display: none !important
 }
 	
 /* ACTUALLY THE MOBILE MENU ICON */
@@ -2382,17 +2382,20 @@ a.dropdown-toggle: active {
 	}
 
 .fa-bars: active {
-	border-style: dotted;
-	border-color: #ccc;
+	border-style: dotted !important;
+	border-color: #ccc !important;
 	}
 .fa-bars: link {
-	border-syle: none
+	border-syle: none !important;
 	}|
 .fa-bars: hover {
-	border-style: dotted;
-	border-color #ccc;
+	border-style: dotted !important;
+	border-color #ccc !important;
 	}
 .fa-bars: visited {
-	border-style: none
+	border-style: none !important;
 	}
 
+.mobile-search {
+	display: none !important;
+	}
