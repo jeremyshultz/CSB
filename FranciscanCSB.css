@@ -2248,7 +2248,7 @@ div#profileWidget.profileWidget {
 .menu.mobile .nav > .dropdown {
 	padding-top:7px !important;
 	padding-bottom:7px !important;
-	float:right !important;
+	float:left !important;
 }
 
 .a.dropdown-toggle {
