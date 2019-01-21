@@ -1991,15 +1991,6 @@ div.dropdown.mobile-search {
 
 	
 /* MOBILE MENU STYLES */
-	
-@media only screen
-and (min-device-width: 375px)
-and (max-device-wdith: 812px)
-and (-webkit-device-pixel-ratio : 3) {
-#header .header-right .dropdown-menu:active {
-	   max-height: 200px;
-    opacity: 1;
-	}}
 
 @media only screen 
 and (min-device-width : 375px) 
@@ -2012,16 +2003,12 @@ and (-webkit-device-pixel-ratio : 3) {
 		border-width: 0 !important;
 		border-radius: 0 !important;
 		width: 100% !important;
-		-webkit-transition: all 0.3s;
-    		-moz-transition: all 0.3s;
-    		-ms-transition: all 0.3s;
-    		-o-transition: all 0.3s;
-    		transition: all 0.3s;
-
-    		max-height: 1000;
-    		display: block;
-    		overflow: hidden;
-    		opacity: 0;	}}
+		-webkit-transition: all 0.5s;
+    		-moz-transition: all 0.5s;
+    		-ms-transition: all 0.5s;
+    		-o-transition: all 0.5s;
+    		transition: all 0.5s;
+	}}
 @media only screen 
 and (min-device-width : 375px) 
 and (max-device-width : 812px)
@@ -2040,7 +2027,9 @@ and (min-device-width : 375px)
 and (max-device-width : 812px)
 and (-webkit-device-pixel-ratio : 3) {
 .dropdown-menu {
-	-webkit-box-shadow: none !important
+	-webkit-box-shadow: none !important;
+	transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+
 	}}
 @media only screen 
 and (min-device-width : 375px) 
@@ -2102,14 +2091,6 @@ and (-webkit-device-pixel-ratio : 3) {
 	}
 }
 
-@media only screen
-and (max-device-wdith: 991.98px)
-and (-webkit-device-pixel-ratio : 3) {
-#header .header-right .dropdown-menu:active {
-	   max-height: 200px;
-    opacity: 1;
-	}}
-	
 @media (max-width: 991.98px) {	
 	/* FIRST LEVEL DROP DOWN MENU */	
 	#header .header-right .dropdown-menu {
@@ -2118,16 +2099,11 @@ and (-webkit-device-pixel-ratio : 3) {
 		border-width: 0 !important;
 		border-radius: 0 !important;
 		width: 100% !important;
-		-webkit-transition: all 0.3s;
-    		-moz-transition: all 0.3s;
-    		-ms-transition: all 0.3s;
-    		-o-transition: all 0.3s;
-    		transition: all 0.3s;
-
-    		max-height: 1000;
-    		display: block;
-    		overflow: hidden;
-    		opacity: 0;
+		-webkit-transition: all 0.5s;
+    		-moz-transition: all 0.5s;
+    		-ms-transition: all 0.5s;
+    		-o-transition: all 0.5s;
+    		transition: all 0.5s;
 	}}
 @media (max-width: 991.98px) {
 #header .menu.mobile .dropdown-menu .dropdown-menu {
@@ -2137,19 +2113,17 @@ and (-webkit-device-pixel-ratio : 3) {
 	width: 100% !important;
 	text-align: inherit !important;
 	background-color: #d9e2db !important;
-		-webkit-transition: all 0.3s;
-    		-moz-transition: all 0.3s;
-    		-ms-transition: all 0.3s;
-    		-o-transition: all 0.3s;
-    		transition: all 0.3s;
-
-    		max-height: 1000;
-    		display: block;
-    		overflow: hidden;
-    		opacity: 0;	}}
+		-webkit-transition: all 0.5s;
+    		-moz-transition: all 0.5s;
+    		-ms-transition: all 0.5s;
+    		-o-transition: all 0.5s;
+    		transition: all 0.5s;
+	}}
 @media (max-width: 991.98px) {
 .dropdown-menu {
-	-webkit-box-shadow: none !important
+	-webkit-box-shadow: none !important;
+	transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+
 	}}
 @media (max-width: 991.98px) {
 .fa.fa-search {
@@ -2190,14 +2164,6 @@ div#profileWidget.profileWidget {
 	}
 }
 	
-@media only screen
-and (min-device-width: 992px)
-and (max-device-wdith: 119.98px)
-and (-webkit-device-pixel-ratio : 3) {
-#header .header-right .dropdown-menu:active {
-	   max-height: 1000px;
-    opacity: 1;
-	}}
 
 @media (min-width: 992px) and (max-width: 1199.98px) { 
 /* FIRST LEVEL DROP DOWN MENU */
@@ -2221,7 +2187,9 @@ and (-webkit-device-pixel-ratio : 3) {
 	}}
 @media (min-width: 992px) and (max-width: 1199.98px) { 
 .dropdown-menu {
-	-webkit-box-shadow: none !important
+	-webkit-box-shadow: none !important;
+	transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+
 	}}
 @media (min-width: 992px) and (max-width: 1199.98px) { 
 .fa.fa-search {
