@@ -1989,14 +1989,15 @@ a.dropdown-toggle.search-btn.collapsed {
 	
 /* MOBILE MENU STYLES */
 
-.dropdown-menu.nav-collapse.collapse.in {
+@media (min-width: 375px) and (max-width: 812px) { 
+.collapse.in {
 	-webkit-transition: all 100ms ease-in-out;
 	-moz-transition: all 100ms ease-in-out;
 	-ms-transition: all 100ms ease-in-out;
 	-o-transition: all 100ms ease-in-out;
 	transition: all 100ms ease-in-out;
-	}
-	
+	}}
+
 @media only screen 
 and (min-device-width : 375px) 
 and (max-device-width : 812px)
@@ -2008,11 +2009,6 @@ and (-webkit-device-pixel-ratio : 3) {
 		border-width: 0 !important;
 		border-radius: 0 !important;
 		width: 100% !important;
-		-webkit-transition: all 100ms ease-in-out;
-		-moz-transition: all 100ms ease-in-out;
-		-ms-transition: all 100ms ease-in-out;
-		-o-transition: all 100ms ease-in-out;
-		transition: all 100ms ease-in-out;
 	}}
 @media only screen 
 and (min-device-width : 375px) 
@@ -2024,12 +2020,7 @@ and (-webkit-device-pixel-ratio : 3) {
 	right: auto !important;
 	width: 100% !important;
 	text-align: inherit !important;
-	background-color: #d9e2db !important;
-	-webkit-transition: all 100ms ease-in-out;
-		-moz-transition: all 100ms ease-in-out;
-		-ms-transition: all 100ms ease-in-out;
-		-o-transition: all 100ms ease-in-out;
-		transition: all 100ms ease-in-out;
+	background-color: #d9e2db !important;	
 	}}
 @media only screen 
 and (min-device-width : 375px) 
@@ -2037,11 +2028,7 @@ and (max-device-width : 812px)
 and (-webkit-device-pixel-ratio : 3) {
 .dropdown-menu {
 	-webkit-box-shadow: none !important;
-	-webkit-transition: all 100ms ease-in-out;
-	-moz-transition: all 100ms ease-in-out;
-	-ms-transition: all 100ms ease-in-out;
-	-o-transition: all 100ms ease-in-out;
-	transition: all 100ms ease-in-out;
+
 
 	}}
 @media only screen 
@@ -2112,11 +2099,6 @@ and (-webkit-device-pixel-ratio : 3) {
 		border-width: 0 !important;
 		border-radius: 0 !important;
 		width: 100% !important;
-		-webkit-transition: all 100ms ease-in-out;
-		-moz-transition: all 100ms ease-in-out;
-		-ms-transition: all 100ms ease-in-out;
-		-o-transition: all 100ms ease-in-out;
-		transition: all 100ms ease-in-out;
 	}}
 @media (max-width: 991.98px) {
 #header .menu.mobile .dropdown-menu .dropdown-menu {
@@ -2126,21 +2108,22 @@ and (-webkit-device-pixel-ratio : 3) {
 	width: 100% !important;
 	text-align: inherit !important;
 	background-color: #d9e2db !important;
+
+	}}
+@media (max-width: 991.98px) {
+.dropdown-menu {
+	-webkit-box-shadow: none !important;
+	}}
+	
+@media (max-width: 991.98px) { 
+.collapse.in {
 	-webkit-transition: all 100ms ease-in-out;
 	-moz-transition: all 100ms ease-in-out;
 	-ms-transition: all 100ms ease-in-out;
 	-o-transition: all 100ms ease-in-out;
 	transition: all 100ms ease-in-out;
 	}}
-@media (max-width: 991.98px) {
-.dropdown-menu {
-	-webkit-box-shadow: none !important;
-	-webkit-transition: all 100ms ease-in-out;
-	-moz-transition: all 100ms ease-in-out;
-	-ms-transition: all 100ms ease-in-out;
-	-o-transition: all 100ms ease-in-out;
-	transition: all 100ms ease-in-out;transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
-	}}
+	
 @media (max-width: 991.98px) {
 .a.fa.fa-search {
 	display:none  !important
@@ -2214,12 +2197,18 @@ div#profileWidget.profileWidget {
 @media (min-width: 992px) and (max-width: 1199.98px) { 
 .dropdown-menu {
 	-webkit-box-shadow: none !important;
+	}}
+	
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+.collapse.in {
 	-webkit-transition: all 100ms ease-in-out;
 	-moz-transition: all 100ms ease-in-out;
 	-ms-transition: all 100ms ease-in-out;
 	-o-transition: all 100ms ease-in-out;
 	transition: all 100ms ease-in-out;
 	}}
+	
+	
 @media (min-width: 992px) and (max-width: 1199.98px) { 
 .a.fa.fa-search {
 	display:none  !important
@@ -2289,6 +2278,10 @@ div#profileWidget.profileWidget {
 @media (min-width: 1200px) {
 .dropdown-menu {
 	-webkit-box-shadow: none !important;
+	}}
+	
+@media (min-width: 1200px) { 
+.collapse.in {
 	-webkit-transition: all 100ms ease-in-out;
 	-moz-transition: all 100ms ease-in-out;
 	-ms-transition: all 100ms ease-in-out;
@@ -2379,9 +2372,7 @@ a.dropdown-toggle {
 	padding-top: 15px !important;
 	padding-bottom: 15px !important
 	}
-.mobilelink .fa .fa-search {
-	display: none !important
-	}
+
 	
 /* ACTUALLY THE MOBILE MENU ICON */
 #header .header-bottom .container .search-btn {
