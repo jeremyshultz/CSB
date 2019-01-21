@@ -974,7 +974,7 @@ footer .social-links a .download-list .download-item:before,
 footer .social-links a .fa,
 footer .social-links a .filter-container .select-style.zip .alerts .shell li:before,
 footer .social-links a .list-search .keyword-input:before {
-    font-size: 20px !important
+    font-size: 25px !important
 }
 @media (max-width: 767px) {
     footer .button-links {
