@@ -2342,10 +2342,6 @@ div#profileWidget.profileWidget {
 	padding-bottom:7px !important;
 	float:left !important;
 }
-	
-ul.dropdown-menu.nav-collapse.collapse.in {
-	background-color:#fff
-	}
 
 a.dropdown-toggle {
 	margin-left:0px !important;
@@ -2386,6 +2382,19 @@ a.dropdown-toggle {
 .mobilelink .fa .fa-search {
 	display: none !important
 	}
+	
+/* ACTUALLY THE MOBILE MENU ICON */
+#header .header-bottom .container .search-btn {
+	margin-right: 0 !important;
+	font-size: inherit !important;
+	width: 20px !important
+	}
+
+/*ACTUALLY THE MOBILE SEARCH ICON */
+#header .header-bottom .container .menu-btn {
+	display: none !important
+	}
+	
 	
 	
 	
