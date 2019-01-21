@@ -2380,6 +2380,18 @@ a.dropdown-toggle {
 	padding-bottom: 15px !important
 	}
 
-	
-
+i.mobilelink.fa.fa-bars: active {
+	border-style: dotted;
+	border-color: #ccc;
+	}
+i.mobilelink.fa.fa-bars: link {
+	border-syle: none
+	}|
+i.mobilelink.fa.fa-bars: hover {
+	border-style: dotted;
+	border-color #ccc;
+	}
+i.mobilelink.fa.fa-bars: visited {
+	border-style: none
+	}
 
