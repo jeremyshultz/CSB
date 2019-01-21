@@ -2081,7 +2081,7 @@ and (-webkit-device-pixel-ratio : 3) {
 	}
 }
 
-@media (max-width: 991.98px) {	
+@media (max-width: 991px) {	
 	/* FIRST LEVEL DROP DOWN MENU */	
 	#header .header-right .dropdown-menu {
 		text-align: left !important;
@@ -2090,7 +2090,7 @@ and (-webkit-device-pixel-ratio : 3) {
 		border-radius: 0 !important;
 		width: 100% !important
 	}}
-@media (max-width: 991.98px) {
+@media (max-width: 991px) {
 #header .menu.mobile .dropdown-menu .dropdown-menu {
 	/*SECOND LEVEL DROP DOWN MENU */
 	left: auto !important;
@@ -2100,35 +2100,35 @@ and (-webkit-device-pixel-ratio : 3) {
 	background-color: #d9e2db !important;
 
 	}}
-@media (max-width: 991.98px) {
+@media (max-width: 991px) {
 .dropdown-menu {
 	-webkit-box-shadow: none !important
 	}}
 	
-@media (max-width: 991.98px) {
+@media (max-width: 991px) {
 a.fa.fa-search {
 	display:none  !important
 	}}
-@media (max-width: 991.98px) {
+@media (max-width: 991px) {
 div.dropdown.mobile-search {
 	display:none !important
 	}}
-@media (max-width: 991.98px) {
+@media (max-width: 991px) {
 .dropdown-toggle.search-btn {
 	width: 10px !important;
 	padding-top: 2px !important
 	}}
-@media (max-width: 991.98px) {
+@media (max-width: 991px) {
 .dropdown.mobile-nav {
 	width: 10px !important;
 	padding-top: 9px !important
 	}}
-@media (max-width: 991.98px) {
+@media (max-width: 991px) {
 a.dropdown-toggle.search-btn.collapsed {
 	width: 10px !important
 	}}
 
-@media (max-width: 991.98px) {
+@media (max-width: 991px) {
 div#profileWidget.profileWidget {
 	padding-top: 0 !important;
 	padding-bottom: 0px !important;
@@ -2138,14 +2138,14 @@ div#profileWidget.profileWidget {
 	text-align:center !important;
 	background-color: #d9e2db !important
 	}}
-@media (max-width: 991.98px) {
+@media (max-width: 991px) {
 #profilewidget a {
 	padding-top: 7px !important;
 	}
 }
 	
 
-@media (min-width: 992px) and (max-width: 1199.98px) { 
+@media (min-width: 992px) and (max-width: 1199px) { 
 /* FIRST LEVEL DROP DOWN MENU */
 #header .header-right .dropdown-menu {
 		text-align: left !important;
@@ -2155,7 +2155,7 @@ div#profileWidget.profileWidget {
 		width: 300px !important;
 	}}
 	
-@media (min-width: 992px) and (max-width: 1199.98px) { 
+@media (min-width: 992px) and (max-width: 1199px) { 
 #header .menu.mobile .dropdown-menu .dropdown-menu {
 	/*SECOND LEVEL DROP DOWN MENU */
 	left: auto !important;
@@ -2165,34 +2165,34 @@ div#profileWidget.profileWidget {
 	background-color: #d9e2db !important;
 	}}
 	
-@media (min-width: 992px) and (max-width: 1199.98px) { 
+@media (min-width: 992px) and (max-width: 1199px) { 
 .dropdown-menu {
 	-webkit-box-shadow: none !important;
 	}}
 	
-@media (min-width: 992px) and (max-width: 1199.98px) { 
+@media (min-width: 992px) and (max-width: 1199px) { 
 a.fa.fa-search {
 	display:none  !important
 	}}
-@media (min-width: 992px) and (max-width: 1199.98px) { 
+@media (min-width: 992px) and (max-width: 1199px) { 
 div.dropdown.mobile-search {
 	display:none !important
 	}}
-@media (min-width: 992px) and (max-width: 1199.98px) { 
+@media (min-width: 992px) and (max-width: 1199px) { 
 .dropdown-toggle.search-btn {
 	width: 10px !important;
 	padding-top: 2px !important
 	}}
-@media (min-width: 992px) and (max-width: 1199.98px) { 
+@media (min-width: 992px) and (max-width: 1199px) { 
 .dropdown.mobile-nav {
 	width: 10px !important;
 	padding-top: 9px !important
 	}}
-@media (min-width: 992px) and (max-width: 1199.98px) { 
+@media (min-width: 992px) and (max-width: 1199px) { 
 a.dropdown-toggle.search-btn.collapsed {
 	width: 10px !important
 	}}
-@media (min-width: 992px) and (max-width: 1199.98px) { 
+@media (min-width: 992px) and (max-width: 1199px) { 
 div#profileWidget.profileWidget {
 	padding-top: 0 !important;
 	padding-bottom: 0px !important;
@@ -2202,7 +2202,7 @@ div#profileWidget.profileWidget {
 	text-align:center !important;
 	background-color: #d9e2db !important
 	}}
-@media (min-width: 992px) and (max-width: 1199.98px) { 
+@media (min-width: 992px) and (max-width: 1199px) { 
 #profilewidget a {
 	padding-top: 7px !important;
 	}}
