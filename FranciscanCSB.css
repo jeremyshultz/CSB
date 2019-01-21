@@ -2285,10 +2285,12 @@ a.dropdown-toggle {
 .mobile-search.fa {
 	font-size: 25px !important
 }
+
 .fa {
 	font-size: 25px !important
 	}
-	
+
+/*
 .menu.mobile.nav.dropdown.mobile-nav.dropdown-menu li a {
 	padding-top: 15px !important;
 	padding-bottom: 15px !important
@@ -2298,12 +2300,13 @@ a.dropdown-toggle {
 	padding-top: 15px !important;
 	padding-bottom: 15px !important
 	}
-	
+
 a.dropdown-toggle {
 	padding-top: 15px !important;
 	padding-bottom: 15px !important
 	}
-
+*/
+	
 /* ACTUALLY THE MOBILE MENU ICON */
 #header.header-bottom.container.search-btn {
 	margin-right: 0 !important;
@@ -2331,5 +2334,6 @@ a.dropdown-toggle {
 	}
 
 ul.dropdown-menu.nav-collapse.collapse.in {
-	margin-top: 15px !important
+	margin-top: 15px !important;
+	line-height: 5 !important
 	}
