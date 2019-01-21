@@ -2304,7 +2304,7 @@ a.dropdown-toggle {
 	}
 
 /* ACTUALLY THE MOBILE MENU ICON */
-#header .header-bottom .container .search-btn {
+#header.header-bottom.container.search-btn {
 	margin-right: 0 !important;
 	font-size: inherit !important;
 	border: none;
