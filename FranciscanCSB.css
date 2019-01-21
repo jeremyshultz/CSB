@@ -2373,3 +2373,8 @@ i.fa {
 i.fa.search {
 	display: none !important
 	}
+
+i.mobilelink.fa.fa-bars {
+	font-size:25px !important
+	}
+
