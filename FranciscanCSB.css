@@ -2337,3 +2337,13 @@ ul.dropdown-menu.nav-collapse.collapse.in {
 	margin-top: 15px !important;
 	line-height: 5 !important
 	}
+	
+a.dropdown-toggle.search-btn {
+	font-size: 25px !important;
+	width: 0 !important
+	}
+
+a.dropdown-toggle.menu-btn {
+	display: none
+	}
+	
