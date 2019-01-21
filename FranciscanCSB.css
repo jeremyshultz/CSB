@@ -973,7 +973,7 @@ footer .social-links a .download-list .download-item:before,
 footer .social-links a .fa,
 footer .social-links a .filter-container .select-style.zip .alerts .shell li:before,
 footer .social-links a .list-search .keyword-input:before {
-    font-size: 20px
+    font-size: 20px !important
 }
 @media (max-width: 767px) {
     footer .button-links {
@@ -2349,7 +2349,7 @@ a.dropdown-toggle {
 }
 /* FONT AWESOME SIZE */
 .mobile-search.fa {
-	font-size: 50% !important
+	font-size: 20px !important
 }
 	
 /* ACTUALLY THE MOBILE MENU ICON */
@@ -2375,27 +2375,4 @@ a.dropdown-toggle {
 a.dropdown-toggle {
 	padding-top: 15px !important;
 	padding-bottom: 15px !important
-	}
-a.dropdown-toggle: active {
-	border-style: dotted !important;
-	border-color: #ccc !important;
-	}
-
-.fa-bars: active {
-	border-style: dotted !important;
-	border-color: #ccc !important;
-	}
-.fa-bars: link {
-	border-syle: none !important;
-	}|
-.fa-bars: hover {
-	border-style: dotted !important;
-	border-color #ccc !important;
-	}
-.fa-bars: visited {
-	border-style: none !important;
-	}
-
-.mobile-search {
-	display: none !important;
 	}
