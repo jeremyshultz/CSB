@@ -1999,6 +1999,7 @@ div.dropdown.mobile-search {
 		border-width: 0 !important;
 		border-radius: 0 !important;
 		width: 100% !important;
+		transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
 	}}
 @media (max-width: 767.98px) {
 #header .menu.mobile .dropdown-menu .dropdown-menu {
@@ -2008,6 +2009,7 @@ div.dropdown.mobile-search {
 	width: 100% !important;
 	text-align: inherit !important;
 	background-color: #d9e2db !important;
+	transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
 	}}
 @media (max-width: 767.98px) {
 .dropdown-menu {
@@ -2060,6 +2062,7 @@ div#profileWidget.profileWidget {
 		border-width: 0 !important;
 		border-radius: 0 !important;
 		width: 100% !important;
+		transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
 	}}
 @media (min-width: 768px) and (max-width: 991.98px) {
 #header .menu.mobile .dropdown-menu .dropdown-menu {
@@ -2069,6 +2072,7 @@ div#profileWidget.profileWidget {
 	width: 100% !important;
 	text-align: inherit !important;
 	background-color: #d9e2db !important;
+	transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
 	}}
 @media (min-width: 768px) and (max-width: 991.98px) {
 .dropdown-menu {
@@ -2121,6 +2125,7 @@ div#profileWidget.profileWidget {
 		border-width: 0 !important;
 		border-radius: 0 !important;
 		width: 300px !important;
+		transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
 	}}
 @media (min-width: 992px) and (max-width: 1199.98px) { 
 #header .menu.mobile .dropdown-menu .dropdown-menu {
@@ -2130,6 +2135,7 @@ div#profileWidget.profileWidget {
 	width: 300px !important;
 	text-align: inherit !important;
 	background-color: #d9e2db !important;
+	transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
 	}}
 @media (min-width: 992px) and (max-width: 1199.98px) { 
 .dropdown-menu {
@@ -2181,7 +2187,7 @@ div#profileWidget.profileWidget {
 		border-width: 0 !important;
 		border-radius: 0 !important;
 		width: 300px !important;
-
+		transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
 	}}
 @media (min-width: 1200px) {	
 	/*SECOND LEVEL DROP DOWN MENU */	
@@ -2191,7 +2197,7 @@ div#profileWidget.profileWidget {
 	width: 300px !important;
 	text-align: inherit !important;
 	background-color: #d9e2db !important;
-
+	transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
 	}}
 @media (min-width: 1200px) {
 .dropdown-menu {
@@ -2253,10 +2259,16 @@ div#profileWidget.profileWidget {
 .fa {
 	font-size:20px;
 }
+	
+/* ACTUALLY THE MOBILE MENU ICON */
 #header .header-bottom .container .search-btn {
 	margin-right:0px !important
 }
 
+/* ACTUALLY THE MOBILE SEARCH ICON */
+#header .header-bottom .container .menu-btn {
+	display: none
+	}
 	
 .menu.mobile.nav.dropdown.mobile-nav.dropdown-menu li a {
 	padding-top: 15px !important;
