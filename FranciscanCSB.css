@@ -216,8 +216,8 @@ a:link {
     color: rgb(241,93,34);
 	font-family:'Lato', sans-serif !important;
 	text-transform:uppercase !important;
-
-	
+	font-weight:bold;
+	font-size:14px;
 }
 
 /* MOUSEOVER LINK */
@@ -435,9 +435,9 @@ header .main .menu-button {
     line-height: 56px;
     z-index: 11;
     display: none;
-    -webkit-transition: color .25s ease;
-    -o-transition: color .25s ease;
-    transition: color .25s ease
+    -webkit-transition: color .5s ease;
+    -o-transition: color .5s ease;
+    transition: color .5s ease
 }
 header .main .menu-button:before {
     content: '';
@@ -449,9 +449,9 @@ header .main .menu-button:before {
     left: -100%;
     opacity: 0;
     z-index: -1;
-    -webkit-transition: all .25s ease;
-    -o-transition: all .25s ease;
-    transition: all .25s ease
+    -webkit-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease
 }
 @media (max-width: 991px) {
     header .main .menu-button {
@@ -460,7 +460,7 @@ header .main .menu-button:before {
 }
 header .main .logo {
     width: 33% !important;
-    min-width: 200px !important;
+    min-width: 175px !important;
     opacity: 1;
     -webkit-transition: all .25s ease;
     -o-transition: all .25s ease;
@@ -580,7 +580,8 @@ header .main .siteSearch .fa-search {
     position: absolute;
     right: 5px;
     top: -2px;
-    z-index: 2
+    z-index: 2;
+    display: none
 }
 header .main .siteSearch .expand-button {
     position: absolute;
@@ -608,9 +609,9 @@ header .main .search-input {
     height: 2.5em;
     z-index: 2;
     min-width: 0;
-    -webkit-transition: all .25s ease;
-    -o-transition: all .25s ease;
-    transition: all .25s ease
+    -webkit-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease
 }
 header .main #zipForm .fa-search,
 header .main .search-input .fa-search {
@@ -621,9 +622,9 @@ header .main .search-input .fa-search {
     right: .4em;
     font-size: 1.5em;
     cursor: pointer;
-    -webkit-transition: transform .25s ease;
-    -o-transition: transform .25s ease;
-    transition: transform .25s ease
+    -webkit-transition: transform 1s ease;
+    -o-transition: transform 1s ease;
+    transition: transform 1s ease
 }
 @media (max-width: 1199px) {
     header .main #zipForm .fa-search,
@@ -693,9 +694,9 @@ header .menu {
         left: -100%;
         padding: 1em 0;
         opacity: 0;
-        -webkit-transition: all .25s ease;
-        -o-transition: all .25s ease;
-        transition: all .25s ease
+        -webkit-transition: all 1s ease;
+        -o-transition: all 1s ease;
+        transition: all 1s ease
     }
 }
 .filter-container .select-style.zip header .menu .shell,
