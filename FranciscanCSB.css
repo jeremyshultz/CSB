@@ -2018,7 +2018,7 @@ and (-webkit-device-pixel-ratio : 3) {
     		-o-transition: all 0.3s;
     		transition: all 0.3s;
 
-    		max-height: 0;
+    		max-height: 1000;
     		display: block;
     		overflow: hidden;
     		opacity: 0;	}}
@@ -2124,7 +2124,7 @@ and (-webkit-device-pixel-ratio : 3) {
     		-o-transition: all 0.3s;
     		transition: all 0.3s;
 
-    		max-height: 0;
+    		max-height: 1000;
     		display: block;
     		overflow: hidden;
     		opacity: 0;
@@ -2143,7 +2143,7 @@ and (-webkit-device-pixel-ratio : 3) {
     		-o-transition: all 0.3s;
     		transition: all 0.3s;
 
-    		max-height: 0;
+    		max-height: 1000;
     		display: block;
     		overflow: hidden;
     		opacity: 0;	}}
@@ -2195,7 +2195,7 @@ and (min-device-width: 992px)
 and (max-device-wdith: 119.98px)
 and (-webkit-device-pixel-ratio : 3) {
 #header .header-right .dropdown-menu:active {
-	   max-height: 200px;
+	   max-height: 1000px;
     opacity: 1;
 	}}
 
