@@ -2364,12 +2364,12 @@ a.dropdown-toggle.menu-btn {
 
 .menu-btn {
 	display: none !important
-	}
-	
+	}	
 
 i.fa {
 	font-size:25px !important
 	}
+	
 i.fa.search {
 	display: none !important
 	}
@@ -2377,4 +2377,7 @@ i.fa.search {
 i.mobilelink.fa.fa-bars {
 	font-size:25px !important
 	}
-
+	
+.header .mobilelink {
+	font-size:25px !important
+	}
