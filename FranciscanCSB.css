@@ -1999,7 +1999,7 @@ div.dropdown.mobile-search {
 		border-width: 0 !important;
 		border-radius: 0 !important;
 		width: 100% !important;
-		transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+		transition: 0.5s !important; /* 0.5 second transition effect to slide in the sidenav */
 	}}
 @media (max-width: 767.98px) {
 #header .menu.mobile .dropdown-menu .dropdown-menu {
@@ -2009,7 +2009,7 @@ div.dropdown.mobile-search {
 	width: 100% !important;
 	text-align: inherit !important;
 	background-color: #d9e2db !important;
-	transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+	transition: 0.5s !important; /* 0.5 second transition effect to slide in the sidenav */
 	}}
 @media (max-width: 767.98px) {
 .dropdown-menu {
@@ -2054,7 +2054,7 @@ div#profileWidget.profileWidget {
 	}
 }
 	
-@media (min-width: 768px) and (max-width: 991.98px) {	
+@media (max-width: 991.98px) {	
 	/* FIRST LEVEL DROP DOWN MENU */
 	#header .header-right .dropdown-menu {
 		text-align: left !important;
@@ -2062,9 +2062,9 @@ div#profileWidget.profileWidget {
 		border-width: 0 !important;
 		border-radius: 0 !important;
 		width: 100% !important;
-		transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+		transition: 0.5s !important; /* 0.5 second transition effect to slide in the sidenav */
 	}}
-@media (min-width: 768px) and (max-width: 991.98px) {
+@media (max-width: 991.98px) {
 #header .menu.mobile .dropdown-menu .dropdown-menu {
 	/*SECOND LEVEL DROP DOWN MENU */
 	left: auto !important;
@@ -2074,34 +2074,34 @@ div#profileWidget.profileWidget {
 	background-color: #d9e2db !important;
 	transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
 	}}
-@media (min-width: 768px) and (max-width: 991.98px) {
+@media (max-width: 991.98px) {
 .dropdown-menu {
 	-webkit-box-shadow: none !important
 	}}
-@media (min-width: 768px) and (max-width: 991.98px) {
+@media (max-width: 991.98px) {
 .fa.fa-search {
 	display:none  !important
 	}}
-@media (min-width: 768px) and (max-width: 991.98px) {
+@media (max-width: 991.98px) {
 div.dropdown.mobile-search {
 	display:none !important
 	}}
-@media (min-width: 768px) and (max-width: 991.98px) {
+@media (max-width: 991.98px) {
 .dropdown-toggle.search-btn {
 	width: 10px !important;
 	padding-top: 2px !important
 	}}
-@media (min-width: 768px) and (max-width: 991.98px) {
+@media (max-width: 991.98px) {
 .dropdown.mobile-nav {
 	width: 10px !important;
 	padding-top: 9px !important
 	}}
-@media (min-width: 768px) and (max-width: 991.98px) {
+@media (max-width: 991.98px) {
 .a.dropdown-toggle.search-btn.collapsed {
 	width: 10px !important
 	}}
 
-@media (min-width: 768px) and (max-width: 991.98px) {
+@media (max-width: 991.98px) {
 div#profileWidget.profileWidget {
 	padding-top: 0 !important;
 	padding-bottom: 40px !important;
@@ -2111,7 +2111,7 @@ div#profileWidget.profileWidget {
 	text-align:center !important;
 	background-color: #d9e2db !important
 	}}
-@media (min-width: 768px) and (max-width: 991.98px) {
+@media (max-width: 991.98px) {
 #profilewidget a {
 	padding-top: 7px !important;
 	}
