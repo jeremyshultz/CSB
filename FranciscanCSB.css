@@ -2344,6 +2344,28 @@ a.dropdown-toggle.search-btn {
 	}
 
 a.dropdown-toggle.menu-btn {
-	display: none
+	display: none !important
+	}
+
+.dropdown-toggle.search-btn {
+	font-size: 25px !important;
+	width: 0 !important
+	}
+
+.dropdown-toggle.menu-btn {
+	display: none !important
 	}
 	
+.search-btn {
+	font-size: 25px !important;
+	width: 0 !important
+	}
+
+.menu-btn {
+	display: none !important
+	}
+	
+.dropdown-toggle {
+	font-size: 25px !important;
+	width: 0 !important
+	}
