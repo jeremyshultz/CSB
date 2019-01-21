@@ -1982,7 +1982,7 @@ div.dropdown.mobile-search {
 	padding-top: 9px !important
 	}
 
-.a.dropdown-toggle.search-btn.collapsed {
+a.dropdown-toggle.search-btn.collapsed {
 	width: 0px !important
 	}
 
@@ -2048,7 +2048,7 @@ and (-webkit-device-pixel-ratio : 3) {
 and (min-device-width : 375px) 
 and (max-device-width : 812px)
 and (-webkit-device-pixel-ratio : 3) {
-.fa.fa-search {
+.fa-search {
 	display:none  !important
 	}}
 @media only screen 
@@ -2078,7 +2078,7 @@ and (-webkit-device-pixel-ratio : 3) {
 and (min-device-width : 375px) 
 and (max-device-width : 812px)
 and (-webkit-device-pixel-ratio : 3) {
-.a.dropdown-toggle.search-btn.collapsed {
+a.dropdown-toggle.search-btn.collapsed {
 	width: 10px !important
 	}}
 
@@ -2142,7 +2142,7 @@ and (-webkit-device-pixel-ratio : 3) {
 	transition: all 100ms ease-in-out;transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
 	}}
 @media (max-width: 991.98px) {
-.fa.fa-search {
+.fa-search {
 	display:none  !important
 	}}
 @media (max-width: 991.98px) {
@@ -2160,7 +2160,7 @@ div.dropdown.mobile-search {
 	padding-top: 9px !important
 	}}
 @media (max-width: 991.98px) {
-.a.dropdown-toggle.search-btn.collapsed {
+a.dropdown-toggle.search-btn.collapsed {
 	width: 10px !important
 	}}
 
@@ -2221,7 +2221,7 @@ div#profileWidget.profileWidget {
 	transition: all 100ms ease-in-out;
 	}}
 @media (min-width: 992px) and (max-width: 1199.98px) { 
-.fa.fa-search {
+.fa-search {
 	display:none  !important
 	}}
 @media (min-width: 992px) and (max-width: 1199.98px) { 
@@ -2239,7 +2239,7 @@ div.dropdown.mobile-search {
 	padding-top: 9px !important
 	}}
 @media (min-width: 992px) and (max-width: 1199.98px) { 
-.a.dropdown-toggle.search-btn.collapsed {
+a.dropdown-toggle.search-btn.collapsed {
 	width: 10px !important
 	}}
 @media (min-width: 992px) and (max-width: 1199.98px) { 
@@ -2297,7 +2297,7 @@ div#profileWidget.profileWidget {
 	}}
 
 @media (min-width: 1200px) {
-.fa.fa-search {
+.fa-search {
 	display:none  !important
 	}}
 @media (min-width: 1200px) {
@@ -2315,7 +2315,7 @@ div.dropdown.mobile-search {
 	padding-top: 9px !important
 	}}
 @media (min-width: 1200px) {
-.a.dropdown-toggle.search-btn.collapsed {
+a.dropdown-toggle.search-btn.collapsed {
 	width: 10px !important
 	}}
 @media (max-width: 1200px) {
@@ -2343,7 +2343,7 @@ div#profileWidget.profileWidget {
 	float:left !important;
 }
 
-.a.dropdown-toggle {
+a.dropdown-toggle {
 	margin-left:0px !important;
 	margin-right:0px !important;
 }
