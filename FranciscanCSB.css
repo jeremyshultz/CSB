@@ -1989,15 +1989,6 @@ a.dropdown-toggle.search-btn.collapsed {
 	
 /* MOBILE MENU STYLES */
 
-@media (min-width: 375px) and (max-width: 812px) { 
-.collapse.in {
-	-webkit-transition: all 100ms ease-in-out;
-	-moz-transition: all 100ms ease-in-out;
-	-ms-transition: all 100ms ease-in-out;
-	-o-transition: all 100ms ease-in-out;
-	transition: all 100ms ease-in-out;
-	}}
-
 @media only screen 
 and (min-device-width : 375px) 
 and (max-device-width : 812px)
@@ -2027,10 +2018,8 @@ and (min-device-width : 375px)
 and (max-device-width : 812px)
 and (-webkit-device-pixel-ratio : 3) {
 .dropdown-menu {
-	-webkit-box-shadow: none !important;
-
-
-	}}
+	-webkit-box-shadow: none !important
+}}
 @media only screen 
 and (min-device-width : 375px) 
 and (max-device-width : 812px)
@@ -2087,7 +2076,7 @@ and (min-device-width : 375px)
 and (max-device-width : 812px)
 and (-webkit-device-pixel-ratio : 3) {
 #profilewidget a {
-	padding-top: 7px !important;
+	padding-top: 7px !important
 	}
 }
 
@@ -2098,7 +2087,7 @@ and (-webkit-device-pixel-ratio : 3) {
 		background-color: #fff !important;
 		border-width: 0 !important;
 		border-radius: 0 !important;
-		width: 100% !important;
+		width: 100% !important
 	}}
 @media (max-width: 991.98px) {
 #header .menu.mobile .dropdown-menu .dropdown-menu {
@@ -2112,20 +2101,11 @@ and (-webkit-device-pixel-ratio : 3) {
 	}}
 @media (max-width: 991.98px) {
 .dropdown-menu {
-	-webkit-box-shadow: none !important;
-	}}
-	
-@media (max-width: 991.98px) { 
-.collapse.in {
-	-webkit-transition: all 100ms ease-in-out;
-	-moz-transition: all 100ms ease-in-out;
-	-ms-transition: all 100ms ease-in-out;
-	-o-transition: all 100ms ease-in-out;
-	transition: all 100ms ease-in-out;
+	-webkit-box-shadow: none !important
 	}}
 	
 @media (max-width: 991.98px) {
-.a.fa.fa-search {
+a.fa.fa-search {
 	display:none  !important
 	}}
 @media (max-width: 991.98px) {
@@ -2172,11 +2152,6 @@ div#profileWidget.profileWidget {
 		border-width: 0 !important;
 		border-radius: 0 !important;
 		width: 300px !important;
-		-webkit-transition: all 100ms ease-in-out;
-		-moz-transition: all 100ms ease-in-out;
-		-ms-transition: all 100ms ease-in-out;
-		-o-transition: all 100ms ease-in-out;
-		transition: all 100ms ease-in-out;
 	}}
 	
 @media (min-width: 992px) and (max-width: 1199.98px) { 
@@ -2187,11 +2162,6 @@ div#profileWidget.profileWidget {
 	width: 300px !important;
 	text-align: inherit !important;
 	background-color: #d9e2db !important;
-	-webkit-transition: all 100ms ease-in-out;
-	-moz-transition: all 100ms ease-in-out;
-	-ms-transition: all 100ms ease-in-out;
-	-o-transition: all 100ms ease-in-out;
-	transition: all 100ms ease-in-out;
 	}}
 	
 @media (min-width: 992px) and (max-width: 1199.98px) { 
@@ -2200,17 +2170,7 @@ div#profileWidget.profileWidget {
 	}}
 	
 @media (min-width: 992px) and (max-width: 1199.98px) { 
-.collapse.in {
-	-webkit-transition: all 100ms ease-in-out;
-	-moz-transition: all 100ms ease-in-out;
-	-ms-transition: all 100ms ease-in-out;
-	-o-transition: all 100ms ease-in-out;
-	transition: all 100ms ease-in-out;
-	}}
-	
-	
-@media (min-width: 992px) and (max-width: 1199.98px) { 
-.a.fa.fa-search {
+a.fa.fa-search {
 	display:none  !important
 	}}
 @media (min-width: 992px) and (max-width: 1199.98px) { 
@@ -2244,8 +2204,7 @@ div#profileWidget.profileWidget {
 @media (min-width: 992px) and (max-width: 1199.98px) { 
 #profilewidget a {
 	padding-top: 7px !important;
-	}
-}
+	}}
 
 @media (min-width: 1200px) {	
 	/* FIRST LEVEL DROP DOWN MENU */
@@ -2254,12 +2213,7 @@ div#profileWidget.profileWidget {
 		background-color: #fff !important;
 		border-width: 0 !important;
 		border-radius: 0 !important;
-		width: 300px !important;
-		-webkit-transition: all 100ms ease-in-out;
-		-moz-transition: all 100ms ease-in-out;
-		-ms-transition: all 100ms ease-in-out;
-		-o-transition: all 100ms ease-in-out;
-		transition: all 100ms ease-in-out;
+		width: 300px !important
 	}}
 @media (min-width: 1200px) {	
 	/*SECOND LEVEL DROP DOWN MENU */	
@@ -2268,25 +2222,11 @@ div#profileWidget.profileWidget {
 	right: auto !important;
 	width: 300px !important;
 	text-align: inherit !important;
-	background-color: #d9e2db !important;
-	-webkit-transition: all 100ms ease-in-out;
-	-moz-transition: all 100ms ease-in-out;
-	-ms-transition: all 100ms ease-in-out;
-	-o-transition: all 100ms ease-in-out;
-	transition: all 100ms ease-in-out;
+	background-color: #d9e2db !important
 	}}
 @media (min-width: 1200px) {
 .dropdown-menu {
-	-webkit-box-shadow: none !important;
-	}}
-	
-@media (min-width: 1200px) { 
-.collapse.in {
-	-webkit-transition: all 100ms ease-in-out;
-	-moz-transition: all 100ms ease-in-out;
-	-ms-transition: all 100ms ease-in-out;
-	-o-transition: all 100ms ease-in-out;
-	transition: all 100ms ease-in-out;
+	-webkit-box-shadow: none !important
 	}}
 
 @media (min-width: 1200px) {
