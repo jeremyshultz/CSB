@@ -1991,6 +1991,16 @@ div.dropdown.mobile-search {
 
 	
 /* MOBILE MENU STYLES */
+	
+@media only screen
+and (min-device-width: 375px)
+and (max-device-wdith: 812px)
+and (-webkit-device-pixel-ratio : 3) {
+#header .header-right .dropdown-menu:active {
+	   max-height: 200px;
+    opacity: 1;
+	}}
+
 @media only screen 
 and (min-device-width : 375px) 
 and (max-device-width : 812px)
@@ -2091,9 +2101,17 @@ and (-webkit-device-pixel-ratio : 3) {
 	padding-top: 7px !important;
 	}
 }
+
+@media only screen
+and (max-device-wdith: 991.98px)
+and (-webkit-device-pixel-ratio : 3) {
+#header .header-right .dropdown-menu:active {
+	   max-height: 200px;
+    opacity: 1;
+	}}
 	
 @media (max-width: 991.98px) {	
-	/* FIRST LEVEL DROP DOWN MENU */
+	/* FIRST LEVEL DROP DOWN MENU */	
 	#header .header-right .dropdown-menu {
 		text-align: left !important;
 		background-color: #fff !important;
@@ -2172,6 +2190,15 @@ div#profileWidget.profileWidget {
 	}
 }
 	
+@media only screen
+and (min-device-width: 992px)
+and (max-device-wdith: 119.98px)
+and (-webkit-device-pixel-ratio : 3) {
+#header .header-right .dropdown-menu:active {
+	   max-height: 200px;
+    opacity: 1;
+	}}
+
 @media (min-width: 992px) and (max-width: 1199.98px) { 
 /* FIRST LEVEL DROP DOWN MENU */
 #header .header-right .dropdown-menu {
