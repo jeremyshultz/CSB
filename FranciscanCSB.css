@@ -2321,7 +2321,8 @@ a.dropdown-toggle {
 	}
 
 /*ACTUALLY THE MOBILE SEARCH ICON */
-#header .header-bottom .container .menu-btn {
+
+	#header .header-bottom .container .menu-btn {
 	display: none !important
 	}
 	
@@ -2368,4 +2369,7 @@ a.dropdown-toggle.menu-btn {
 .dropdown-toggle {
 	font-size: 25px !important;
 	width: 0 !important
+	}
+.menu.mobile .nav .dropdown .dropdown-toggle i.fa {
+	font-size:25px !important
 	}
