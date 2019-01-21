@@ -2370,3 +2370,6 @@ a.dropdown-toggle.menu-btn {
 i.fa {
 	font-size:25px !important
 	}
+i.fa.search {
+	display: none !important
+	}
