@@ -2379,19 +2379,23 @@ a.dropdown-toggle {
 	padding-top: 15px !important;
 	padding-bottom: 15px !important
 	}
+a.dropdown-toggle: active {
+	border-style: dotted !important;
+	border-color: #ccc !important;
+	}
 
-i.mobilelink.fa.fa-bars: active {
+.fa-bars: active {
 	border-style: dotted;
 	border-color: #ccc;
 	}
-i.mobilelink.fa.fa-bars: link {
+.fa-bars: link {
 	border-syle: none
 	}|
-i.mobilelink.fa.fa-bars: hover {
+.fa-bars: hover {
 	border-style: dotted;
 	border-color #ccc;
 	}
-i.mobilelink.fa.fa-bars: visited {
+.fa-bars: visited {
 	border-style: none
 	}
 
