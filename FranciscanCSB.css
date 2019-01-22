@@ -2467,6 +2467,7 @@ i.mobilelink.fa.fa-bars:before {
 	}}
 
 @media only screen and (min-device-width : 569px) and (max-device-width : 768px) {
+
 .menu.mobile .nav .dropdown .dropdown-menu {
     width: 100%;
     background-color:#fff !important;
@@ -2513,5 +2514,9 @@ i.mobilelink.fa.fa-bars:before {
 	}
 
 #logo {
+	max-width: 230px
+	}
+	
+.logo {
 	max-width: 230px
 	}
