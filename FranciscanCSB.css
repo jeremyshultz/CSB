@@ -1977,17 +1977,17 @@ i.mobilelink.fa.fa-search {
 	}
 	
 .dropdown-toggle.search-btn {
-	width: 0px !important;
+	width: 20px !important;
 	padding-top: 2px !important
 	}
 
 .dropdown.mobile-nav {
-	width: 10px !important;
+	width: 20px !important;
 	padding-top: 9px !important
 	}
 
 a.dropdown-toggle.search-btn.collapsed {
-	width: 0px !important
+	width: 20px !important
 	}
 
 	
@@ -2194,18 +2194,18 @@ div.dropdown.mobile-search {
 
 @media (max-width: 991px) {
 .dropdown-toggle.search-btn {
-	width: 10px !important;
+	width: 20px !important;
 	padding-top: 2px !important
 	}}
 
 @media (max-width: 991px) {
 .dropdown.mobile-nav {
-	width: 10px !important;
+	width: 20px !important;
 	padding-top: 9px !important
 	}}
 @media (max-width: 991px) {
 a.dropdown-toggle.search-btn.collapsed {
-	width: 10px !important
+	width: 20px !important
 	}}
 
 
@@ -2359,6 +2359,7 @@ div#profileWidget.profileWidget {
 	padding-top:7px !important;
 	padding-bottom:7px !important;
 	float:left !important;
+	width:20px !important
 }
 
 a.dropdown-toggle {
@@ -2412,7 +2413,6 @@ a.dropdown-toggle {
 }
 
 div .dropdown .mobile-search {
-
 	display: none
 	}
 
@@ -2423,7 +2423,7 @@ ul.dropdown-menu.nav-collapse.collapse.in {
 	
 a.dropdown-toggle.search-btn {
 	font-size: 30px !important;
-	width: 0 !important
+	width: 40px !important
 	}
 
 a.dropdown-toggle.menu-btn {
@@ -2432,7 +2432,7 @@ a.dropdown-toggle.menu-btn {
 
 .dropdown-toggle .search-btn {
 	font-size: 30px !important;
-	width: 0 !important
+	width: 40px !important
 	}
 
 .dropdown-toggle .menu-btn {
@@ -2441,7 +2441,7 @@ a.dropdown-toggle.menu-btn {
 	
 .search-btn {
 	font-size: 30px !important;
-	width: 0 !important
+	width: 40px !important
 	}
 
 .menu-btn {
@@ -2456,8 +2456,9 @@ i.fa.search {
 	display: none !important
 	}
 
-i.mobilelink.fa.fa-bars:before {
-font-size:30px !important
+i.mobilelink.fa.fa-bars {
+	font-size:30px !important;
+	width: 40px !important
 	}
 	
 .header .mobilelink {
