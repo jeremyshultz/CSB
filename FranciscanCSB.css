@@ -2457,7 +2457,8 @@ i.fa.search {
 	}
 
 i.mobilelink.fa.fa-bars:before {
-	font-size:25px !important
+
+font-size:25px !important
 	}
 	
 .header .mobilelink {
@@ -2519,4 +2520,7 @@ i.mobilelink.fa.fa-bars:before {
 
 img#logo {
 	max-width: 231px !important
+	}
+#logo {
+	max-width:20 !important
 	}
