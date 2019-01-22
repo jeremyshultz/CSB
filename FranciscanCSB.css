@@ -2488,3 +2488,13 @@ i.mobilelink.fa.fa-bars::before {
     background-color: #ccc !important;
     padding-bottom: 20px !important;
 }
+
+#header .header-bottom .container .search-btn {
+    border: none;
+    box-shadow: none;
+    height: 40px;
+    padding: 0;
+    width: 0 !important;
+    font-size:25px !important;
+    margin-right:28px;
+}
