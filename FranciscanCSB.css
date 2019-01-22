@@ -459,7 +459,7 @@ header .main .menu-button:before {
     }
 }
 header .main .logo {
-    width: 33%;
+    max-width: 231px !important;
     min-width: 175px !important;
     opacity: 1;
     -webkit-transition: all .25s ease;
