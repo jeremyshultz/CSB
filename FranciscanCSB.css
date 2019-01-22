@@ -2507,3 +2507,7 @@ i.mobilelink.fa.fa-bars:before {
 .header .mobilelink {
 	font-size:25px !important
 	}
+
+ .header-bottom  .container .menu-btn {
+	 display: none !important
+	}
