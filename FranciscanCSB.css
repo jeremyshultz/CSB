@@ -2330,8 +2330,9 @@ a.dropdown-toggle {
     font-size: 25px !important
 }
 
-.dropdown .mobile-search {
-	display: none! important
+div .dropdown .mobile-search {
+
+	display: none
 	}
 
 ul.dropdown-menu.nav-collapse.collapse.in {
