@@ -2403,11 +2403,7 @@ a.dropdown-toggle {
     	margin-right: 0px
 	}
 
-/*ACTUALLY THE MOBILE SEARCH ICON */
 
-	#header .header-bottom .container .menu-btn {
-	display: none !important
-	}
 	
 .fa-navicon:before, .fa-reorder:before, .fa-bars:before {
     font-size: 25px !important
@@ -2465,3 +2461,30 @@ i.mobilelink.fa.fa-bars::before {
 .header .mobilelink {
 	font-size:25px !important
 	}
+
+@media (max-width: 768px) {
+#header .header-bottom .container .menu-btn {
+	display: none !important
+	}
+	}
+
+@media (max-width: 768) {
+.menu.mobile .nav .dropdown .dropdown-menu {
+    width: 100%;
+    background-color:#fff !important;
+    border-radius:0 !important;
+    border:none !important;
+	}}
+	
+#header .dropdown-menu > li {
+    font-size: 0.75em;
+    padding-top:15px !important
+}
+
+#header .menu.mobile .dropdown-menu .dropdown-menu {
+    width: 100% !important;
+    right:auto;
+    left: 0 !important;
+    background-color: #ccc !important;
+    padding-bottom: 20px !important;
+}
