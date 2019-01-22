@@ -2461,7 +2461,8 @@ i.mobilelink.fa.fa-bars:before {
 	
 .header .mobilelink {
 	font-size:25px !important
-	}
+
+}
 
 @media only screen and (min-device-width : 569px) and (max-device-width : 768px) {
 #header .header-bottom .container .menu-btn {
@@ -2522,4 +2523,8 @@ i.mobilelink.fa.fa-bars:before {
 
 #logo.logo {
 	max-width: 231px
+	}
+
+.logo {
+	max-width: 231px !important
 	}
