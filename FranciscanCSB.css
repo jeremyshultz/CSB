@@ -2158,7 +2158,7 @@ and (-webkit-device-pixel-ratio : 3) {
 	padding-top: 7px !important
 	}
 }
-/*
+
 @media (max-width: 991px) {		
 #header .header-right .dropdown-menu {
 		text-align: left !important;
@@ -2226,7 +2226,7 @@ div#profileWidget.profileWidget {
 	}
 }
 
-
+/*
 @media (min-width: 992px) and (max-width: 1199px) { 
 #header .header-right .dropdown-menu {
 		text-align: left !important;
