@@ -2519,3 +2519,9 @@ font-size:30px !important
 img#logo {
 	max-width: 231px !important
 	}
+
+.twocolumn {
+	padding-left: 15px !important;
+	padding-right: 15px !important
+}
+
