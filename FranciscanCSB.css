@@ -1972,6 +1972,7 @@ i.mobilelink.fa.fa-search {
 div.dropdown.mobile-search {
 	display:none !important
 	}
+
 	
 .dropdown-toggle.search-btn {
 	width: 0px !important;
@@ -1990,11 +1991,93 @@ a.dropdown-toggle.search-btn.collapsed {
 	
 /* MOBILE MENU STYLES */
 
+@media only screen
+and (min-device-width: 569px)
+and (max-device-width: 768px) {
+
 @media only screen 
-and (min-device-width : 375px) 
-and (max-device-width : 812px)
-and (-webkit-device-pixel-ratio : 3) {
+and (min-device-width: 569px)
+and (max-device-width: 768px) {
 	/* FIRST LEVEL DROP DOWN MENU */
+	#header .header-right .dropdown-menu {
+		text-align: left !important;
+		background-color: #fff !important;
+		border-width: 0 !important;
+		border-radius: 0 !important;
+		width: 100% !important;
+	}}
+@media only screen 
+and (min-device-width: 569px)
+and (max-device-width: 768px) {
+#header .menu.mobile .dropdown-menu .dropdown-menu {
+	/*SECOND LEVEL DROP DOWN MENU */
+	left: auto !important;
+	right: auto !important;
+	width: 100% !important;
+	text-align: inherit !important;
+	background-color: #d9e2db !important;	
+	}}
+@media only screen 
+and (min-device-width: 569px)
+and (max-device-width: 768px) {
+.dropdown-menu {
+	-webkit-box-shadow: none !important
+}}
+@media only screen 
+and (min-device-width: 569px)
+and (max-device-width: 768px) {
+.a.fa.fa-search {
+	display:none  !important
+	}}
+@media only screen 
+and (min-device-width: 569px)
+and (max-device-width: 768px) {
+div.dropdown.mobile-search {
+	display:none !important
+	}}
+@media only screen 
+and (min-device-width: 569px)
+and (max-device-width: 768px) {
+.dropdown-toggle.search-btn {
+	width: 10px !important;
+	padding-top: 2px !important
+	}}
+@media only screen 
+and (min-device-width: 569px)
+and (max-device-width: 768px) {
+.dropdown.mobile-nav {
+	width: 10px !important;
+	padding-top: 9px !important
+	}}
+@media only screen 
+and (min-device-width: 569px)
+and (max-device-width: 768px) {
+a.dropdown-toggle.search-btn.collapsed {
+	width: 10px !important
+	}}
+
+@media only screen 
+and (min-device-width: 569px)
+and (max-device-width: 768px) {
+	div#profileWidget.profileWidget {
+	padding-top: 0 !important;
+	padding-bottom: 0px !important;
+	width: 100% !important;
+	border-radius:0 !important;
+	margin-bottom: 10px !important;
+	text-align:center !important;
+	background-color: #d9e2db !important
+	}}
+	
+@media only screen 
+and (min-device-width: 569px)
+and (max-device-width: 768px) {
+	#profilewidget a {
+	padding-top: 7px !important
+	}}
+	
+	
+/* FIRST LEVEL DROP DOWN MENU */
 	#header .header-right .dropdown-menu {
 		text-align: left !important;
 		background-color: #fff !important;
