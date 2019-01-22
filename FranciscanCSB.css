@@ -2454,7 +2454,7 @@ i.fa.search {
 	display: none !important
 	}
 
-i.mobilelink.fa.fa-bars::before {
+i.mobilelink.fa.fa-bars:before {
 	font-size:25px !important
 	}
 	
