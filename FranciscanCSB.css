@@ -2049,7 +2049,7 @@ and (max-device-width: 768px) {
 and (min-device-width: 569px)
 and (max-device-width: 768px) {
 a.dropdown-toggle.search-btn.collapsed {
-	width: 10px !important
+	width: 40px !important
 	}}
 
 @media only screen 
@@ -2118,7 +2118,7 @@ and (min-device-width : 375px)
 and (max-device-width : 812px)
 and (-webkit-device-pixel-ratio : 3) {
 .dropdown-toggle.search-btn {
-	width: 10px !important;
+	width: 40px !important;
 	padding-top: 2px !important
 	}}
 @media only screen 
@@ -2126,7 +2126,7 @@ and (min-device-width : 375px)
 and (max-device-width : 812px)
 and (-webkit-device-pixel-ratio : 3) {
 .dropdown.mobile-nav {
-	width: 10px !important;
+	width: 40px !important;
 	padding-top: 9px !important
 	}}
 @media only screen 
@@ -2134,7 +2134,7 @@ and (min-device-width : 375px)
 and (max-device-width : 812px)
 and (-webkit-device-pixel-ratio : 3) {
 a.dropdown-toggle.search-btn.collapsed {
-	width: 10px !important
+	width: 40px !important
 	}}
 
 @media only screen 
@@ -2158,15 +2158,16 @@ and (-webkit-device-pixel-ratio : 3) {
 	padding-top: 7px !important
 	}
 }
-
+/*
 @media (max-width: 991px) {		
-	#header .header-right .dropdown-menu {
+#header .header-right .dropdown-menu {
 		text-align: left !important;
 		background-color: #fff !important;
 		border-width: 0 !important;
 		border-radius: 0 !important;
 		width: 100% !important
 	}}
+
 @media (max-width: 991px) {
 #header .menu.mobile .dropdown-menu .dropdown-menu {
 	left: auto !important;
@@ -2174,8 +2175,8 @@ and (-webkit-device-pixel-ratio : 3) {
 	width: 100% !important;
 	text-align: inherit !important;
 	background-color: #d9e2db !important;
-
 	}}
+
 @media (max-width: 991px) {
 .dropdown-menu {
 	-webkit-box-shadow: none !important
@@ -2185,15 +2186,18 @@ and (-webkit-device-pixel-ratio : 3) {
 a.fa.fa-search {
 	display:none  !important
 	}}
+
 @media (max-width: 991px) {
 div.dropdown.mobile-search {
 	display:none !important
 	}}
+
 @media (max-width: 991px) {
 .dropdown-toggle.search-btn {
 	width: 10px !important;
 	padding-top: 2px !important
 	}}
+
 @media (max-width: 991px) {
 .dropdown.mobile-nav {
 	width: 10px !important;
@@ -2204,7 +2208,7 @@ a.dropdown-toggle.search-btn.collapsed {
 	width: 10px !important
 	}}
 
-/* 
+
 @media (max-width: 991px) {
 div#profileWidget.profileWidget {
 	padding-top: 0 !important;
@@ -2215,12 +2219,13 @@ div#profileWidget.profileWidget {
 	text-align:center !important;
 	background-color: #d9e2db !important
 	}}
+
 @media (max-width: 991px) {
 #profilewidget a {
 	padding-top: 7px !important;
 	}
 }
-*/
+
 
 @media (min-width: 992px) and (max-width: 1199px) { 
 #header .header-right .dropdown-menu {
@@ -2285,6 +2290,7 @@ div#profileWidget.profileWidget {
 	}}
 */
 
+/*
 @media (min-width: 1200px) {	
 #header .header-right .dropdown-menu {
 		text-align: left !important;
@@ -2330,7 +2336,6 @@ a.dropdown-toggle.search-btn.collapsed {
 	width: 10px !important
 	}}
 
-/*
 @media (max-width: 1200px) {
 div#profileWidget.profileWidget {
 	padding-top: 0 !important;
