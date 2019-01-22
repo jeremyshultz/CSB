@@ -2522,5 +2522,8 @@ img#logo {
 	max-width: 231px !important
 	}
 #logo {
-	max-width:20px !important
+	max-width:100px !important
+	}
+.logo {
+	max-width: 0px !important
 	}
