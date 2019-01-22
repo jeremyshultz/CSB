@@ -459,7 +459,7 @@ header .main .menu-button:before {
     }
 }
 header .main .logo {
-    width: 33% !important;
+    max-width: 231px !important;
     min-width: 175px !important;
     opacity: 1;
     -webkit-transition: all .25s ease;
@@ -884,7 +884,8 @@ header.open .menu {
 @media (max-width: 991px) {
     header.header-search .logo {
         margin-right: 240px;
-        margin-left: 0px
+        margin-left: 0px;
+	max-width:231px
     }
 }
 @media (max-width: 500px) {
@@ -897,7 +898,7 @@ header.header-search .search-input {
 }
 @media (max-width: 991px) {
     header.header-search .search-input {
-        min-width: 230px
+        min-width: 231px
     }
 }
 @media (max-width: 500px) {
@@ -908,7 +909,8 @@ header.header-search .search-input {
 @media (max-width: 991px) {
     header.header-zip .logo {
         margin-right: 160px;
-        margin-left: 28px
+        margin-left: 28px;
+	max-width:231px
     }
 }
 @media (max-width: 500px) {
