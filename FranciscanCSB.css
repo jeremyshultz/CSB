@@ -1969,10 +1969,9 @@ i.mobilelink.fa.fa-search {
 	display:none  !important
 	}
 	
-div.dropdown.mobile-search {
+.dropdown.mobile-search {
 	display:none !important
 	}
-
 	
 .dropdown-toggle.search-btn {
 	width: 0px !important;
@@ -2502,5 +2501,9 @@ i.mobilelink.fa.fa-bars:before {
 	}}
 
 .menu.mobile .nav .dropdown .dropdown-toggle i.fa {
+	font-size:25px !important
+	}
+	
+.header .mobilelink {
 	font-size:25px !important
 	}
