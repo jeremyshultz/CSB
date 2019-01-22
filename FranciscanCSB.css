@@ -2517,3 +2517,7 @@ i.mobilelink.fa.fa-bars:before {
 img#logo.logo {
 	max-width: 231px
 	}
+
+img #logo .logo {
+	max-width: 231px
+	}
