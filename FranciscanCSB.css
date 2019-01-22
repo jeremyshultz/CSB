@@ -2459,7 +2459,7 @@ font-size:30px !important
 	font-size:30px !important
 
 }
-
+/*
 @media only screen and (min-device-width : 569px) and (max-device-width : 768px) {
 #header .header-bottom .container .menu-btn {
 	display: none !important
@@ -2510,13 +2510,7 @@ font-size:30px !important
  .header-bottom  .container .menu-btn {
 	 display: none !important
 	}
-
+*/
 img#logo {
 	max-width: 231px !important
-	}
-#logo {
-	max-width:100px !important
-	}
-.logo {
-	max-width: 0px !important
 	}
