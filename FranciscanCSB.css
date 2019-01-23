@@ -2482,7 +2482,7 @@ i.mobilelink.fa.fa-bars {
 @media only screen and (min-device-width : 569px) and (max-device-width : 768px) {
 #header .dropdown-menu > li {
     font-size: 0.75em;
-    padding-top:15px !important
+padding-top:15px !important
 	}}
 
 @media only screen and (min-device-width : 569px) and (max-device-width : 768px) {
@@ -2529,4 +2529,13 @@ img#logo {
 .content {
 	padding-left: -18px !important;
 	padding-right: -18px !important
+}
+
+.mobileApplyCtr .aquabtn button {
+	border-radius: 5px !important;
+	text-transform: uppercase !important;
+	background-color: #f15d22 !important;
+	color: #fff !important;
+	font-size: 14px !important;
+	max-width: 400px !important
 }
