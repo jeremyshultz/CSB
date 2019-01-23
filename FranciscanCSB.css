@@ -2526,3 +2526,7 @@ img#logo {
 	padding-right: 15px !important
 }
 
+.content {
+	padding-left: -18px !important;
+	padding-right: -18px !important
+}
