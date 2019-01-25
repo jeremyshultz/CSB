@@ -1975,23 +1975,18 @@ i.mobilelink.fa.fa-search {
 .dropdown.mobile-search {
 	display:none !important
 	}
-	
+
+/* MOBILE MENU STYLES */
 .dropdown-toggle.search-btn {
-	width: 20px !important;
 	padding-top: 2px !important
 	}
 
 .dropdown.mobile-nav {
-	width: 20px !important;
 	padding-top: 9px !important
 	}
 
 a.dropdown-toggle.search-btn.collapsed {
-	width: 20px !important
 	}
-
-	
-/* MOBILE MENU STYLES */
 
 @media only screen 
 and (min-device-width: 569px)
