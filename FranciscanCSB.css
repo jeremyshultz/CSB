@@ -2686,6 +2686,7 @@ div#page_content .modal p {
 }
 div#page_content .modal h5 {
 margin-left: 0 !important;
+	display: none !important;
 }
 .mobileApplyCtr .bottomLink {
 margin-left: 0 !important;
