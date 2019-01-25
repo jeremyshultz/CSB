@@ -1986,6 +1986,8 @@ i.mobilelink.fa.fa-search {
 	}
 
 a.dropdown-toggle.search-btn.collapsed {
+	outline-style: none !important;
+	width: 30px !important;	
 	}
 
 @media only screen 
@@ -2030,21 +2032,20 @@ div.dropdown.mobile-search {
 and (min-device-width: 569px)
 and (max-device-width: 768px) {
 .dropdown-toggle.search-btn {
-	width: 10px !important;
 	padding-top: 2px !important
 	}}
 @media only screen 
 and (min-device-width: 569px)
 and (max-device-width: 768px) {
 .dropdown.mobile-nav {
-	width: 10px !important;
+
 	padding-top: 9px !important
 	}}
 @media only screen 
 and (min-device-width: 569px)
 and (max-device-width: 768px) {
 a.dropdown-toggle.search-btn.collapsed {
-	width: 40px !important
+	width: 30px !important
 	}}
 
 @media only screen 
@@ -2113,7 +2114,7 @@ and (min-device-width : 375px)
 and (max-device-width : 812px)
 and (-webkit-device-pixel-ratio : 3) {
 .dropdown-toggle.search-btn {
-	width: 40px !important;
+	width: 30px !important;
 	padding-top: 2px !important
 	}}
 @media only screen 
@@ -2121,7 +2122,7 @@ and (min-device-width : 375px)
 and (max-device-width : 812px)
 and (-webkit-device-pixel-ratio : 3) {
 .dropdown.mobile-nav {
-	width: 40px !important;
+	width: 30px !important;
 	padding-top: 9px !important
 	}}
 @media only screen 
@@ -2129,7 +2130,7 @@ and (min-device-width : 375px)
 and (max-device-width : 812px)
 and (-webkit-device-pixel-ratio : 3) {
 a.dropdown-toggle.search-btn.collapsed {
-	width: 40px !important
+	width: 30px !important
 	}}
 
 @media only screen 
@@ -2189,18 +2190,18 @@ div.dropdown.mobile-search {
 
 @media (max-width: 991px) {
 .dropdown-toggle.search-btn {
-	width: 20px !important;
+	width: 30px !important;
 	padding-top: 2px !important
 	}}
 
 @media (max-width: 991px) {
 .dropdown.mobile-nav {
-	width: 20px !important;
+	width: 30px !important;
 	padding-top: 9px !important
 	}}
 @media (max-width: 991px) {
 a.dropdown-toggle.search-btn.collapsed {
-	width: 20px !important
+	width: 30px !important
 	}}
 
 /*
@@ -2399,8 +2400,6 @@ a.dropdown-toggle {
     	margin-right: 0px
 	}
 
-
-	
 .fa-navicon:before, .fa-reorder:before, .fa-bars:before {
     font-size: 30px !important
 }
@@ -2448,7 +2447,6 @@ i.fa.search {
 
 i.mobilelink.fa.fa-bars {
 	font-size:30px !important;
-	width: 40px !important
 	}
 	
 .header .mobilelink {
