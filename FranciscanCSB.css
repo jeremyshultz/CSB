@@ -2682,17 +2682,16 @@ font-family: Lato !important;
 div#page_content .modal p { 
 	margin-left: 0 !important;
 	margin-bottom: 10px !important;
-	font-size: 15px !importan
+	font-size: 15px !important
 }
+
 div#page_content .modal h5 {
-margin-left: 0 !important;
+	margin-left: 0 !important;
 	display: none !important;
 }
-.mobileApplyCtr .bottomLink {
-margin-left: 0 !important;
-}
-.mobileApplyCtr .aquabtn button {
 
+.mobileApplyCtr .bottomLink {
+	margin-left: 0 !important;
 }
 
 @media (max-width: 767px) {
@@ -2700,6 +2699,7 @@ margin-left: 0 !important;
 width: 100% !important;
 max-width: 100% !important;
 }
+	
 td {
 	padding-bottom: 5px !important;
 	padding-top: 0 !important;
