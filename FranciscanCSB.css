@@ -2359,7 +2359,6 @@ div#profileWidget.profileWidget {
 	padding-top:7px !important;
 	padding-bottom:7px !important;
 	float:left !important;
-	width:20px !important
 }
 
 a.dropdown-toggle {
@@ -2430,7 +2429,6 @@ a.dropdown-toggle.menu-btn {
 
 .dropdown-toggle .search-btn {
 	font-size: 30px !important;
-	width: 40px !important
 	}
 
 .dropdown-toggle .menu-btn {
