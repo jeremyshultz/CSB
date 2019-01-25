@@ -2537,5 +2537,163 @@ img#logo {
 	background-color: #f15d22 !important;
 	color: #fff !important;
 	font-size: 14px !important;
-	max-width: 400px !important
+	max-width: 100px !important;
+	text-align: center !important;
+	margin-bottom: 30px;
 }
+
+#rmkContent div#page_content .modal .axial th {
+margin-left: 0 !important;
+margin-right: 0 !important;
+}
+
+#rmkContent div#page_content .modal .axial td {
+	text-align: left !important;
+margin-right: 0 !important;
+margin-left: 0 !important;
+}
+.mobileApplyCtr .modal .content input[type=text], .mobileApplyCtr .modal .content input[type=password] {
+	margin-left: 0 !important
+}
+div#page_content .modal h5 {
+padding-left: 0px !important;
+border-bottom: solid !important;
+border-width: .1px !important;
+padding-bottom: 5px
+}
+
+.rcmFormSection div.rcmFormSectionTopBar {
+font-family: "Lato" !important;
+font-size: 15px !important;
+padding-top: 7px !important;
+padding-bottom: 4px !important;
+text-transform: uppercase !important;
+padding-left: 5px !important;
+background-color: rgb(217, 226, 219) !important;
+margin-bottom: 10px !important;
+font-weight: lighter !important;
+}
+
+.sectionInstructionTxt {
+padding-top: 0 !important;
+}
+
+#page_content {
+margin-left: 0 !important;
+margin-right 0 !important
+}
+
+.mobileApplyCtr .rcmResumeElement {
+padding-left: 0 !important;
+padding-right: 0 !important;
+float: left !important;
+font-size: 11px !important;
+text-transform: uppercase !important;
+}
+
+.rcmBackToResultsBtn {
+display: none !important
+}
+
+.rcmSaveButton {
+border-radius: 5px !important;
+background-color: #f15d22 !important;
+color: #fff !important;
+text-transform: uppercase;
+padding: 5px !important;
+font-family: Lato !important;
+font-size: 14px !important;
+}
+
+.rcmSaveButton {
+min-height: 0 !important;
+padding: 5px !important
+}
+
+select {
+background-color: #fff;
+}
+
+.rcmFormElement select {
+padding: 3px !important;
+}
+
+.rcmFormElement input {
+padding: 3px !important;
+}
+@media (max-width: 767px) {
+.rcmAppBtnWrapper .rcmSaveButton {
+float: right !important;
+width: 50px !important;
+margin-top: 20px !important;
+}}
+
+@media (max-width: 767px) {
+.container-fluid {
+padding-left: 0;
+padding-right: 0;
+}
+input {
+max-width: 100% !important;
+border-radius: 5px !important;
+}
+select {
+max-width: 100% !important;
+border-radius: 5px !important;
+background-color: fff !important;
+}
+.rcmFormSection .sectionContent {
+padding-left: 0 !important;
+}
+}
+
+span.sectionExpandCollapse {
+padding-right: 5px !important;
+}
+
+.rcmFormElement {
+margin-top: 0 !important;
+margin-bottom: 20px !important;
+}
+
+.globalSearchSelector {
+display: none !important;
+}
+
+.globalPlacematNavigationText {
+font-weight: bold !important;
+font-size: 14px !important;
+text-transform: uppercase !important;
+font-family: Lato !important;
+}
+
+.loggedInStatus {
+font-size: 14px !important;
+}
+
+.page_title h1 {
+text-transform: uppercase !important;
+font-size: 25px !important;
+font-weight: normal !important;
+margin-left: 0px !important;
+font-family: Lato !important;
+}
+
+div#page_content .modal p { 
+margin-left: 0 !important
+}
+div#page_content .modal h5 {
+margin-left: 0 !important;
+}
+.mobileApplyCtr .bottomLink {
+margin-left: 0 !important;
+}
+.mobileApplyCtr .aquabtn button {
+
+}
+
+@media (max-width: 767px) {
+.mobileApplyCtr .aquabtn button {
+width: 100% !important;
+max-width: 100% !important;
+}}
