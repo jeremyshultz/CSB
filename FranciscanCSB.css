@@ -2355,11 +2355,13 @@ div#profileWidget.profileWidget {
 	padding-top:7px !important;
 	padding-bottom:7px !important;
 	float:left !important;
+	width: fit-content !important;
 }
 
 a.dropdown-toggle {
 	margin-left:0px !important;
 	margin-right:0px !important;
+	width: fit-content !important;
 }
 /* FONT AWESOME SIZE */
 
@@ -2397,11 +2399,13 @@ a.dropdown-toggle {
    	height: 20px !important;
     	padding: 0;
     	font-size: 25px !important;
-    	margin-right: 0px
+    	margin-right: 0px;
+	width: fit-content !important;
 	}
 
 .fa-navicon:before, .fa-reorder:before, .fa-bars:before {
-    font-size: 30px !important
+    font-size: 30px !important;
+	
 }
 
 div .dropdown .mobile-search {
@@ -2418,23 +2422,28 @@ a.dropdown-toggle.search-btn {
 	}
 
 a.dropdown-toggle.menu-btn {
-	display: none !important
+	display: none !important;
+	width: fit-content !important;
 	}
 
 .dropdown-toggle .search-btn {
 	font-size: 30px !important;
+	width: fit-content !important;
 	}
 
 .dropdown-toggle .menu-btn {
-	display: none !important
+	display: none !important;
+	width: fit-content !important;
 	}
 	
 .search-btn {
 	font-size: 30px !important;
+	width: fit-content !important;
 	}
 
 .menu-btn {
-	display: none !important
+	display: none !important;
+		width: fit-content !important;
 	}	
 
 i.mobilelink {
