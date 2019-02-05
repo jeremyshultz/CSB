@@ -410,7 +410,7 @@ header a:hover,
 header a:link,
 header a:visited,
 header p {
-    font-family: 'Arial', sans-serif;
+    font-family: "custom5c675a7eb9ac41a7adac0", sans-serif;
     color: #000;
     font-weight: 400;
     font-size: 12px;
@@ -608,7 +608,7 @@ header .main .search-input {
     margin: 0;
     overflow: hidden;
     font-size: .75em;
-    font-family: Arial, sans-serif;
+    font-family: "custom5c675a7eb9ac41a7adac0", sans-serif;
     color: #000;
     height: 2.5em;
     z-index: 2;
@@ -744,7 +744,7 @@ header .menu ul li {
     line-height: 2.6em;
     text-transform: uppercase;
     letter-spacing: .03em;
-    font-family: MrEaves;
+    font-family: "MrEaves";
     font-weight: 700!important
 }
 @media (max-width: 991px) {
@@ -1316,7 +1316,7 @@ footer .mobile-footer-links a {
 .page-node .hero-detail .white-textbox p,
 .page-node .hero-home .white-textbox p,
 .page-node .hero-landing .white-textbox p {
-    font-family: Arial, sans-serif;
+    font-family: "custom5c675a7eb9ac41a7adac0", sans-serif;
     font-size: 14px;
     color: #000;
     line-height: 1.3em
@@ -2542,4 +2542,12 @@ img#logo {
 /* FONT SIZE FOR JOB SEARCH RESULTS */
 .visible-phone {
 	font-size: 13px !important;
+}
+
+li {
+	font-family: "custom5c675a7eb9ac41a7adac0" !important;
+}
+
+ul {
+	font-family: "custom5c675a7eb9ac41a7adac0" !important;
 }
