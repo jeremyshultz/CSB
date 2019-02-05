@@ -1400,7 +1400,7 @@ footer .mobile-footer-links a {
     font-weight: 400!important
 }
 .hero-landing .main-text p {
-    font-family: "PT Serif", serif;
+    font-family: "custom5c675a7eb9ac41a7adac0";
     font-size: 16px;
     line-height: 1.5em;
     text-shadow: 0 0 5px #fff
@@ -1668,7 +1668,7 @@ footer .mobile-footer-links a {
 }
 .hero-detail .main-text {
     color: #fff;
-    font-family: "PT Serif", serif;
+    font-family: "custom5c675a7eb9ac41a7adac0", serif;
     font-size: 16px;
     line-height: 1.5em;
     width: 90%;
