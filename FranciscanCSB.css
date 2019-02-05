@@ -2532,3 +2532,14 @@ img#logo {
 	padding-right: -18px !important
 }
 
+/* PADDING FOR JOB SEARCH RESULTS TABLE */
+.colTitle {
+	padding-left: 8px !important;
+	padding-bottom: 15px !important;
+	padding-top: 10px !important;
+}
+
+/* FONT SIZE FOR JOB SEARCH RESULTS */
+.visible-phone {
+	font-size: 13px !important;
+}
