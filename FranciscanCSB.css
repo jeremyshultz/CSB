@@ -2553,8 +2553,7 @@ ul {
 }
 
 
-
-<!--- STYLES FOR MOBILE MENU --->
+/* STYLES FOR MOBILE MENU */
 
 @media (max-width: 991px)
 #header .header-right .dropdown-menu {
@@ -2599,8 +2598,8 @@ li.dropdown:hover {
 }
 
 
-<!--- END STYLES FOR MOBILE MENU --->
-<!--- STYLES FOR JOB SEARCH FORM --->
+/* END STYLES FOR MOBILE MENU */
+/* STYLES FOR JOB SEARCH FORM */
 
 #rd-keywordsearch .row {
 	margin-right: 0;
@@ -2637,4 +2636,4 @@ body.coreCSB #content .form-control.geolocation-input {
 	-webkit-appearance: menulist;
 }
 
-<!--- END STYLES FOR JOB SEARCH FORM --->
+/* END STYLES FOR JOB SEARCH FORM */
