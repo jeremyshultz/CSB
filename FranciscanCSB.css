@@ -2555,7 +2555,7 @@ ul {
 
 /* STYLES FOR MOBILE MENU */
 
-@media (max-width: 991px)
+@media (max-width: 991px) {
 #header .header-right .dropdown-menu {
     text-align: left !important;
     background-color: #fff !important;
@@ -2571,7 +2571,7 @@ ul {
 }
 }
 
-@media (max-width: 991px)
+@media (max-width: 991px) {
 #header .header-right .dropdown-menu {
 	padding-top: 40px;
 }
@@ -2613,7 +2613,7 @@ li.dropdown:hover {
 	margin-top: -1px;
 }
 
-@media (max-width: 991px)
+@media (max-width: 991px) {
 .geobuttonswitcherwrapper, #rd-searchbutton {
 	padding-left: 0;
 	padding-right: 0;
@@ -2648,12 +2648,14 @@ select#geolocation-distance-options-select-mi {
     -webkit-appearance: menulist;
 }
 
+@media (max-width: 991px) {
 #search input {text-indent: 2px;
   	line-height: 1.42857143;
 	border-color: #ccc;
 	border-width: 1px;
 	padding: 7px;
 }
+	}
 
 #search .row>div>span {
 	margin-bottom: 0 !important;
