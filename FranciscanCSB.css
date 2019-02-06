@@ -2572,7 +2572,7 @@ ul {
 
 ul.dropdown-menu.company-dropdown.headerdropdown li {
     background-color: #d9e2db !important;
-  transition-duration: 0.25s !important;
+    transition-duration: 0.25s !important;
     transition-timing-function: ease !important;
 }
 
@@ -2583,8 +2583,6 @@ ul.dropdown-menu.company-dropdown.headerdropdown li {
 background-color: #015595 !important;
 color: #fff !important;
 }
-}
-
 
 .nav .open > a, .nav .open > a:hover, .nav .open > a:focus, .nav > li > a:hover, .nav > li > a:focus {
 	color: #fff !important;
@@ -2606,6 +2604,7 @@ li.dropdown:hover {
 #header #profileWidget {
 	margin-top: 10px !important;
 	background-color: #ccc !important;
+}
 }
 
 /* END STYLES FOR MOBILE MENU */
