@@ -2653,7 +2653,7 @@ body.coreCSB #content .form-control.geolocation-input {
 	-webkit-appearance: menulist !important;
 }
 
-select#geolocation-distance-options-select-mi {
+#geolocation-distance-options-select-mi {
     -webkit-appearance: menulist !important;
 }
 
