@@ -2562,78 +2562,101 @@ ul {
     border-width: 0 !important;
     border-radius: 0 !important;
     width: 100% !important;
-    height: 100% !important;
+    height: 100%;
     transition-duration: 0.25s !important;
-    padding-top: 20px !important;
-    transition-timing-function: ease !important;
+    padding-top: 20px;
+    transition-timing-function: ease;
     min-width: 0 !important;
     max-width: 350px !important;
 }
-
+}
 
 @media (max-width: 991px)
 #header .header-right .dropdown-menu {
-	padding-top: 40px !important;
-
+	padding-top: 40px;
+}
+}
 .nav .open > a, .nav .open > a:hover, .nav .open > a:focus, .nav > li > a:hover, .nav > li > a:focus {
 	color: #fff !important;
-	transition-duration:0.25s !important;
+	transition-duration:0.25s;
 }
 
 li.dropdown {
-	line-height: 4 !important;
+	line-height: 4;
 }
 
 li.dropdown:hover {	
-	background-color: #015595 !important;
+	background-color: #015595;
 }
 
 #header .dropdown-menu > li {
-	line-height: 4 !important;
+	line-height: 4;
 }
 
 #header #profileWidget {
-	margin-top: 10px !important;
-	background-color: #ccc !important;
+	margin-top: 10px;
+	background-color: #ccc;
 }
 
-
 /* END STYLES FOR MOBILE MENU */
+
+
 /* STYLES FOR JOB SEARCH FORM */
 
 #rd-keywordsearch .row {
-	margin-right: 0 !important;
-	margin-left: 0 !important;
-	margin-bottom: 10px !important;
+	margin-right: 0;
+	margin-left: 0;
+	margin-bottom: 10px;
 }
 
 .geolocationoptionsgroup select {
-	margin-top: -1px !important;
+	margin-top: -1px;
 }
 
 @media (max-width: 991px)
 .geobuttonswitcherwrapper, #rd-searchbutton {
-	padding-left: 0 !important;
-	padding-right: 0 !important;
-	margin-top: 20px !important;
+	padding-left: 0;
+	padding-right: 0;
+	margin-top: 20px;
+}
+}
+
+.col-md-12.col-sm-12.col-xs-12.search-submit {
+    margin-top: 20px;
+}
 }
 
 #keywordsearch-q, #keywordsearch-locationsearch, .geolocationinput {
-	margin-bottom: 5px !important;
-	line-height: 1.42857143 !important;
+	margin-bottom: 5px;
+	line-height: 1.42857143;
 	border-color: #ccc !important;
 	border-width: 1px !important;
-	padding: 7px !important;
+	padding: 7px;
 
 #search .row>div>span {
-	display: inline-block !important;
+	display: inline-block;
 	/* margin-bottom: 5px; */
 }
 
 body.coreCSB #content .form-control.geolocation-input {
-	font-size: inherit !important;
-	padding: 7px !important;
-	-webkit-appearance: menulist !important;
+	font-size: inherit;
+	padding: 7px;
+	-webkit-appearance: menulist;
+}
+
+select#geolocation-distance-options-select-mi {
+    -webkit-appearance: menulist;
+}
+
+#search input {text-indent: 2px;
+  	line-height: 1.42857143;
+	border-color: #ccc;
+	border-width: 1px;
+	padding: 7px;
+}
+
+#search .row>div>span {
+	margin-bottom: 0 !important;
 }
 
 /* END STYLES FOR JOB SEARCH FORM */
