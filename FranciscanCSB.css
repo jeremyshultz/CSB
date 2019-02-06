@@ -2551,3 +2551,90 @@ li {
 ul {
 	font-family: "custom5c675a7eb9ac41a7adac0" !important;
 }
+
+
+
+<!--- STYLES FOR MOBILE MENU --->
+
+@media (max-width: 991px)
+#header .header-right .dropdown-menu {
+    text-align: left !important;
+    background-color: #fff !important;
+    border-width: 0 !important;
+    border-radius: 0 !important;
+    width: 100% !important;
+    height: 100%;
+    transition-duration: 0.25s !important;
+    padding-top: 20px;
+    transition-timing-function: ease;
+    min-width: 0 !important;
+    max-width: 350px !important;
+}
+
+
+@media (max-width: 991px)
+#header .header-right .dropdown-menu {
+	padding-top: 40px;
+
+.nav .open > a, .nav .open > a:hover, .nav .open > a:focus, .nav > li > a:hover, .nav > li > a:focus {
+	color: #fff !important;
+	transition-duration:0.25s;
+}
+
+li.dropdown {
+	line-height: 4;
+}
+
+li.dropdown:hover {	
+	background-color: #015595;
+}
+
+#header .dropdown-menu > li {
+	line-height: 4;
+}
+
+#header #profileWidget {
+	margin-top: 10px;
+	background-color: #ccc;
+}
+
+
+<!--- END STYLES FOR MOBILE MENU --->
+<!--- STYLES FOR JOB SEARCH FORM --->
+
+#rd-keywordsearch .row {
+	margin-right: 0;
+	margin-left: 0;
+	margin-bottom: 10px;
+}
+
+.geolocationoptionsgroup select {
+	margin-top: -1px;
+}
+
+@media (max-width: 991px)
+.geobuttonswitcherwrapper, #rd-searchbutton {
+	padding-left: 0;
+	padding-right: 0;
+	margin-top: 20px;
+}
+
+#keywordsearch-q, #keywordsearch-locationsearch, .geolocationinput {
+	margin-bottom: 5px;
+	line-height: 1.42857143;
+	border-color: #ccc !important;
+	border-width: 1px !important;
+	padding: 7px;
+
+#search .row>div>span {
+	display: inline-block;
+	/* margin-bottom: 5px; */
+}
+
+body.coreCSB #content .form-control.geolocation-input {
+	font-size: inherit;
+	padding: 7px;
+	-webkit-appearance: menulist;
+}
+
+<!--- END STYLES FOR JOB SEARCH FORM --->
