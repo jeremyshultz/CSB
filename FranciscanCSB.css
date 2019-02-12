@@ -79,6 +79,12 @@ table#searchresults.searchResults.full.table.table-striped.table-hover {
 	}
 }
 
+@media (max-width:720px) {
+	.panel {
+	display:none
+	}
+}
+
 /**********/
 
 p {
