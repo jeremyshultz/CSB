@@ -54,6 +54,10 @@
 	margin-left: 30px !important;
 	margin-right: 30px !important;
 	}
+
+.searchResultsShell {
+	max-width:1200px !important;
+	}
 	
 #search {
 	border-radius: 10px
@@ -63,6 +67,8 @@ table#searchresults.searchResults.full.table.table-striped.table-hover {
 	margin-left:15px !important;
 	margin-right:15px !important
 	}}
+
+/* END OF FEB 12, 2019 EDITS */
 
 p {
 	font-family: "custom5c675a7eb9ac41a7adac0";
