@@ -56,7 +56,26 @@
 table#searchresults.searchResults.full.table.table-striped.table-hover {
 	margin-left:15px !important;
 	margin-right:15px !important
-	}}
+	}
+
+#job-table {
+	max-width:1000px !important;
+	}
+
+#actions {
+    max-width: 1000px !important;
+	}
+	
+#savesearch {
+    float: left;
+	}
+
+.panel {
+	-webkit-box-shadow: none;
+	box-shadow:none;
+	}
+	
+}
 
 /**********/
 
