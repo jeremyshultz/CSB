@@ -51,9 +51,9 @@
 }
 
 @media (min-width:920px) {
-.searchResultsShell {
-	margin-left: 30px;
-	margin-right: 30px;
+#searchresults {
+	margin-left: 30px !important;
+	margin-right: 30px !important;
 	}}
 
 p {
