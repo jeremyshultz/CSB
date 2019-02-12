@@ -1789,7 +1789,7 @@ footer .mobile-footer-links a {
 }
 @media (min-width: 1200px) {
     .container {
-        width: 1200px}
+        width: 100%}
 }
 @media (max-width: 1204px) {
 	#innershell {
