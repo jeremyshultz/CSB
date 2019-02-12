@@ -40,6 +40,14 @@
 	-webkit-margin-font: antialias;
 }
 
+/* ADDED FEB 12, 2019 - ADJUST CONTENT WIDTH TO 100% PAGE WIDTH */
+.home-page #content>.inner, .content-page #content>.inner, .search-page #content .inner, .talentlanding-page #content>.inner, .job-page #content>.inner {
+	width: 100%;
+}
+.inner, .limitwidth, .breadcrumbtrail, #category-name, #category-header .headertext, .category-groups-wrapper, #noresults, #actions, #job-table, .back-to-search-wrapper, .jobDisplayShell, #similar-jobs, #ssoStack, .pagination-top, .pagination-bottom, .searchResultsShell, .keyword-title, .container {
+	max-width: 100%;
+}
+
 p {
 	font-family: "custom5c675a7eb9ac41a7adac0";
 }
