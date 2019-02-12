@@ -46,7 +46,6 @@
 	max-width: 100% !important;
 }
 
-
 @media (min-width:920px) {
 #searchresults {
 	margin-left: 30px !important;
@@ -67,14 +66,13 @@ table#searchresults.searchResults.full.table.table-striped.table-hover {
 	}
 	
 #savesearch {
-    float: left;
+    float: left !important;
 	}
 
 .panel {
-	-webkit-box-shadow: none;
-	box-shadow:none;
+	-webkit-box-shadow: none !important;
+	box-shadow:none !important;
 	}
-	
 }
 
 /**********/
