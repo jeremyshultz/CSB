@@ -67,6 +67,7 @@ table#searchresults.searchResults.full.table.table-striped.table-hover {
 
 #job-table {
 	max-width:1000px !important;
+	padding-right:30px;
 	}
 
 #actions {
