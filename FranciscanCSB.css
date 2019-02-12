@@ -48,21 +48,21 @@
 
 @media (min-width:920px) {
 #searchresults {
-	margin-left: 30px !important;
-	margin-right: 30px !important;
+	/*margin-left: 30px !important;
+	margin-right: 30px !important;*/
+	max-width:1000px;
 	}
 	
 .innershell {
 	max-width: 100% !important;
 	}
-
+/*
 table#searchresults.searchResults.full.table.table-striped.table-hover {
 	margin-left:15px !important;
 	margin-right:15px !important
 	}
-	
+*/
 .searchResultsShell {
-	max-width:100%;
 	}
 
 #job-table {
