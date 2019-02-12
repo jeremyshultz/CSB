@@ -54,6 +54,10 @@
 	margin-left: 30px !important;
 	margin-right: 30px !important;
 	}
+	
+#search {
+	border-radius: 10px
+	}
 
 table#searchresults.searchResults.full.table.table-striped.table-hover {
 	margin-left:15px !important;
