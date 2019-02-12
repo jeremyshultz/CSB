@@ -65,7 +65,7 @@ table#searchresults.searchResults.full.table.table-striped.table-hover {
 .searchResultsShell {
 	}
 
-#job-table {
+div#job-table {
 	max-width:1000px !important;
 	padding-right:30px;
 	}
