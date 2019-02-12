@@ -315,7 +315,7 @@ a:active {
 	border-top-color:rgb(255,255,255);
 	border-top-left-radius:5px;
 	border-top-right-radius:5px;
-	bnorder-top-style:none;
+	border-top-style:none;
 	border-top-width:0px;
 	box-sizing:border-box;
 	color:rgb(255,255,255);
@@ -358,6 +358,14 @@ a:active {
 	font-size:14px;
 	letter-spacing:0.42px !important;
 	cursor:default !important;
+	text-decoration: none;
+	-webkit-transition-duration: 0.4s; /* Safari */
+        transition-duration: 0.4s;
+}
+
+.btn:hover {
+	color:rgba(241,93,34,1.0);
+	background-color:#fff
 }
 
 /* LARGE BUTTON FOR SEARCH BOX */
@@ -2729,10 +2737,11 @@ div.col-md-12.col-sm-12.col-xs-12.search-submit {
 }
 
 input#keywordsearchbutton.btn.keywordsearchbutton {
-    padding:7px;
+    padding:10px;
     border:none !important;
     font-family:"Lato";
-    font-size:13px
+    font-size:13px;
+    text-decoration:none;
 }
 
 div.searchswitcher {
