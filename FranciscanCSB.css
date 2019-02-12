@@ -2699,14 +2699,18 @@ input#geolocation.geolocation.geolocationinput.tt-input {
 
 /*SELECT MILES DROPDOWN FIELD*/
 select#geolocation-distance-options-select-mi.geolocation-distance-options-select.input-small.form-control.geolocation-input {
-    padding-top: 7px !important;
-    padding-bottom: 7px !important;
+    padding-top: 9px !important;
+    padding-bottom: 9px !important;
     padding-left:5px !important;
     border-width: px !important;
     border-color: #ccc !important;
     -webkit-appearance: menulist;
     width:100% !important;
     font-family: "Arial"
+}
+
+.searchforminput.geolocationoptionsgroup {
+	width:100px;
 }
 
 div#rd-keywordsearch.search-form-input.keyword-group.col-md-5
