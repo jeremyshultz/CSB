@@ -42,11 +42,16 @@
 
 /* ADDED FEB 12, 2019 - ADJUST CONTENT WIDTH TO 100% PAGE WIDTH */
 .content-page #innershell, .home-page #innershell {
-	width: 100%;
-	max-width: 100%;
+	width: 100% !important;
+	max-width: 100% !important;
 }
 #innhershell {
-	max-width: 100%;
+	max-width: 100% !important;
+}
+
+#job-table {
+    margin-right: 30px;
+    margin-left: 30px;
 }
 
 p {
