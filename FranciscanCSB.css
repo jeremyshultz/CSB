@@ -50,10 +50,11 @@
 	max-width: 100% !important;
 }
 
-#job-table {
-    margin-right: 30px;
-    margin-left: 30px;
-}
+@media (min-width:920px) {
+.searchResultsShell {
+	margin-left: 30px;
+	margin-right: 30px;
+	}
 
 p {
 	font-family: "custom5c675a7eb9ac41a7adac0";
