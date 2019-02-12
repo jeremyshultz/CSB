@@ -46,27 +46,19 @@
 	max-width: 100% !important;
 }
 
+
 @media (min-width:920px) {
 #searchresults {
 	margin-left: 30px !important;
 	margin-right: 30px !important;
 	}
 
-.searchResultsShell {
-	max-width:1200px !important;
-	}
-	
-#search {
-	border-radius: 10px
-	}
-
 table#searchresults.searchResults.full.table.table-striped.table-hover {
 	margin-left:15px !important;
 	margin-right:15px !important
-	}
-}
+	}}
 
-/* END OF FEB 12, 2019 EDITS */
+/**********/
 
 p {
 	font-family: "custom5c675a7eb9ac41a7adac0";
@@ -1796,7 +1788,7 @@ footer .mobile-footer-links a {
 }
 @media (min-width: 1200px) {
     .container {
-        width: 100%}
+        width: 1200px}
 }
 @media (max-width: 1204px) {
 	#innershell {
