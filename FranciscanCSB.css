@@ -60,6 +60,10 @@ table#searchresults.searchResults.full.table.table-striped.table-hover {
 	margin-left:15px !important;
 	margin-right:15px !important
 	}
+	
+.searchResultsShell {
+	max-width:100%;
+	}
 
 #job-table {
 	max-width:1000px !important;
