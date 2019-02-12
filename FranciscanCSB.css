@@ -53,7 +53,7 @@
 	}
 	
 .innershell {
-	max-width: 100%;
+	max-width: 100% !important;
 	}
 
 table#searchresults.searchResults.full.table.table-striped.table-hover {
