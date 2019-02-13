@@ -1476,7 +1476,7 @@
      background-size: cover;
      background-position: 50%;
      border-radius: 100%;
-     float: left 
+     float: right 
 }
  @media (max-width: 767px) {
      .hero-detail .img-circle {
