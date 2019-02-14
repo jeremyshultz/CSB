@@ -2457,6 +2457,16 @@ span.twitter-typeahead {
 }}
  
 @media (max-width: 991px) {
+#search #keywordsearch-locationsearch {
+    padding-left: 5px !important;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #ccc;
+    padding: 7px !important;
+ 
+ }}
+ 
+@media (max-width: 991px) {
 #rd-keywordsearch .row {
 margin-bottom: 20px !important;
  
