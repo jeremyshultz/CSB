@@ -2400,4 +2400,6 @@ input#keywordsearch-locationsearch.location-input.keywordsearch-locationsearch.c
  /* END STYLES FOR JOB SEARCH FORM */
  body.coreCSB #content .form-control.geolocation-input {
     font-size: inherit;
-    padding: 5px !important;
+    padding: 7px;
+    -webkit-appearance: menulist !important'
+ }
