@@ -2470,7 +2470,7 @@ select#geolocation-distance-options-select-mi.geolocation-distance-options-selec
 }
 
 @media (max-width: 991px) {
-div#search.well.well-small {
- padding-left: 15px !important;
- padding-right: 15px !important;
+#search.well.well-small {
+ padding-left: 10px !important;
+ padding-right: 10px !important;
  }}
