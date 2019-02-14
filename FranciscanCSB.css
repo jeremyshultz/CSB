@@ -2435,7 +2435,6 @@ input#geolocation.geolocation.geolocationinput.tt-input {
  
 @media (max-width: 991px) {
 span.twitter-typeahead {
- padding-right: 20px !important;
  }}
  
  @media (max-width: 991px) {
