@@ -2363,8 +2363,13 @@ input#keywordsearch-locationsearch.location-input.keywordsearch-locationsearch.c
  border-color: #ccc !important;
  -webkit-appearance: menulist;
  width:100% !important;
- font-family: "Arial" undefined}undefined .searchforminput.geolocationoptionsgroup {
- width:100px;}
+ font-family: "Arial";
+ font-size: 14px !important;
+} 
+
+.searchforminput.geolocationoptionsgroup {
+ width:100px;
+}
  
 div#rd-keywordsearch.search-form-input.keyword-group.col-md-5 {
  margin-bottom: 15px !important }
