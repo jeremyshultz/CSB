@@ -2420,6 +2420,11 @@ body.coreCSB #content .form-control.geolocation-input {
 input#keywordsearchbutton.btn.keywordsearchbutton {
  margin-top: 20px !important;
  }}
+ 
+ @media (max-width: 991px) {
+input#geolocation.geolocation.geolocationinput.tt-input {
+ margin-top: 20px !important;
+ }}
 
 @media (max-width: 991px) {
 #keywordsearch-q, #search #keywordsearch-locationsearch {
