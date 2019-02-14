@@ -2464,3 +2464,7 @@ span.twitter-typeahead {
 select#geolocation-distance-options-select-mi.geolocation-distance-options-select.input-small.form-control.geolocation-input {
 margin-top: 20px !important;
  }}
+
+#keywordsearch-q, #keywordsearch-locationsearch, .geolocationinput {
+ padding:7px !important;
+}
