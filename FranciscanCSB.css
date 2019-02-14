@@ -2480,3 +2480,9 @@ select#geolocation-distance-options-select-mi.geolocation-distance-options-selec
 #keywordsearch-q, #keywordsearch-locationsearch, .geolocationinput {
  padding:7px !important;
 }
+
+@media (max-width: 991px) {
+div#search.well.well-small {
+ padding-left: 30px !important;
+ padding-right: 30px !important;
+ }}
