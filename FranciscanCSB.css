@@ -2331,7 +2331,7 @@ input#keywordsearch-q.col-md-12 {
  margin-bottom:0 !important;
  width:100% !important;}
 
-input#keywordsearch-locationsearch.location-input.keywordsearch-locationsearch.col-md-10 {
+input#keywordsearch-locationsearch.location-input.keywordsearch-locationsearch {
  padding-top:8px !important;
  padding-bottom:7px !important;
  padding-left:7px !important;
