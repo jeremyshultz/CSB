@@ -2445,7 +2445,7 @@ span.twitter-typeahead {
   }} 
 
 @media (max-width: 991px) {
-#keywordsearch-q, #search #keywordsearch-locationsearch {
+#keywordsearch-locationsearch {
     padding-top: 8px !important;
     padding-bottom: 7px !important;
     padding-left: 7px !important;
@@ -2457,6 +2457,5 @@ span.twitter-typeahead {
  margin-right:15px !important
 }}
  
- 
- 
+
  
