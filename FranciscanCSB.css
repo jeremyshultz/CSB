@@ -2416,13 +2416,13 @@ body.coreCSB #content .form-control.geolocation-input {
   margin-bottom: 0 !important;
  }
  
- @media (max-width: 991px)
+ @media (max-width: 991px) {
 input#keywordsearchbutton.btn.keywordsearchbutton {
  margin-top: 20px !important;
  }}
 
-@media (max-width: 991px)
-#search #keywordsearch-locationsearch {
+@media (max-width: 991px) {
+#keywordsearch-q, #search #keywordsearch-locationsearch {
     padding-top: 8px !important;
     padding-bottom: 7px !important;
     padding-left: 7px !important;
