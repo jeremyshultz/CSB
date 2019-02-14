@@ -2323,14 +2323,13 @@
  #header #profileWidget {
      margin-top: 10px !important;
      background-color: #ccc !important;
-}
+ }}
 input#keywordsearch-q.col-md-12 {
  padding:7px !important;
  border-width:1px !important;
  border-color:#ccc !important;
  margin-bottom:0 !important;
- width:100% !important;undefined}undefined
-
+ width:100% !important;}
 
 input#keywordsearch-locationsearch.location-input.keywordsearch-locationsearch.col-md-10 {
  padding-top:8px !important;
@@ -2339,6 +2338,8 @@ input#keywordsearch-locationsearch.location-input.keywordsearch-locationsearch.c
  border-width:1px !important;
  border-color:#ccc !important;
  margin-bottom:0 !important;
+ border-color: #ccc !important;
+ border-style: solid;
  margin-top:0 !important;}
  
  /*POSTAL CODE SEARCH FIELD*/
@@ -2350,7 +2351,7 @@ input#keywordsearch-locationsearch.location-input.keywordsearch-locationsearch.c
  border-width:1px !important;
  border-color:#ccc !important;
  margin-bottom:0 !important;
- background-color:#fff !important;undefined}
+ background-color:#fff !important;}
  
  /*SELECT MILES DROPDOWN FIELD*/
  
@@ -2366,7 +2367,7 @@ input#keywordsearch-locationsearch.location-input.keywordsearch-locationsearch.c
  width:100px;}
  
 div#rd-keywordsearch.search-form-input.keyword-group.col-md-5 {
- margin-bottom: 15px !important undefined}undefined
+ margin-bottom: 15px !important }
 
 /*SEARCH JOBS BUTTON*/
  
