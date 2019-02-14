@@ -2463,7 +2463,7 @@ span.twitter-typeahead {
     border-width: 1px;
     border-color: #ccc;
     padding: 7px !important;
- 
+    margin-bottom: 0 !important;
  }}
  
 @media (max-width: 991px) {
