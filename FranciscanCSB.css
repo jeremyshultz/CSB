@@ -2431,7 +2431,6 @@ input#keywordsearchbutton.btn.keywordsearchbutton {
  
  @media (max-width: 991px) {
 input#geolocation.geolocation.geolocationinput.tt-input {
- margin-right: 15px !important;
  }}
  
 @media (max-width: 991px) {
@@ -2441,7 +2440,6 @@ span.twitter-typeahead {
  
  @media (max-width: 991px) {
  input.geolocation.geolocationinput.tt-hint {
- margin-right: 15px !important;
   }}
  
  @media (max-width: 991px {
@@ -2459,7 +2457,6 @@ span.twitter-typeahead {
     border-color: #ccc !important;
     margin-bottom: 0 !important;
     background-color: #fff !important;
- margin-right:15px !important
 }}
  
 @media (max-width: 991px) {
