@@ -2363,7 +2363,9 @@ input#keywordsearch-locationsearch.location-input.keywordsearch-locationsearch.c
  -webkit-appearance: menulist;
  width:100% !important;
  font-family: "Arial" undefined}undefined .searchforminput.geolocationoptionsgroup {
- width:100px;undefined}undefined div#rd-keywordsearch.search-form-input.keyword-group.col-md-5 {
+ width:100px;}
+ 
+div#rd-keywordsearch.search-form-input.keyword-group.col-md-5 {
  margin-bottom: 15px !important undefined}undefined
 
 /*SEARCH JOBS BUTTON*/
@@ -2458,4 +2460,7 @@ span.twitter-typeahead {
 }}
  
 
- 
+@media (max-width: 991px)
+select#geolocation-distance-options-select-mi.geolocation-distance-options-select.input-small.form-control.geolocation-input {
+margin-top: 20px !important;
+ }}
