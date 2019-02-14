@@ -2425,6 +2425,23 @@ input#keywordsearchbutton.btn.keywordsearchbutton {
 input#geolocation.geolocation.geolocationinput.tt-input {
  margin-top: 20px !important;
  }}
+ 
+@media (max-width: 991px) {
+span.twitter-typeahead {
+ padding-right: 20px !important;
+ }}
+ 
+ @media (max-width: 991px) {
+ input.geolocation.geolocationinput.tt-hint {
+ margin-top: 20px !important;
+ margin-right: 15px !important;
+  }}
+ 
+ @media (max-width: 991px {
+ select#geolocation-distance-options-select-mi.geolocation-distance-options-select.input-small.form-control.geolocation-input {
+ margin-top: 20px !important;
+ padding: 7px !important;
+  }} 
 
 @media (max-width: 991px) {
 #keywordsearch-q, #search #keywordsearch-locationsearch {
@@ -2436,6 +2453,7 @@ input#geolocation.geolocation.geolocationinput.tt-input {
     margin-bottom: 0 !important;
     background-color: #fff !important;
  margin-top: 20px !important;
+ margin-right:15px !important
 }}
  
  
