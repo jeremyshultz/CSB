@@ -2362,7 +2362,7 @@ input#keywordsearch-locationsearch.location-input.keywordsearch-locationsearch {
  border-width: px !important;
  border-color: #ccc !important;
  -webkit-appearance: menulist;
- width:100% !important;
+ width:auto !important;
  font-family: "Arial";
  font-size: 14px !important;
 } 
