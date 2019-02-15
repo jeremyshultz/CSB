@@ -2367,8 +2367,8 @@ input#keywordsearch-locationsearch.location-input.keywordsearch-locationsearch {
  font-size: 14px !important;
 } 
 
+/* SELECT MILES MENULIST */
 .searchforminput.geolocationoptionsgroup {
- width:100px;
 }
  
 div#rd-keywordsearch.search-form-input.keyword-group.col-md-5 {
