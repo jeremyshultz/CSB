@@ -2460,19 +2460,33 @@ input#keywordsearchbutton.btn.keywordsearchbutton {
 #rd-keywordsearch {
 margin-bottom: 20px !important;
  
- /* REMOVED 2/15/19
-@media (max-width: 991px) {
+
+
 select#geolocation-distance-options-select-mi.geolocation-distance-options-select.input-small.form-control.geolocation-input {
+WIDTH: AUTO !IMPORTANT;
  }}
 
 
 #keywordsearch-q, #keywordsearch-locationsearch, .geolocationinput {
  padding:7px !important;
 }
- */
+
 
 @media (max-width: 991px) {
 #search.well.well-small {
- padding-left: 10px !important;
- padding-right: 10px !important;
+ padding-left: 15px !important;
+ padding-right: 15px !important;
  }}
+
+ @media (max-width: 991px ) {
+  well well-small {
+   padding-left: 15px !important;
+   padding-right: 15px !important;
+  }}
+ 
+ #rd-geolocationsearch {
+      PADDING-LEFT: 0;
+    PADDING-RIGHT: 0;
+}
+
+ 
