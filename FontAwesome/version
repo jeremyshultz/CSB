@@ -1,1 +1,6 @@
 FontAwesome - version 5.7.2
+
+<link href="https://jeremyshultz.github.io/CSB/FontAwesome/css/all.css" rel="stylesheet"> <!--load all styles -->
+
+ <script defer src="https://jeremyshultz.github.io/CSB/FontAwesome/js/all.js"></script> <!--load all styles -->
+
