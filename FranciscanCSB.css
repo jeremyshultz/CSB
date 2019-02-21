@@ -80,6 +80,8 @@
          box-shadow:none !important;
     }
 }
+
+/*************
  @media (max-width:720px) {
      .panel {
          display:none 
