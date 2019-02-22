@@ -1,20 +1,14 @@
-<script type="text/javascript" src="https://jeremyshultz.github.io/CSB/InstagramFeed/jquery.instagramFeed.min.js"></script>
-
+<script type="text/javascript" src="jquery.instagramFeed.min.js"></script>
 <script type="text/javascript">
 	(function($){
 		$(window).on('load', function(){
+			function displayRaw(json){
+				$('#jsonHere').html(json);
+			}
 			$.instagramFeed({
 				'username': 'instagram',
-				'container': "#instagram-feed1",
-				'display_profile': true,
-				'display_biography': true,
-				'display_gallery': true,
-				'get_raw_json': false,
-				'callback': null,
-				'styling': true,
-				'items': 8,
-				'items_per_row': 4,
-				'margin': 1 
+				'get_raw_json': true,
+				'callback': displayRaw
 			});
 		});
 	})(jQuery);
