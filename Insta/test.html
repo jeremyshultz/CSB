@@ -1,0 +1,15 @@
+<script type="text/javascript" src="jquery.instagramFeed.min.js"></script>
+<script type="text/javascript">
+	(function($){
+		$(window).on('load', function(){
+			function displayRaw(json){
+				$('#jsonHere').html(json);
+			}
+			$.instagramFeed({
+				'username': 'instagram',
+				'get_raw_json': true,
+				'callback': displayRaw
+			});
+		});
+	})(jQuery);
+</script>
