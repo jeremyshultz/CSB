@@ -2482,7 +2482,7 @@ WIDTH: AUTO !IMPORTANT;
     PADDING-RIGHT: 0;
 }
  
-@media screen (max-width: 991px) {
+@media (max-width: 991px) {
 img#logo {
      max-width: 150px !important;
      width: 100% !important;
@@ -2494,8 +2494,14 @@ img#logo {
  }
  }
  
- @media (min-width: 992px) {
+@media (min-width: 992px) {
 img#logo {
-     max-width: 231px !important 
+     max-width: 231px !important;
+}
+ }
+ 
+ @media (min-width: 992px) {
+#logo {
+     max-width: 231px !important;
 }
  }
