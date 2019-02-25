@@ -2502,3 +2502,14 @@ img#logo.logo {
     width: 33% !important;
     min-width: 200px !important;
  }
+ 
+  @media (min-width: 992px) {
+  header .main .logo {
+     max-width: 231px !important;
+     min-width: 175px !important;
+     opacity: 1;
+     -webkit-transition: all .25s ease;
+     -o-transition: all .25s ease;
+     transition: all .25s ease 
+   }
+ }
