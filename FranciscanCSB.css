@@ -2279,23 +2279,7 @@
      border-radius: 0 !important;
      min-width: 0 !important;
      background: #f5f5f5;
-
-    -webkit-transition: -webkit-transform 334ms cubic-bezier(0.4, 0, 1, 1);
-    transition: -webkit-transform 334ms cubic-bezier(0.4, 0, 1, 1);
-    transition: transform 334ms cubic-bezier(0.4, 0, 1, 1);
-    transition: transform 334ms cubic-bezier(0.4, 0, 1, 1), -webkit-transform 334ms cubic-bezier(0.4, 0, 1, 1);
-    width: 100%;
-    z-index: 997;
 }
-}
-
-#header .header-right .dropdown-menu.collapsed {
-    -webkit-transform: translateY(0);
-    transform: translateY(0);
-    -webkit-transition: -webkit-transform 334ms cubic-bezier(0, 0, 0.2, 1);
-    transition: -webkit-transform 334ms cubic-bezier(0, 0, 0.2, 1);
-    transition: transform 334ms cubic-bezier(0, 0, 0.2, 1);
-    transition: transform 334ms cubic-bezier(0, 0, 0.2, 1), -webkit-transform 334ms cubic-bezier(0, 0, 0.2, 1);
 }
 
 @media (max-width: 991px) {
