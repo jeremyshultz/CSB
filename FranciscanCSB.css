@@ -2491,7 +2491,7 @@ WIDTH: AUTO !IMPORTANT;
     PADDING-RIGHT: 0;
 }
  
-@media only screen and (max-width: 991) {
+@media screen and (max-width: 991px) {
 img#logo {
      max-width: 150px !important;
      width: 100% !important;
