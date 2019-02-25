@@ -2491,4 +2491,13 @@ WIDTH: AUTO !IMPORTANT;
      -o-transition: all .25s ease;
      transition: all .25s ease 
    }
+ 
+.main .logo {
+     max-width: 231px !important;
+     min-width: 175px !important;
+     opacity: 1;
+     -webkit-transition: all .25s ease;
+     -o-transition: all .25s ease;
+     transition: all .25s ease 
+   }
 
