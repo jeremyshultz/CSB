@@ -2492,7 +2492,7 @@ WIDTH: AUTO !IMPORTANT;
 }
  
 @media only screen and (max-width: 991) {
-.logo {
+img#logo {
      max-width: 150px !important;
      width: 100% !important;
      opacity: 1;
