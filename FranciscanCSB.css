@@ -2482,7 +2482,9 @@ WIDTH: AUTO !IMPORTANT;
     PADDING-RIGHT: 0;
 }
  
-@media (max-width: 991px) {
+@media only screen and (max-device-width: 568px) and (min-device-width: 320px)
+@media only screen and (min-width: 321px)
+.logo.logo {
 img#logo.logo {
      max-width: 150px !important;
      width: 100% !important;
@@ -2494,6 +2496,6 @@ img#logo.logo {
  }
  }
  
-img#logo.logo {
+.logo.logo {
      max-width: 231px !important;
 }
