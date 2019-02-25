@@ -2494,14 +2494,6 @@ img#logo {
  }
  }
  
-@media (min-width: 992px) {
 img#logo {
      max-width: 231px !important;
 }
- }
- 
- @media (min-width: 992px) {
-#logo {
-     max-width: 231px !important;
-}
- }
