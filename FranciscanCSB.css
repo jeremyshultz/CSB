@@ -2426,7 +2426,7 @@ body.coreCSB #content .form-control.geolocation-input {
 }
 */
  
-@media screen and (max-width: 991px) {
+@media screen (max-width: 991px) {
 input#keywordsearchbutton.btn.keywordsearchbutton {
  margin-top: 20px !important;
  }}
@@ -2439,7 +2439,7 @@ input#keywordsearchbutton.btn.keywordsearchbutton {
  padding: 7px !important;
   }} 
 
-@media screen and (max-width: 991px) {
+@media screen (max-width: 991px) {
 #keywordsearch-locationsearch {
     padding-top: 8px !important;
     padding-bottom: 7px !important;
@@ -2449,7 +2449,7 @@ input#keywordsearchbutton.btn.keywordsearchbutton {
     background-color: #fff !important;
 }}
  
-@media screen and (max-width: 991px) {
+@media screen (max-width: 991px) {
 #search #keywordsearch-locationsearch {
     padding-left: 5px !important;
     border-style: solid;
@@ -2474,13 +2474,13 @@ WIDTH: AUTO !IMPORTANT;
 }
 
 
-@media screen and (max-width: 991px) {
+@media screen (max-width: 991px) {
 #search.well.well-small {
  padding-left: 15px !important;
  padding-right: 15px !important;
  }}
 
-@media screen and (max-width: 991px ) {
+@media screen (max-width: 991px ) {
   well well-small {
    padding-left: 15px !important;
    padding-right: 15px !important;
@@ -2491,7 +2491,7 @@ WIDTH: AUTO !IMPORTANT;
     PADDING-RIGHT: 0;
 }
  
-@media screen and (max-width: 991px) {
+@media screen (max-width: 991px) {
 #logo.logo {
      max-width: 150px !important;
      width: 100% !important;
