@@ -2484,6 +2484,7 @@ WIDTH: AUTO !IMPORTANT;
  
 
  header .main .logo {
+   width: 33% !important;
      max-width: 231px !important;
      min-width: 175px !important;
      opacity: 1;
@@ -2493,6 +2494,7 @@ WIDTH: AUTO !IMPORTANT;
    }
  
 header .logo {
+  width: 33% !important;
      max-width: 231px !important;
      min-width: 175px !important;
      opacity: 1;
@@ -2501,6 +2503,7 @@ header .logo {
      transition: all .25s ease 
    }
 img#logo.logo {
+ width: 33% !important;
      max-width: 231px !important;
      min-width: 175px !important;
      opacity: 1;
@@ -2510,6 +2513,7 @@ img#logo.logo {
    }
 
 img#logo {
+  width: 33% !important;
      max-width: 231px !important;
      min-width: 175px !important;
      opacity: 1;
