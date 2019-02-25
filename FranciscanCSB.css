@@ -2483,7 +2483,7 @@ WIDTH: AUTO !IMPORTANT;
 }
  
 @media (max-width: 991px) {
-img#logo {
+img#logo.logo {
      max-width: 150px !important;
      width: 100% !important;
      height: auto !important;
@@ -2494,6 +2494,6 @@ img#logo {
  }
  }
  
-img#logo {
+img#logo.logo {
      max-width: 231px !important;
 }
