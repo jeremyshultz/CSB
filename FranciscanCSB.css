@@ -2495,5 +2495,6 @@ WIDTH: AUTO !IMPORTANT;
 #logo.logo {
      max-width: 150px !important;
      width: 100% !important;
+     height: auto !important;
  }
  }
