@@ -2492,7 +2492,7 @@ WIDTH: AUTO !IMPORTANT;
      transition: all .25s ease 
    }
  
-.main .logo {
+header .logo {
      max-width: 231px !important;
      min-width: 175px !important;
      opacity: 1;
