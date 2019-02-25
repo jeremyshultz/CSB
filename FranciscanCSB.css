@@ -2235,9 +2235,7 @@
      display: none !important 
 }
  */
- img#logo {
-     max-width: 231px !important 
-}
+ 
  .twocolumn {
      padding-left: 15px !important;
      padding-right: 15px !important 
@@ -2485,7 +2483,7 @@ WIDTH: AUTO !IMPORTANT;
 }
  
 @media screen (max-width: 991px) {
-header .main .logo {
+img#logo {
      max-width: 150px !important;
      width: 100% !important;
      height: auto !important;
@@ -2497,12 +2495,7 @@ header .main .logo {
  }
  
  @media (min-width: 992px) {
-  header .main .logo {
-     max-width: 231px !important;
-     min-width: 175px !important;
-     opacity: 1;
-     -webkit-transition: all .25s ease;
-     -o-transition: all .25s ease;
-     transition: all .25s ease 
+img#logo {
+     max-width: 231px !important 
 }
  }
