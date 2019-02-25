@@ -2500,7 +2500,7 @@ header .logo {
      -o-transition: all .25s ease;
      transition: all .25s ease 
    }
-img.logo {
+img#logo.logo {
      max-width: 231px !important;
      min-width: 175px !important;
      opacity: 1;
