@@ -498,7 +498,14 @@
          display: block 
     }
 }
-
+ header .main .logo {
+     max-width: 231px !important;
+     min-width: 175px !important;
+     opacity: 1;
+     -webkit-transition: all .25s ease;
+     -o-transition: all .25s ease;
+     transition: all .25s ease 
+}
  header .main .left-links {
      left: 15px;
      width: 26% 
@@ -2235,7 +2242,9 @@
      display: none !important 
 }
  */
- 
+ img#logo {
+     max-width: 231px !important 
+}
  .twocolumn {
      padding-left: 15px !important;
      padding-right: 15px !important 
@@ -2261,7 +2270,7 @@
      font-family: "custom5c675a7eb9ac41a7adac0" !important;
 }
 /* STYLES FOR MOBILE MENU */
-@media only screen and (max-width: 991px) #header .header-right .dropdown-menu {
+ @media (max-width: 991px) #header .header-right .dropdown-menu {
      text-align: left !important;
      background-color: #fff !important;
      border-width: 0 !important;
@@ -2274,45 +2283,45 @@
      max-width: 350px !important;
 }}
 
-@media only screen and (max-width: 991px) {
+@media (max-width: 991px) {
  ul.dropdown-menu.company-dropdown.headerdropdown li {
      background-color: #d9e2db !important;
      transition-duration: 0.25s !important;
      transition-timing-function: ease !important;
 }}
 
-@media only screen and (max-width: 991px) {
+@media (max-width: 991px) {
  #header .header-right .dropdown-menu {
 }}
 
-@media only screen and (max-width: 991px) {
+@media (max-width: 991px) {
  #header .dropdown-menu > li > a:hover {
      background-color: #015595 !important;
      color: #fff !important;
 }}
 
-@media only screen and (max-width: 991px) {
+@media (max-width: 991px) {
  .nav .open > a, .nav .open > a:hover, .nav .open > a:focus, .nav > li > a:hover, .nav > li > a:focus {
      color: #fff !important;
      transition-duration:0.25s !important;
 }}
 
-@media only screen and (max-width: 991px) {
+@media (max-width: 991px) {
  li.dropdown {
      line-height: 4 !important;
 }}
 
-@media only screen and (max-width: 991px) {
+@media (max-width: 991px) {
  li.dropdown:hover {
      background-color: #015595 !important;
 }}
 
-@media only screen and (max-width: 991px) {
+@media (max-width: 991px) {
  #header .dropdown-menu > li {
      line-height: 4 !important;
 }}
 
-@media only screen and (max-width: 991px) {
+@media (max-width: 991px) {
  #header #profileWidget {
      margin-top: 10px !important;
      background-color: #ccc !important;
@@ -2417,20 +2426,20 @@ body.coreCSB #content .form-control.geolocation-input {
 }
 */
  
-@media (max-width: 991px) {
+ @media (max-width: 991px) {
 input#keywordsearchbutton.btn.keywordsearchbutton {
  margin-top: 20px !important;
  }}
  
 
  
-@media (max-width: 991px {
+ @media (max-width: 991px {
  body.coreCSB #content .form-control.geolocation-input {
  margin-top: 20px !important;
  padding: 7px !important;
   }} 
 
-@media screen (max-width: 991px) {
+@media (max-width: 991px) {
 #keywordsearch-locationsearch {
     padding-top: 8px !important;
     padding-bottom: 7px !important;
@@ -2471,7 +2480,7 @@ WIDTH: AUTO !IMPORTANT;
  padding-right: 15px !important;
  }}
 
-@media (max-width: 991px ) {
+ @media (max-width: 991px ) {
   well well-small {
    padding-left: 15px !important;
    padding-right: 15px !important;
@@ -2481,45 +2490,3 @@ WIDTH: AUTO !IMPORTANT;
       PADDING-LEFT: 0;
     PADDING-RIGHT: 0;
 }
- 
-
- header .main .logo {
-   width: 33% !important;
-     max-width: 231px !important;
-     min-width: 175px !important;
-     opacity: 1;
-     -webkit-transition: all .25s ease;
-     -o-transition: all .25s ease;
-     transition: all .25s ease 
-   }
- 
-header .logo {
-  width: 33% !important;
-     max-width: 231px !important;
-     min-width: 175px !important;
-     opacity: 1;
-     -webkit-transition: all .25s ease;
-     -o-transition: all .25s ease;
-     transition: all .25s ease 
-   }
-img#logo.logo {
- width: 33% !important;
-     max-width: 231px !important;
-     min-width: 175px !important;
-     opacity: 1;
-     -webkit-transition: all .25s ease;
-     -o-transition: all .25s ease;
-     transition: all .25s ease 
-   }
-
-img#logo {
-  width: 33% !important;
-     max-width: 231px !important;
-     min-width: 175px !important;
-     opacity: 1;
-     -webkit-transition: all .25s ease;
-     -o-transition: all .25s ease;
-     transition: all .25s ease 
-   }
-
-
