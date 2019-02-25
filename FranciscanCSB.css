@@ -2497,4 +2497,8 @@ WIDTH: AUTO !IMPORTANT;
      width: 100% !important;
      height: auto !important;
  }
+ 
+ #header .header-bottom .container {
+  padding-bottom: 0 !important;
+ }
  }
