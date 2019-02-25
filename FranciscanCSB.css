@@ -2482,29 +2482,8 @@ WIDTH: AUTO !IMPORTANT;
     PADDING-RIGHT: 0;
 }
  
-@media only screen and (max-device-width: 568px) and (min-device-width: 320px) {
-.logo.logo {
-     max-width: 150px !important;
-     width: 100% !important;
-     height: auto !important;
- }
- 
- #header .header-bottom .container {
-  padding-bottom: 0 !important;
- }
- }
- 
-.logo.logo {
-     max-width: 231px !important;
-}
- 
-img#logo.logo {
-    width: 33% !important;
-    min-width: 200px !important;
- }
- 
-  @media (min-width: 992px) {
-  header .main .logo {
+
+ header .main .logo {
      max-width: 231px !important;
      min-width: 175px !important;
      opacity: 1;
@@ -2512,4 +2491,4 @@ img#logo.logo {
      -o-transition: all .25s ease;
      transition: all .25s ease 
    }
- }
+
