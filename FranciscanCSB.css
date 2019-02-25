@@ -2491,4 +2491,12 @@ WIDTH: AUTO !IMPORTANT;
     PADDING-RIGHT: 0;
 }
 
+ header .main .logo {
+     max-width: 150px !important;
+     width: 100% !important;
+     opacity: 1;
+     -webkit-transition: all .25s ease;
+     -o-transition: all .25s ease;
+     transition: all .25s ease 
+}
  
