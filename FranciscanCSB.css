@@ -2471,7 +2471,7 @@ WIDTH: AUTO !IMPORTANT;
  padding-right: 15px !important;
  }}
 
-@media screen (max-width: 991px ) {
+@media (max-width: 991px ) {
   well well-small {
    padding-left: 15px !important;
    padding-right: 15px !important;
@@ -2509,7 +2509,7 @@ header .logo {
      transition: all .25s ease 
    }
 
-#logo {
+img#logo {
      max-width: 231px !important;
      min-width: 175px !important;
      opacity: 1;
