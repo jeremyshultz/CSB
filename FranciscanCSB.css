@@ -2492,7 +2492,7 @@ WIDTH: AUTO !IMPORTANT;
      transition: all .25s ease 
    }
  
-a header .logo {
+header .logo {
      max-width: 231px !important;
      min-width: 175px !important;
      opacity: 1;
@@ -2500,7 +2500,7 @@ a header .logo {
      -o-transition: all .25s ease;
      transition: all .25s ease 
    }
-a .logo {
+a.logo {
      max-width: 231px !important;
      min-width: 175px !important;
      opacity: 1;
@@ -2509,7 +2509,7 @@ a .logo {
      transition: all .25s ease 
    }
 
-a img#logo {
+a#logo {
      max-width: 231px !important;
      min-width: 175px !important;
      opacity: 1;
