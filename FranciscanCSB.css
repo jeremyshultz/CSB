@@ -2473,3 +2473,7 @@ WIDTH: AUTO !IMPORTANT;
       PADDING-LEFT: 0;
     PADDING-RIGHT: 0;
 }
+
+img#logo.logo {
+ max-width: 231px !important;
+  }
