@@ -1837,7 +1837,7 @@
          #profilewidget a {
              padding-top: 7px !important 
         }
-    }
+
     /* FIRST LEVEL DROP DOWN MENU */
      #header .header-right .dropdown-menu {
          text-align: left !important;
@@ -2270,29 +2270,14 @@
      font-family: "custom5c675a7eb9ac41a7adac0" !important;
 }
 /* STYLES FOR MOBILE MENU */
- @media (max-width: 991px) #header .header-right .dropdown-menu {
-     text-align: left !important;
-     background-color: #fff !important;
-     border-width: 0 !important;
-     border-radius: 0 !important;
-     width: 100% !important;
-     height: 100% !important;
-     transition-duration: 0.25s !important;
-     transition-timing-function: ease !important;
-     min-width: 0 !important;
-     max-width: 350px !important;
-}}
+
+
 
 @media (max-width: 991px) {
  ul.dropdown-menu.company-dropdown.headerdropdown li {
      background-color: #d9e2db !important;
-     transition-duration: 0.25s !important;
-     transition-timing-function: ease !important;
-}}
-
-@media (max-width: 991px) {
- #header .header-right .dropdown-menu {
-}}
+}
+}
 
 @media (max-width: 991px) {
  #header .dropdown-menu > li > a:hover {
@@ -2303,7 +2288,6 @@
 @media (max-width: 991px) {
  .nav .open > a, .nav .open > a:hover, .nav .open > a:focus, .nav > li > a:hover, .nav > li > a:focus {
      color: #fff !important;
-     transition-duration:0.25s !important;
 }}
 
 @media (max-width: 991px) {
@@ -2314,7 +2298,6 @@
 @media (max-width: 991px) {
  li.dropdown:hover {
      background-color: #015595 !important;
-}}
 
 @media (max-width: 991px) {
  #header .dropdown-menu > li {
@@ -2461,7 +2444,7 @@ input#keywordsearchbutton.btn.keywordsearchbutton {
 @media (max-width: 991px) {
 #rd-keywordsearch {
 margin-bottom: 20px !important;
- 
+ }
 
 
 select#geolocation-distance-options-select-mi.geolocation-distance-options-select.input-small.form-control.geolocation-input {
@@ -2491,4 +2474,6 @@ WIDTH: AUTO !IMPORTANT;
     PADDING-RIGHT: 0;
 }
 
- 
+img#logo.logo {
+ max-width: 231px !important;
+  }
