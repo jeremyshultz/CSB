@@ -2482,7 +2482,7 @@ div#footerRowTop img#logo.logo {
     display: none !important;
 }
   
-#footerInnerLinksSocial {
+div#footerInnerLinksSocial {
     padding-top: 15px;
     display: inline-block !important;
 }
