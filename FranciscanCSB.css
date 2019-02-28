@@ -2478,6 +2478,11 @@ img#logo.logo {
  max-width: 231px !important;
   }
   
-  .footerRow.logo {
+div#footerRowTop img#logo.logo {
     display: none !important;
-  }
+}
+  
+#footerInnerLinksSocial {
+    padding-top: 15px;
+    display: inline-block !important;
+}
