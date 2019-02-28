@@ -2477,3 +2477,6 @@ WIDTH: AUTO !IMPORTANT;
 img#logo.logo {
  max-width: 231px !important;
   }
+  
+  .footerRow .logo {
+    display: none !important;
