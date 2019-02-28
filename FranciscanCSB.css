@@ -2478,6 +2478,6 @@ img#logo.logo {
  max-width: 231px !important;
   }
   
-  .footerRow .logo {
+  .footerRow.logo {
     display: none !important;
   }
