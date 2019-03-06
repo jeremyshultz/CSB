@@ -1602,6 +1602,9 @@
 }
  ul {
      list-style-position: outside !important;
+  font-family: roboto, sans-serif !important;
+font-style: normal !important;
+font-weight: 400 !important;
 }
  .content ul, .content ol {
      list-style-position: outside !important;
