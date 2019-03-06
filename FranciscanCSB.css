@@ -2264,10 +2264,14 @@
      font-size: 13px !important;
 }
  li {
-     font-family: "custom5c675a7eb9ac41a7adac0" !important;
+  font-family: roboto, sans-serif !important;
+font-style: normal !important;
+font-weight: 400 !important;
 }
  ul {
-     font-family: "custom5c675a7eb9ac41a7adac0" !important;
+     font-family: roboto, sans-serif !important;
+font-style: normal !important;
+font-weight: 400 !important;
 }
 /* STYLES FOR MOBILE MENU */
 
