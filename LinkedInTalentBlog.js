@@ -5,11 +5,11 @@ https://www.rssdog.com/index.php?url=http%3A%2F%2Ffeeds.feedblitz.com%2Ftalentbl
 
 	// Specific old IE
 	if ( document.all ) {
-		element.style.setAttribute( 'cssText', 'background-image: url( "http://placekitten.com.s3.amazonaws.com/homepage-samples/96/139.jpg" ) !important' );
+		element.style.setAttribute( 'cssText', 'marginBottom: 20px !important' );
 
 	// Modern browser
 	} else {
-		element.setAttribute( 'style', 'background-image: url( "http://placekitten.com.s3.amazonaws.com/homepage-samples/96/139.jpg" ) !important' );
+		element.setAttribute( 'style', 'marginBottom: 20px !important' );
 	}
 })();
 
