@@ -10,7 +10,7 @@ url: "https://jobs.franciscanhealth.org/feed/283000",
 dataType: "xml",
 success: function(xml) {
 }
-$(xml).find('jobs').each(function(){
+$(xml).find('job').each(function(){
 var Position = $(this).find('position').text();
 var Apply_URL = $(this).find('apply_url').text();
 $("<li></li>").html(Position + "-" + Apply_URL).appendTo("#Autom ul");
@@ -21,4 +21,4 @@ alert("The XML File could not be processed correctly.");
 });
   
 </script>
-asdfasdfasdfasdfa
+test
