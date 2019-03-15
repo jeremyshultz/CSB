@@ -11,9 +11,9 @@ dataType: "xml",
 success: function(xml) {
 }
 $(xml).find('jobs').each(function(){
-var Titles = $(this).find('position').text();
-var Manufacturers = $(this).find('apply_url').text();
-$("<li></li>").html(position + "-" + apply_url).appendTo("#Autom ul");
+var Position = $(this).find('position').text();
+var Apply_URL = $(this).find('apply_url').text();
+$("<li></li>").html(Position + "-" + Apply_URL).appendTo("#Autom ul");
 });
 error: function() {
 alert("The XML File could not be processed correctly.");
@@ -21,3 +21,4 @@ alert("The XML File could not be processed correctly.");
 });
   
 </script>
+asdfasdfasdfasdfa
