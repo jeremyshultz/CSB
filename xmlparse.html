@@ -11,9 +11,9 @@ dataType: "xml",
 success: function(xml) {
 }
 $(xml).find('jobs').each(function(){
-var Titles = $(this).find('job').text();
-var Manufacturers = $(this).find('position').text();
-$("<li></li>").html(job + "-" + positions).appendTo("#Autom ul");
+var Titles = $(this).find('position').text();
+var Manufacturers = $(this).find('apply_url').text();
+$("<li></li>").html(position + "-" + apply_url).appendTo("#Autom ul");
 });
 error: function() {
 alert("The XML File could not be processed correctly.");
