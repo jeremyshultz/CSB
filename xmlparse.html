@@ -1,14 +1,1 @@
-<!DOCTYPE html>
-<html>
-<body>
-
-<?php
-$xml=simplexml_load_file("https://jobs.franciscanhealth.org/feed/278900") or die("Error: Cannot create object");
-foreach($xml->children() as $job) { 
-    $job->postion;
-    echo "<br>"; 
-} 
-?> 
-
-</body>
-</html>
+<script src="//rss.bloople.net/?url=https%3A%2F%2Fjobs.franciscanhealth.org%2Ffeed%2F278900&detail=-1&limit=5&showtitle=false&type=js"></script>
