@@ -1,4 +1,6 @@
-var xhr = new XMLHttpRequest();
+<script>
+  
+  var xhr = new XMLHttpRequest();
 xhr.onload = function() {
   dump(xhr.responseXML.documentElement.nodeName);
 }
@@ -8,3 +10,5 @@ xhr.onerror = function() {
 xhr.open("GET", "https://jobs.franciscanhealth.org/feed/278900");
 xhr.responseType = "document";
 xhr.send();
+  
+</script>
