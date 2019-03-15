@@ -5,7 +5,7 @@
 <?php
 $xml=simplexml_load_file("https://jobs.franciscanhealth.org/feed/278900") or die("Error: Cannot create object");
 foreach($xml->children() as $job) { 
-    $xml->job->position . "<br>";
+    $job->postion;
     echo "<br>"; 
 } 
 ?> 
