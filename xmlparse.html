@@ -1,30 +1,26 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>jQuery.parseXML demo</title>
-  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
-</head>
-<body>
- 
-<p id="someElement"></p>
-<p id="anotherElement"></p>
- 
 <script>
-var xml = "https://jobs.franciscanhealth.org/feed/283000",
-  xmlDoc = $.parseXML( xml ),
-  $xml = $( xmlDoc ),
-  $title = $xml.find( "position" );
- 
-// Append "RSS Title" to #someElement
-$( "#someElement" ).append( $title.text() );
- 
-// Change the title to "XML Title"
-$title.text( "XML Title" );
- 
-// Append "XML Title" to #anotherElement
-$( "#anotherElement" ).append( $title.text() );
+  
+  $.ajax({
+    type: 'GET',
+    url: 'https://jobs.franciscanhealth.org/feed/283000',
+    dataType: 'xml',
+    error: function(xhr) {
+        alert('Failed to parse feed');
+    },
+    success: function(xml) {
+        var channel = $('channel', xml).eq(0);
+        var items = [];
+        $('item', xml).each( function() {
+            var item = {};
+            item.position = $(this).find('position').eq(0).text();
+            item.apply_url = $(this).find('apply_url').eq(0).text();
+            item.company = $(this).find('company').eq(0).text();
+            item.category = $(this).find('category').eq(0).text();
+            item.name = $(this).find('name').eq(0).text();
+            items.push(item);
+        });
+        console.dir(items);
+    }
+});
+  
 </script>
- 
-</body>
-</html>
