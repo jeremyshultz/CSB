@@ -24,7 +24,7 @@ $(document).ready(function(){
     dataType: "xml",
     success: function(xml){
  
-    var i = 0;
+
  
     $(xml).find('jobs').children('job').each(function(){
  
@@ -33,13 +33,10 @@ $(document).ready(function(){
       i++;
     });
  
-    var sTotalPersons = i;
- 
-    $("<p></p>").html('Total Persons: '+sTotalPersons).prependTo("#results");
- 
+
   },
   error: function() {
-    $("<p></p>").html('An error occurred while processing XML file.').prependTo("#results");
+    $("<p></p>").html('An error occurred while processing XML file.');
   }
   });
  
