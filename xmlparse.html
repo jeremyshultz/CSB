@@ -8,9 +8,9 @@
         alert('Failed to parse feed');
     },
     success: function(xml) {
-        var channel = $('channel', xml).eq(0);
-        var items = [];
-        $('item', xml).each( function() {
+        var channel = $('jobs', xml).eq(0);
+        var jobs = [];
+        $('job', xml).each( function() {
             var item = {};
             item.position = $(this).find('position').eq(0).text();
             item.apply_url = $(this).find('apply_url').eq(0).text();
@@ -24,3 +24,4 @@
 });
   
 </script>
+;lkj
