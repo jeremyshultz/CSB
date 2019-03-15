@@ -1,14 +1,26 @@
-<script>
-  
-  var xhr = new XMLHttpRequest();
-xhr.onload = function() {
-  dump(xhr.responseXML.documentElement.nodeName);
+<script type="text/javascript">
+if (window.XMLHttpRequest)
+{// code for IE7+, Firefox, Chrome, Opera, Safari
+   xmlhttp=new XMLHttpRequest();
 }
-xhr.onerror = function() {
-  dump("Error while getting XML.");
+else
+{// code for IE6, IE5
+   xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
 }
-xhr.open("GET", "https://jobs.franciscanhealth.org/feed/278900");
-xhr.responseType = "document";
-xhr.send();
-  
+xmlhttp.open("GET","https://jobs.franciscanhealth.org/feed/278900",false);
+xmlhttp.send();
+xmlDoc=xmlhttp.responseXML;
+
+document.write("<table border='1'>");
+var x=xmlDoc.getElementsByTagName("job");
+for (i=0;i<x.length;i++)
+{
+  document.write("<tr><td>");
+  document.write(x[i].getElementsByTagName("position")[0].childNodes[0].nodeValue);
+  document.write("</td><td>");
+  document.write(x[i].getElementsByTagName("category")[0].childNodes[0].nodeValue);
+  document.write("</td></tr>");
+}
+document.write("</table>");
 </script>
+adfasd
