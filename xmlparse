@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<?php
+$xml=simplexml_load_file("https://jobs.franciscanhealth.org/feed/278900") or die("Error: Cannot create object");
+foreach($xml->children() as $job) { 
+    echo $job->position;
+    echo "<br>"; 
+} 
+?> 
+
+</body>
+</html>
