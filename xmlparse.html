@@ -1,48 +1,29 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>XML - Javascript and Ajax</title>
- 
-<!-- Include Required Prerequisites -->
-<script type="text/javascript" src="//code.jquery.com/jquery-1.12.4.js"></script>
- 
+  <meta charset="utf-8">
+  <title>jQuery.parseXML demo</title>
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 </head>
- 
 <body>
  
-<div id="results"></div>
+<p id="someElement"></p>
+<p id="anotherElement"></p>
  
-<script type="text/javascript">
+<script>
+var xml = "https://jobs.franciscanhealth.org/feed/283000",
+  xmlDoc = $.parseXML( xml ),
+  $xml = $( xmlDoc ),
+  $title = $xml.find( "position" );
  
-//Code Starts
-$(document).ready(function(){
+// Append "RSS Title" to #someElement
+$( "#someElement" ).append( $title.text() );
  
-  $.ajax({
-    type: "GET",
-    url: "https://jobs.franciscanhealth.org/feed/283000",
-    dataType: "xml",
-    success: function(xml){
+// Change the title to "XML Title"
+$title.text( "XML Title" );
  
-
- 
-    $(xml).find('jobs').children('job').each(function(){
- 
-      var sJobTitle = $(this).find('position').text();
-      $("<p></p>").html(sJobTitle).appendTo("#results");
-      i++;
-    });
- 
-
-  },
-  error: function() {
-    $("<p></p>").html('An error occurred while processing XML file.');
-  }
-  });
- 
-});
-//Code Ends
- 
+// Append "XML Title" to #anotherElement
+$( "#anotherElement" ).append( $title.text() );
 </script>
  
 </body>
