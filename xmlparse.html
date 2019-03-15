@@ -1,24 +1,31 @@
-<script>
-
-$(document).ready(function(){
-//the variable to be appended here
-$("#Autom").append("<ul></ul>");
-});
-$.ajax({
-type: "GET",
-url: "https://jobs.franciscanhealth.org/feed/283000",
-dataType: "xml",
-success: function(xml) {
-}
-$(xml).find('job').each(function(){
-var Position = $(this).find('position').text();
-var Apply_URL = $(this).find('apply_url').text();
-$("<li></li>").html(Position + "-" + Apply_URL).appendTo("#Autom ul");
-});
-error: function() {
-alert("The XML File could not be processed correctly.");
-}
-});
-  
+<script language="JavaScript">
+  // Create a connection to the file.
+  var Connect = new XMLHttpRequest();
+  // Define which file to open and
+  // send the request.
+  Connect.open("GET", "https://jobs.franciscanhealth.org/feed/283000", false);
+  Connect.setRequestHeader("Content-Type", "text/xml");
+  Connect.send(null);
+  // Place the response in an XML document.
+  var TheDocument = Connect.responseXML;
+  // Place the root node in an element.
+  var jobs = TheDocument.childNodes[0];
+  // Retrieve each customer in turn.
+  for (var i = 0; i < jobs.children.length; i++)
+  {
+   var job = jobs .children[i];
+   // Access each of the data values.
+   var position = Customer.getElementsByTagName("position");
+   var apply_url = Customer.getElementsByTagName("apply_url");
+   var category = Customer.getElementsByTagName(
+     "category");
+   // Write the data to the page.
+   document.write("<tr><td>");
+   document.write(position[0].textContent.toString());
+   document.write("</td><td>");
+   document.write(apply_url[0].textContent.toString());
+   document.write("</td><td>");
+   document.write(category[0].textContent.toString());
+   document.write("</td></tr>");
+  }
 </script>
-test
