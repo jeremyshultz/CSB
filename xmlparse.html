@@ -1,27 +1,23 @@
 <script>
-  
-  $.ajax({
-    type: 'GET',
-    url: 'https://jobs.franciscanhealth.org/feed/283000',
-    dataType: 'xml',
-    error: function(xhr) {
-        alert('Failed to parse feed');
-    },
-    success: function(xml) {
-        var channel = $('jobs', xml).eq(0);
-        var jobs = [];
-        $('job', xml).each( function() {
-            var item = {};
-            item.position = $(this).find('position').eq(0).text();
-            item.apply_url = $(this).find('apply_url').eq(0).text();
-            item.company = $(this).find('company').eq(0).text();
-            item.category = $(this).find('category').eq(0).text();
-            item.name = $(this).find('name').eq(0).text();
-            items.push(item);
-        });
-        console.dir(items);
-    }
+
+$(document).ready(function(){
+//the variable to be appended here
+$("#Autom").append("<ul></ul>");
+});
+$.ajax({
+type: "GET",
+url: "https://jobs.franciscanhealth.org/feed/283000",
+dataType: "xml",
+success: function(xml) {
+}
+$(xml).find('jobs').each(function(){
+var Titles = $(this).find('job').text();
+var Manufacturers = $(this).find('position').text();
+$("<li></li>").html(job + "-" + positions).appendTo("#Autom ul");
+});
+error: function() {
+alert("The XML File could not be processed correctly.");
+}
 });
   
 </script>
-;lkj
