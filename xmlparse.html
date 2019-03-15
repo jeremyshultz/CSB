@@ -9,11 +9,11 @@
   // Place the response in an XML document.
   var TheDocument = Connect.responseXML;
   // Place the root node in an element.
-  var jobs = TheDocument.childNodes[0];
+  var job = TheDocument.childNodes[0];
   // Retrieve each customer in turn.
-  for (var i = 0; i < jobs.children.length; i++)
+  for (var i = 0; i < job.children.length; i++)
   {
-   var job = jobs .children[i];
+   var job = job .children[i];
    // Access each of the data values.
    var position = Customer.getElementsByTagName("position");
    var apply_url = Customer.getElementsByTagName("apply_url");
