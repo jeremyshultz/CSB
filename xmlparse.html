@@ -1,31 +1,10 @@
-<script language="JavaScript">
-  // Create a connection to the file.
-  var Connect = new XMLHttpRequest();
-  // Define which file to open and
-  // send the request.
-  Connect.open("GET", "https://jobs.franciscanhealth.org/feed/283000", false);
-  Connect.setRequestHeader("Content-Type", "text/xml");
-  Connect.send(null);
-  // Place the response in an XML document.
-  var TheDocument = Connect.responseXML;
-  // Place the root node in an element.
-  var job = TheDocument.childNodes[0];
-  // Retrieve each customer in turn.
-  for (var i = 0; i < job.children.length; i++)
-  {
-   var job = job .children[i];
-   // Access each of the data values.
-   var position = Customer.getElementsByTagName("position");
-   var apply_url = Customer.getElementsByTagName("apply_url");
-   var category = Customer.getElementsByTagName(
-     "category");
-   // Write the data to the page.
-   document.write("<tr><td>");
-   document.write(position[0].textContent.toString());
-   document.write("</td><td>");
-   document.write(apply_url[0].textContent.toString());
-   document.write("</td><td>");
-   document.write(category[0].textContent.toString());
-   document.write("</td></tr>");
-  }
-</script>
+var xhr = new XMLHttpRequest();
+xhr.onload = function() {
+  dump(xhr.responseXML.documentElement.nodeName);
+}
+xhr.onerror = function() {
+  dump("Error while getting XML.");
+}
+xhr.open("GET", "https://jobs.franciscanhealth.org/feed/278900");
+xhr.responseType = "document";
+xhr.send();
