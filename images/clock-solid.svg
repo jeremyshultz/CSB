@@ -1,1 +1,8 @@
-<svg aria-hidden="true" data-prefix="fas" data-icon="clock" style="width:16px; height:auto" class="svg-inline--fa fa-clock fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm57.1 350.1L224.9 294c-3.1-2.3-4.9-5.9-4.9-9.7V116c0-6.6 5.4-12 12-12h48c6.6 0 12 5.4 12 12v137.7l63.5 46.2c5.4 3.9 6.5 11.4 2.6 16.8l-28.2 38.8c-3.9 5.3-11.4 6.5-16.8 2.6z"></path></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 15 15" style="enable-background:new 0 0 15 15;" xml:space="preserve">
+<path d="M7.5,0C3.4,0,0,3.4,0,7.5S3.4,15,7.5,15S15,11.6,15,7.5S11.6,0,7.5,0z M9.2,10.6L6.6,8.6C6.5,8.6,6.4,8.5,6.4,8.4V3.3
+	c0-0.2,0.2-0.4,0.4-0.4h1.5c0.2,0,0.4,0.2,0.4,0.4v4.2l1.9,1.4c0.2,0.1,0.2,0.3,0.1,0.5l-0.9,1.2C9.6,10.7,9.4,10.7,9.2,10.6
+	L9.2,10.6z"/>
+</svg>
